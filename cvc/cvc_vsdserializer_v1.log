@@ -1,0 +1,191 @@
+CVC: Log output to /openLANE_flow/designs/vsdserializer_v1/runs/first_run/results/cvc/cvc_vsdserializer_v1.log
+CVC: Error output to /openLANE_flow/designs/vsdserializer_v1/runs/first_run/results/cvc/cvc_vsdserializer_v1.error.gz
+CVC: Debug output to /openLANE_flow/designs/vsdserializer_v1/runs/first_run/results/cvc/cvc_vsdserializer_v1.debug.gz
+CVC: Circuit Validation Check  Version 1.0.0
+CVC: Start: Fri Aug 27 08:01:46 2021
+
+Using the following parameters for CVC (Circuit Validation Check) from /openLANE_flow/scripts/cvc/sky130A/cvcrc.sky130A
+CVC_TOP = 'vsdserializer_v1'
+CVC_NETLIST = '/openLANE_flow/designs/vsdserializer_v1/runs/first_run/results/cvc/vsdserializer_v1.cdl'
+CVC_MODE = 'vsdserializer_v1'
+CVC_MODEL_FILE = '/openLANE_flow/scripts/cvc/sky130A/cvc.sky130A.models'
+CVC_POWER_FILE = '/openLANE_flow/designs/vsdserializer_v1/runs/first_run/results/cvc/vsdserializer_v1.power'
+CVC_FUSE_FILE = ''
+CVC_REPORT_FILE = '/openLANE_flow/designs/vsdserializer_v1/runs/first_run/results/cvc/cvc_vsdserializer_v1.log'
+CVC_REPORT_TITLE = 'CVC $CVC_TOP'
+CVC_CIRCUIT_ERROR_LIMIT = '100'
+CVC_SEARCH_LIMIT = '100'
+CVC_LEAK_LIMIT = '0.0002'
+CVC_SOI = 'false'
+CVC_SCRC = 'false'
+CVC_VTH_GATES = 'false'
+CVC_MIN_VTH_GATES = 'false'
+CVC_IGNORE_VTH_FLOATING = 'false'
+CVC_IGNORE_NO_LEAK_FLOATING = 'false'
+CVC_LEAK_OVERVOLTAGE = 'true'
+CVC_LOGIC_DIODES = 'false'
+CVC_ANALOG_GATES = 'true'
+CVC_BACKUP_RESULTS = 'false'
+CVC_MOS_DIODE_ERROR_THRESHOLD = '0'
+CVC_SHORT_ERROR_THRESHOLD = '0'
+CVC_BIAS_ERROR_THRESHOLD = '0'
+CVC_FORWARD_ERROR_THRESHOLD = '0'
+CVC_FLOATING_ERROR_THRESHOLD = '0'
+CVC_GATE_ERROR_THRESHOLD = '0'
+CVC_LEAK?_ERROR_THRESHOLD = '0'
+CVC_EXPECTED_ERROR_THRESHOLD = '0'
+CVC_OVERVOLTAGE_ERROR_THRESHOLD = '0'
+CVC_PARALLEL_CIRCUIT_PORT_LIMIT = '0'
+CVC_CELL_ERROR_LIMIT_FILE = ''
+CVC_CELL_CHECKSUM_FILE = ''
+CVC_LARGE_CIRCUIT_SIZE = '10000000'
+CVC_NET_CHECK_FILE = ''
+End of parameters
+
+CVC: Reading device model settings...
+CVC: Reading power settings...
+CVC: Parsing netlist /openLANE_flow/designs/vsdserializer_v1/runs/first_run/results/cvc/vsdserializer_v1.cdl
+Cdl fixed data size 18469
+Usage CDL: Time: 0  Memory: 6616  I/O: 4264  Swap: 0
+CVC: Counting and linking...
+CVC: Assigning IDs ...
+Usage DB: Time: 0  Memory: 6616  I/O: 4264  Swap: 0
+CVC: 179(179) instances, 249(249) nets, 654(654) devices.
+CVC: Setting models ...
+Setting model tolerances...
+CVC: Shorting switches...
+	Shorted 0 short
+Setting instance power...
+
+ModelList> filename /openLANE_flow/scripts/cvc/sky130A/cvc.sky130A.models
+ Model> nfet_01v8        327 M->nmos       Parameters> Vth=0.2 Vds=1.8 Vgs=1.8 R=L/W*7000 Diodes> 4-1 4-3
+ Model> pfet_01v8_hvt       327 M->pmos       Parameters> Vth=-0.2 Vds=1.8 Vgs=1.8 R=L/W*7000 Diodes> 1-4 3-4
+ Model> short              0 R->switch_on  Parameters>
+ModelList> end
+
+Power List> filename /openLANE_flow/designs/vsdserializer_v1/runs/first_run/results/cvc/vsdserializer_v1.power
+ VPWR power 1.8 -> 1.8 power
+ VGND power 0.0 -> 0.0 power
+ clk~>std_input input std_input -> min@0.0 max@1.8 input family(std_input;)
+ load~>std_input input std_input -> min@0.0 max@1.8 input family(std_input;)
+INPUT[9:0]~>std_input input std_input
+ ->INPUT[0] input std_input -> min@0.0 max@1.8 input family(std_input;)
+ ->INPUT[1] input std_input -> min@0.0 max@1.8 input family(std_input;)
+ ->INPUT[2] input std_input -> min@0.0 max@1.8 input family(std_input;)
+ ->INPUT[3] input std_input -> min@0.0 max@1.8 input family(std_input;)
+ ->INPUT[4] input std_input -> min@0.0 max@1.8 input family(std_input;)
+ ->INPUT[5] input std_input -> min@0.0 max@1.8 input family(std_input;)
+ ->INPUT[6] input std_input -> min@0.0 max@1.8 input family(std_input;)
+ ->INPUT[7] input std_input -> min@0.0 max@1.8 input family(std_input;)
+ ->INPUT[8] input std_input -> min@0.0 max@1.8 input family(std_input;)
+ ->INPUT[9] input std_input -> min@0.0 max@1.8 input family(std_input;)
+> expected values
+> macros
+ #define std_input min@VGND max@VPWR -> min@0.0 max@1.8
+Power List> end
+
+CVC: Linking devices...
+Usage EQUIV: Time: 0  Memory: 6880  I/O: 4320  Swap: 0
+Power nets 19
+Hash dump:parameter->resistance map
+Contains 53 buckets, 26 elements
+Element count 0, 27
+Element count 1, 26
+Unused hash: 0.51, average depth 1.00
+Hash dump:text->circuit map
+Contains 337 buckets, 438 elements
+Element count 0, 78
+Element count 1, 119
+Element count 2, 108
+Element count 3, 25
+Element count 4, 7
+Unused hash: 0.23, average depth 2.03
+Hash dump:string->text map
+Contains 709 buckets, 1360 elements
+Element count 0, 103
+Element count 1, 201
+Element count 2, 191
+Element count 3, 124
+Element count 4, 61
+Element count 5, 19
+Element count 6, 7
+Element count 7, 2
+Element count 8, 0
+Element count 9, 0
+Element count 10, 1
+Unused hash: 0.15, average depth 2.93
+CVC: Shorting non conducting resistors...
+CVC: Calculating resistor voltages...
+Usage RES: Time: 0  Memory: 6880  I/O: 4328  Swap: 0
+Power nets 19
+CVC: Calculating min/max voltages...
+Processing trivial nets found 95 trivial nets
+CVC: Ignoring invalid calculations...
+CVC:   Removed 0 calculations
+Copying master nets
+CVC: Ignoring non-conducting devices...
+CVC:   Ignored 0 devices
+Usage MIN/MAX1: Time: 0  Memory: 6880  I/O: 4328  Swap: 0
+Power nets 104
+! Checking forward bias diode errors: 
+
+! Checking nmos source/drain vs bias errors: 
+
+! Checking nmos gate vs source errors: 
+
+! Checking pmos source/drain vs bias errors: 
+
+! Checking pmos gate vs source errors: 
+
+Usage ERROR: Time: 0  Memory: 6880  I/O: 4328  Swap: 0
+CVC: Propagating Simulation voltages 1...
+Usage SIM1: Time: 0  Memory: 6880  I/O: 4328  Swap: 0
+Power nets 104
+CVC: Propagating Simulation voltages 3...
+Usage SIM2: Time: 0  Memory: 6880  I/O: 4328  Swap: 0
+Power nets 104
+Added 0 latch voltages
+CVC: Calculating min/max voltages...
+Processing trivial nets found 95 trivial nets
+CVC: Ignoring invalid calculations...
+CVC:   Removed 0 calculations
+Copying master nets
+CVC: Ignoring non-conducting devices...
+CVC:   Ignored 0 devices
+Usage MIN/MAX2: Time: 0  Memory: 6880  I/O: 4328  Swap: 0
+Power nets 189
+! Checking overvoltage errors
+
+! Checking nmos possible leak errors: 
+
+! Checking pmos possible leak errors: 
+
+! Checking mos floating input errors:
+
+! Checking expected values:
+
+CVC: Error Counts
+CVC: Fuse Problems:         0
+CVC: Min Voltage Conflicts: 0
+CVC: Max Voltage Conflicts: 0
+CVC: Leaks:                 0
+CVC: LDD drain->source:     0
+CVC: HI-Z Inputs:           0
+CVC: Forward Bias Diodes:   0
+CVC: NMOS Source vs Bulk:   0
+CVC: NMOS Gate vs Source:   0
+CVC: NMOS Possible Leaks:   0
+CVC: PMOS Source vs Bulk:   0
+CVC: PMOS Gate vs Source:   0
+CVC: PMOS Possible Leaks:   0
+CVC: Overvoltage-VBG:       0
+CVC: Overvoltage-VBS:       0
+CVC: Overvoltage-VDS:       0
+CVC: Overvoltage-VGS:       0
+CVC: Unexpected voltage :   0
+CVC: Total:                 0
+Usage Total: Time: 0  Memory: 7692  I/O: 4360  Swap: 0
+Virtual net update/access 1272/59964
+CVC: Log output to /openLANE_flow/designs/vsdserializer_v1/runs/first_run/results/cvc/cvc_vsdserializer_v1.log
+CVC: End: Fri Aug 27 08:01:46 2021
+
