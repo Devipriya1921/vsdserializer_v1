@@ -234,7 +234,7 @@ if { [file exists $filename] == 1} {
 
  Command used : ``` run_floorplan ```
  
-![run_floorplan-1](https://user-images.githubusercontent.com/83152452/131141775-0a1fae24-e3ee-4b52-b354-fe4417628cc6.png)
+![floorplan-2](https://user-images.githubusercontent.com/83152452/131153350-7bbf7522-ffd1-4af9-9aa8-379e88e86772.png)
 
 For invoking : 
 
