@@ -1,0 +1,161 @@
+VERSION 5.7 ;
+  NOWIREEXTENSIONATPIN ON ;
+  DIVIDERCHAR "/" ;
+  BUSBITCHARS "[]" ;
+MACRO vsdserializer_v1
+  CLASS BLOCK ;
+  FOREIGN vsdserializer_v1 ;
+  ORIGIN 0.000 0.000 ;
+  SIZE 48.675 BY 59.395 ;
+  PIN INPUT[0]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 44.675 28.600 48.675 29.200 ;
+    END
+  END INPUT[0]
+  PIN INPUT[1]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 26.770 0.000 27.050 4.000 ;
+    END
+  END INPUT[1]
+  PIN INPUT[2]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 41.490 55.395 41.770 59.395 ;
+    END
+  END INPUT[2]
+  PIN INPUT[3]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 39.480 4.000 40.080 ;
+    END
+  END INPUT[3]
+  PIN INPUT[4]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 0.090 0.000 0.370 4.000 ;
+    END
+  END INPUT[4]
+  PIN INPUT[5]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 40.570 0.000 40.850 4.000 ;
+    END
+  END INPUT[5]
+  PIN INPUT[6]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 0.000 19.080 4.000 19.680 ;
+    END
+  END INPUT[6]
+  PIN INPUT[7]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 27.690 55.395 27.970 59.395 ;
+    END
+  END INPUT[7]
+  PIN INPUT[8]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 44.675 49.000 48.675 49.600 ;
+    END
+  END INPUT[8]
+  PIN INPUT[9]
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 12.970 0.000 13.250 4.000 ;
+    END
+  END INPUT[9]
+  PIN OUTPUT
+    DIRECTION OUTPUT TRISTATE ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 0.090 55.395 0.370 59.395 ;
+    END
+  END OUTPUT
+  PIN VGND
+    DIRECTION INPUT ;
+    USE GROUND ;
+    PORT
+      LAYER met5 ;
+        RECT 5.520 21.630 42.780 23.230 ;
+    END
+  END VGND
+  PIN VPWR
+    DIRECTION INPUT ;
+    USE POWER ;
+    PORT
+      LAYER met5 ;
+        RECT 5.520 15.730 42.780 17.330 ;
+    END
+  END VPWR
+  PIN clk
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met2 ;
+        RECT 13.890 55.395 14.170 59.395 ;
+    END
+  END clk
+  PIN load
+    DIRECTION INPUT ;
+    USE SIGNAL ;
+    PORT
+      LAYER met3 ;
+        RECT 44.675 8.200 48.675 8.800 ;
+    END
+  END load
+  OBS
+      LAYER li1 ;
+        RECT 5.520 10.795 42.780 46.325 ;
+      LAYER met1 ;
+        RECT 0.070 10.640 42.780 46.480 ;
+      LAYER met2 ;
+        RECT 0.650 55.115 13.610 55.490 ;
+        RECT 14.450 55.115 27.410 55.490 ;
+        RECT 28.250 55.115 41.210 55.490 ;
+        RECT 0.100 4.280 41.760 55.115 ;
+        RECT 0.650 4.000 12.690 4.280 ;
+        RECT 13.530 4.000 26.490 4.280 ;
+        RECT 27.330 4.000 40.290 4.280 ;
+        RECT 41.130 4.000 41.760 4.280 ;
+      LAYER met3 ;
+        RECT 4.000 48.600 44.275 49.465 ;
+        RECT 4.000 40.480 44.675 48.600 ;
+        RECT 4.400 39.080 44.675 40.480 ;
+        RECT 4.000 29.600 44.675 39.080 ;
+        RECT 4.000 28.200 44.275 29.600 ;
+        RECT 4.000 20.080 44.675 28.200 ;
+        RECT 4.400 18.680 44.675 20.080 ;
+        RECT 4.000 9.200 44.675 18.680 ;
+        RECT 4.000 8.335 44.275 9.200 ;
+      LAYER met4 ;
+        RECT 10.930 10.640 37.370 46.480 ;
+      LAYER met5 ;
+        RECT 5.520 24.830 42.780 40.905 ;
+  END
+END vsdserializer_v1
+END LIBRARY
+

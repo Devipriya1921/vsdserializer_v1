@@ -1,0 +1,89 @@
+magic
+tech sky130A
+magscale 1 2
+timestamp 1630051269
+<< obsli1 >>
+rect 1104 2159 8556 9265
+<< obsm1 >>
+rect 14 2128 8556 9296
+<< metal2 >>
+rect 18 11079 74 11879
+rect 2778 11079 2834 11879
+rect 5538 11079 5594 11879
+rect 8298 11079 8354 11879
+rect 18 0 74 800
+rect 2594 0 2650 800
+rect 5354 0 5410 800
+rect 8114 0 8170 800
+<< obsm2 >>
+rect 130 11023 2722 11098
+rect 2890 11023 5482 11098
+rect 5650 11023 8242 11098
+rect 20 856 8352 11023
+rect 130 800 2538 856
+rect 2706 800 5298 856
+rect 5466 800 8058 856
+rect 8226 800 8352 856
+<< metal3 >>
+rect 8935 9800 9735 9920
+rect 0 7896 800 8016
+rect 8935 5720 9735 5840
+rect 0 3816 800 3936
+rect 8935 1640 9735 1760
+<< obsm3 >>
+rect 800 9720 8855 9893
+rect 800 8096 8935 9720
+rect 880 7816 8935 8096
+rect 800 5920 8935 7816
+rect 800 5640 8855 5920
+rect 800 4016 8935 5640
+rect 880 3736 8935 4016
+rect 800 1840 8935 3736
+rect 800 1667 8855 1840
+<< obsm4 >>
+rect 2186 2128 7474 9296
+<< metal5 >>
+rect 1104 4326 8556 4646
+rect 1104 3146 8556 3466
+<< obsm5 >>
+rect 1104 4966 8556 8181
+<< labels >>
+rlabel metal3 s 8935 5720 9735 5840 6 INPUT[0]
+port 1 nsew signal input
+rlabel metal2 s 5354 0 5410 800 6 INPUT[1]
+port 2 nsew signal input
+rlabel metal2 s 8298 11079 8354 11879 6 INPUT[2]
+port 3 nsew signal input
+rlabel metal3 s 0 7896 800 8016 6 INPUT[3]
+port 4 nsew signal input
+rlabel metal2 s 18 0 74 800 6 INPUT[4]
+port 5 nsew signal input
+rlabel metal2 s 8114 0 8170 800 6 INPUT[5]
+port 6 nsew signal input
+rlabel metal3 s 0 3816 800 3936 6 INPUT[6]
+port 7 nsew signal input
+rlabel metal2 s 5538 11079 5594 11879 6 INPUT[7]
+port 8 nsew signal input
+rlabel metal3 s 8935 9800 9735 9920 6 INPUT[8]
+port 9 nsew signal input
+rlabel metal2 s 2594 0 2650 800 6 INPUT[9]
+port 10 nsew signal input
+rlabel metal2 s 18 11079 74 11879 6 OUTPUT
+port 11 nsew signal output
+rlabel metal5 s 1104 4326 8556 4646 6 VGND
+port 12 nsew ground input
+rlabel metal5 s 1104 3146 8556 3466 6 VPWR
+port 13 nsew power input
+rlabel metal2 s 2778 11079 2834 11879 6 clk
+port 14 nsew signal input
+rlabel metal3 s 8935 1640 9735 1760 6 load
+port 15 nsew signal input
+<< properties >>
+string LEFclass BLOCK
+string FIXED_BBOX 0 0 9735 11879
+string LEFview TRUE
+string GDS_FILE /openLANE_flow/designs/vsdserializer_v1/runs/first_run/results/magic/vsdserializer_v1.gds
+string GDS_END 182114
+string GDS_START 71024
+<< end >>
+

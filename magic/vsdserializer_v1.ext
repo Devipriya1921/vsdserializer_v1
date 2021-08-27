@@ -1,0 +1,3971 @@
+timestamp 1630051267
+version 8.3
+tech sky130A
+style ngspice()
+scale 1000 1 500000
+resistclasses 2200000 3050000 1700000 3050000 120000 197000 114000 191000 120000 197000 114000 191000 48200 319800 2000000 48200 48200 12200 125 125 47 47 29 5
+use sky130_fd_sc_hd__decap_6 FILLER_0_10 1 0 2024 0 1 2176
+use sky130_fd_sc_hd__decap_4 FILLER_0_3 1 0 1380 0 1 2176
+use sky130_fd_sc_hd__decap_3 PHY_0 1 0 1104 0 1 2176
+use sky130_fd_sc_hd__decap_3 PHY_2 1 0 1104 0 -1 3264
+use sky130_fd_sc_hd__clkbuf_1 input5 -1 0 2024 0 1 2176
+use sky130_fd_sc_hd__fill_1 FILLER_0_16 1 0 2576 0 1 2176
+use sky130_fd_sc_hd__decap_8 FILLER_0_20 1 0 2944 0 1 2176
+use sky130_fd_sc_hd__clkbuf_1 input10 -1 0 2944 0 1 2176
+use sky130_fd_sc_hd__decap_12 FILLER_1_15 1 0 2484 0 -1 3264
+use sky130_fd_sc_hd__decap_12 FILLER_1_3 1 0 1380 0 -1 3264
+use sky130_fd_sc_hd__tapvpwrvgnd_1 TAP_26 1 0 3680 0 1 2176
+use sky130_fd_sc_hd__decap_12 FILLER_1_39 1 0 4692 0 -1 3264
+use sky130_fd_sc_hd__decap_12 FILLER_1_27 1 0 3588 0 -1 3264
+use sky130_fd_sc_hd__decap_6 FILLER_0_41 1 0 4876 0 1 2176
+use sky130_fd_sc_hd__decap_12 FILLER_0_29 1 0 3772 0 1 2176
+use sky130_fd_sc_hd__clkbuf_1 input2 -1 0 5704 0 1 2176
+use sky130_fd_sc_hd__tapvpwrvgnd_1 TAP_28 1 0 6256 0 -1 3264
+use sky130_fd_sc_hd__tapvpwrvgnd_1 TAP_27 1 0 6256 0 1 2176
+use sky130_fd_sc_hd__decap_12 FILLER_1_57 1 0 6348 0 -1 3264
+use sky130_fd_sc_hd__fill_1 FILLER_1_55 1 0 6164 0 -1 3264
+use sky130_fd_sc_hd__decap_4 FILLER_1_51 1 0 5796 0 -1 3264
+use sky130_fd_sc_hd__decap_8 FILLER_0_57 1 0 6348 0 1 2176
+use sky130_fd_sc_hd__decap_6 FILLER_0_50 1 0 5704 0 1 2176
+use sky130_fd_sc_hd__clkbuf_1 input6 1 0 7636 0 -1 3264
+use sky130_fd_sc_hd__clkbuf_4 input11 -1 0 7912 0 1 2176
+use sky130_fd_sc_hd__decap_3 PHY_3 -1 0 8556 0 -1 3264
+use sky130_fd_sc_hd__decap_3 PHY_1 -1 0 8556 0 1 2176
+use sky130_fd_sc_hd__decap_4 FILLER_1_74 1 0 7912 0 -1 3264
+use sky130_fd_sc_hd__fill_2 FILLER_1_69 1 0 7452 0 -1 3264
+use sky130_fd_sc_hd__decap_4 FILLER_0_74 1 0 7912 0 1 2176
+use sky130_fd_sc_hd__decap_3 FILLER_0_65 1 0 7084 0 1 2176
+use sky130_fd_sc_hd__decap_3 PHY_4 1 0 1104 0 1 3264
+use sky130_fd_sc_hd__decap_12 FILLER_2_3 1 0 1380 0 1 3264
+use sky130_fd_sc_hd__decap_12 FILLER_2_15 1 0 2484 0 1 3264
+use sky130_fd_sc_hd__tapvpwrvgnd_1 TAP_29 1 0 3680 0 1 3264
+use sky130_fd_sc_hd__decap_12 FILLER_2_41 1 0 4876 0 1 3264
+use sky130_fd_sc_hd__decap_12 FILLER_2_29 1 0 3772 0 1 3264
+use sky130_fd_sc_hd__fill_1 FILLER_2_27 1 0 3588 0 1 3264
+use sky130_fd_sc_hd__decap_12 FILLER_2_53 1 0 5980 0 1 3264
+use sky130_fd_sc_hd__decap_3 PHY_5 -1 0 8556 0 1 3264
+use sky130_fd_sc_hd__fill_1 FILLER_2_77 1 0 8188 0 1 3264
+use sky130_fd_sc_hd__decap_12 FILLER_2_65 1 0 7084 0 1 3264
+use sky130_fd_sc_hd__clkbuf_1 input7 -1 0 2024 0 -1 4352
+use sky130_fd_sc_hd__decap_3 PHY_6 1 0 1104 0 -1 4352
+use sky130_fd_sc_hd__decap_4 FILLER_3_3 1 0 1380 0 -1 4352
+use sky130_fd_sc_hd__decap_12 FILLER_3_10 1 0 2024 0 -1 4352
+use sky130_fd_sc_hd__decap_12 FILLER_3_34 1 0 4232 0 -1 4352
+use sky130_fd_sc_hd__decap_12 FILLER_3_22 1 0 3128 0 -1 4352
+use sky130_fd_sc_hd__tapvpwrvgnd_1 TAP_30 1 0 6256 0 -1 4352
+use sky130_fd_sc_hd__decap_12 FILLER_3_57 1 0 6348 0 -1 4352
+use sky130_fd_sc_hd__fill_2 FILLER_3_54 1 0 6072 0 -1 4352
+use sky130_fd_sc_hd__decap_8 FILLER_3_46 1 0 5336 0 -1 4352
+use sky130_fd_sc_hd__decap_3 PHY_7 -1 0 8556 0 -1 4352
+use sky130_fd_sc_hd__fill_1 FILLER_3_77 1 0 8188 0 -1 4352
+use sky130_fd_sc_hd__decap_8 FILLER_3_69 1 0 7452 0 -1 4352
+use sky130_fd_sc_hd__decap_3 PHY_8 1 0 1104 0 1 4352
+use sky130_fd_sc_hd__decap_12 FILLER_4_3 1 0 1380 0 1 4352
+use sky130_fd_sc_hd__decap_12 FILLER_4_15 1 0 2484 0 1 4352
+use sky130_fd_sc_hd__tapvpwrvgnd_1 TAP_31 1 0 3680 0 1 4352
+use sky130_fd_sc_hd__fill_1 FILLER_4_41 1 0 4876 0 1 4352
+use sky130_fd_sc_hd__decap_12 FILLER_4_29 1 0 3772 0 1 4352
+use sky130_fd_sc_hd__fill_1 FILLER_4_27 1 0 3588 0 1 4352
+use sky130_fd_sc_hd__and2_1 _12_ -1 0 5428 0 1 4352
+use sky130_fd_sc_hd__decap_12 FILLER_4_59 1 0 6532 0 1 4352
+use sky130_fd_sc_hd__decap_12 FILLER_4_47 1 0 5428 0 1 4352
+use sky130_fd_sc_hd__decap_3 PHY_9 -1 0 8556 0 1 4352
+use sky130_fd_sc_hd__fill_1 FILLER_4_77 1 0 8188 0 1 4352
+use sky130_fd_sc_hd__decap_6 FILLER_4_71 1 0 7636 0 1 4352
+use sky130_fd_sc_hd__dfxtp_1 _22_ 1 0 2852 0 -1 5440
+use sky130_fd_sc_hd__mux2_1 _16_ -1 0 2484 0 -1 5440
+use sky130_fd_sc_hd__decap_3 PHY_10 1 0 1104 0 -1 5440
+use sky130_fd_sc_hd__decap_3 FILLER_5_3 1 0 1380 0 -1 5440
+use sky130_fd_sc_hd__decap_4 FILLER_5_15 1 0 2484 0 -1 5440
+use sky130_fd_sc_hd__mux2_1 _17_ 1 0 4692 0 -1 5440
+use sky130_fd_sc_hd__decap_4 FILLER_5_35 1 0 4324 0 -1 5440
+use sky130_fd_sc_hd__tapvpwrvgnd_1 TAP_32 1 0 6256 0 -1 5440
+use sky130_fd_sc_hd__decap_12 FILLER_5_57 1 0 6348 0 -1 5440
+use sky130_fd_sc_hd__decap_8 FILLER_5_48 1 0 5520 0 -1 5440
+use sky130_fd_sc_hd__decap_3 PHY_11 -1 0 8556 0 -1 5440
+use sky130_fd_sc_hd__fill_1 FILLER_5_77 1 0 8188 0 -1 5440
+use sky130_fd_sc_hd__decap_8 FILLER_5_69 1 0 7452 0 -1 5440
+use sky130_fd_sc_hd__clkbuf_16 clkbuf_1_0__f_clk -1 0 3312 0 1 5440
+use sky130_fd_sc_hd__mux2_1 _15_ 1 0 2852 0 -1 6528
+use sky130_fd_sc_hd__decap_3 PHY_14 1 0 1104 0 -1 6528
+use sky130_fd_sc_hd__decap_3 PHY_12 1 0 1104 0 1 5440
+use sky130_fd_sc_hd__decap_12 FILLER_7_3 1 0 1380 0 -1 6528
+use sky130_fd_sc_hd__decap_4 FILLER_7_15 1 0 2484 0 -1 6528
+use sky130_fd_sc_hd__fill_1 FILLER_6_3 1 0 1380 0 1 5440
+use sky130_fd_sc_hd__dfxtp_1 _32_ 1 0 4416 0 -1 6528
+use sky130_fd_sc_hd__dfxtp_1 _23_ 1 0 3772 0 1 5440
+use sky130_fd_sc_hd__tapvpwrvgnd_1 TAP_33 1 0 3680 0 1 5440
+use sky130_fd_sc_hd__decap_8 FILLER_7_28 1 0 3680 0 -1 6528
+use sky130_fd_sc_hd__decap_4 FILLER_6_24 1 0 3312 0 1 5440
+use sky130_fd_sc_hd__mux2_1 _18_ 1 0 6348 0 -1 6528
+use sky130_fd_sc_hd__mux2_1 _13_ -1 0 6440 0 1 5440
+use sky130_fd_sc_hd__tapvpwrvgnd_1 TAP_34 1 0 6256 0 -1 6528
+use sky130_fd_sc_hd__decap_4 FILLER_7_52 1 0 5888 0 -1 6528
+use sky130_fd_sc_hd__decap_12 FILLER_6_58 1 0 6440 0 1 5440
+use sky130_fd_sc_hd__decap_4 FILLER_6_45 1 0 5244 0 1 5440
+use sky130_fd_sc_hd__clkbuf_1 input1 1 0 7636 0 -1 6528
+use sky130_fd_sc_hd__decap_3 PHY_15 -1 0 8556 0 -1 6528
+use sky130_fd_sc_hd__decap_3 PHY_13 -1 0 8556 0 1 5440
+use sky130_fd_sc_hd__decap_4 FILLER_7_74 1 0 7912 0 -1 6528
+use sky130_fd_sc_hd__fill_1 FILLER_7_70 1 0 7544 0 -1 6528
+use sky130_fd_sc_hd__decap_4 FILLER_7_66 1 0 7176 0 -1 6528
+use sky130_fd_sc_hd__decap_8 FILLER_6_70 1 0 7544 0 1 5440
+use sky130_fd_sc_hd__dfxtp_1 _30_ -1 0 3312 0 1 6528
+use sky130_fd_sc_hd__decap_3 PHY_16 1 0 1104 0 1 6528
+use sky130_fd_sc_hd__fill_1 FILLER_8_7 1 0 1748 0 1 6528
+use sky130_fd_sc_hd__decap_4 FILLER_8_3 1 0 1380 0 1 6528
+use sky130_fd_sc_hd__dfxtp_1 _24_ 1 0 3864 0 1 6528
+use sky130_fd_sc_hd__tapvpwrvgnd_1 TAP_35 1 0 3680 0 1 6528
+use sky130_fd_sc_hd__fill_1 FILLER_8_29 1 0 3772 0 1 6528
+use sky130_fd_sc_hd__decap_4 FILLER_8_24 1 0 3312 0 1 6528
+use sky130_fd_sc_hd__dfxtp_1 _28_ 1 0 5704 0 1 6528
+use sky130_fd_sc_hd__decap_4 FILLER_8_46 1 0 5336 0 1 6528
+use sky130_fd_sc_hd__decap_3 PHY_17 -1 0 8556 0 1 6528
+use sky130_fd_sc_hd__decap_12 FILLER_8_66 1 0 7176 0 1 6528
+use sky130_fd_sc_hd__dfxtp_1 _29_ 1 0 2024 0 -1 7616
+use sky130_fd_sc_hd__decap_3 PHY_18 1 0 1104 0 -1 7616
+use sky130_fd_sc_hd__fill_1 FILLER_9_9 1 0 1932 0 -1 7616
+use sky130_fd_sc_hd__decap_6 FILLER_9_3 1 0 1380 0 -1 7616
+use sky130_fd_sc_hd__clkbuf_16 clkbuf_0_clk 1 0 4048 0 -1 7616
+use sky130_fd_sc_hd__decap_6 FILLER_9_26 1 0 3496 0 -1 7616
+use sky130_fd_sc_hd__mux2_1 _14_ 1 0 6348 0 -1 7616
+use sky130_fd_sc_hd__tapvpwrvgnd_1 TAP_36 1 0 6256 0 -1 7616
+use sky130_fd_sc_hd__decap_4 FILLER_9_52 1 0 5888 0 -1 7616
+use sky130_fd_sc_hd__decap_3 PHY_19 -1 0 8556 0 -1 7616
+use sky130_fd_sc_hd__decap_12 FILLER_9_66 1 0 7176 0 -1 7616
+use sky130_fd_sc_hd__dfxtp_1 _31_ -1 0 3312 0 1 7616
+use sky130_fd_sc_hd__decap_3 PHY_20 1 0 1104 0 1 7616
+use sky130_fd_sc_hd__fill_1 FILLER_10_7 1 0 1748 0 1 7616
+use sky130_fd_sc_hd__decap_4 FILLER_10_3 1 0 1380 0 1 7616
+use sky130_fd_sc_hd__mux2_1 _21_ 1 0 3772 0 1 7616
+use sky130_fd_sc_hd__tapvpwrvgnd_1 TAP_37 1 0 3680 0 1 7616
+use sky130_fd_sc_hd__decap_6 FILLER_10_38 1 0 4600 0 1 7616
+use sky130_fd_sc_hd__decap_4 FILLER_10_24 1 0 3312 0 1 7616
+use sky130_fd_sc_hd__clkbuf_16 clkbuf_1_1__f_clk 1 0 5244 0 1 7616
+use sky130_fd_sc_hd__fill_1 FILLER_10_44 1 0 5152 0 1 7616
+use sky130_fd_sc_hd__clkbuf_1 input9 1 0 7636 0 1 7616
+use sky130_fd_sc_hd__decap_3 PHY_21 -1 0 8556 0 1 7616
+use sky130_fd_sc_hd__decap_4 FILLER_10_74 1 0 7912 0 1 7616
+use sky130_fd_sc_hd__decap_6 FILLER_10_65 1 0 7084 0 1 7616
+use sky130_fd_sc_hd__clkbuf_2 output12 -1 0 1932 0 -1 8704
+use sky130_fd_sc_hd__dfxtp_1 _27_ -1 0 3772 0 -1 8704
+use sky130_fd_sc_hd__decap_3 PHY_22 1 0 1104 0 -1 8704
+use sky130_fd_sc_hd__decap_4 FILLER_11_9 1 0 1932 0 -1 8704
+use sky130_fd_sc_hd__fill_2 FILLER_11_3 1 0 1380 0 -1 8704
+use sky130_fd_sc_hd__dfxtp_1 _25_ 1 0 4416 0 -1 8704
+use sky130_fd_sc_hd__fill_1 FILLER_11_35 1 0 4324 0 -1 8704
+use sky130_fd_sc_hd__decap_6 FILLER_11_29 1 0 3772 0 -1 8704
+use sky130_fd_sc_hd__mux2_1 _19_ 1 0 6348 0 -1 8704
+use sky130_fd_sc_hd__tapvpwrvgnd_1 TAP_38 1 0 6256 0 -1 8704
+use sky130_fd_sc_hd__decap_4 FILLER_11_52 1 0 5888 0 -1 8704
+use sky130_fd_sc_hd__clkbuf_1 input3 1 0 7636 0 -1 8704
+use sky130_fd_sc_hd__decap_3 PHY_23 -1 0 8556 0 -1 8704
+use sky130_fd_sc_hd__decap_4 FILLER_11_74 1 0 7912 0 -1 8704
+use sky130_fd_sc_hd__fill_1 FILLER_11_70 1 0 7544 0 -1 8704
+use sky130_fd_sc_hd__decap_4 FILLER_11_66 1 0 7176 0 -1 8704
+use sky130_fd_sc_hd__clkbuf_1 input4 -1 0 2024 0 1 8704
+use sky130_fd_sc_hd__mux2_1 _11_ 1 0 2484 0 1 8704
+use sky130_fd_sc_hd__decap_3 PHY_24 1 0 1104 0 1 8704
+use sky130_fd_sc_hd__decap_4 FILLER_12_3 1 0 1380 0 1 8704
+use sky130_fd_sc_hd__fill_1 FILLER_12_14 1 0 2392 0 1 8704
+use sky130_fd_sc_hd__decap_4 FILLER_12_10 1 0 2024 0 1 8704
+use sky130_fd_sc_hd__dfxtp_1 _26_ -1 0 5796 0 1 8704
+use sky130_fd_sc_hd__tapvpwrvgnd_1 TAP_39 1 0 3680 0 1 8704
+use sky130_fd_sc_hd__decap_6 FILLER_12_29 1 0 3772 0 1 8704
+use sky130_fd_sc_hd__decap_4 FILLER_12_24 1 0 3312 0 1 8704
+use sky130_fd_sc_hd__clkbuf_1 input8 -1 0 6716 0 1 8704
+use sky130_fd_sc_hd__tapvpwrvgnd_1 TAP_40 1 0 6256 0 1 8704
+use sky130_fd_sc_hd__decap_4 FILLER_12_61 1 0 6716 0 1 8704
+use sky130_fd_sc_hd__fill_1 FILLER_12_57 1 0 6348 0 1 8704
+use sky130_fd_sc_hd__fill_1 FILLER_12_55 1 0 6164 0 1 8704
+use sky130_fd_sc_hd__decap_4 FILLER_12_51 1 0 5796 0 1 8704
+use sky130_fd_sc_hd__mux2_1 _20_ 1 0 7084 0 1 8704
+use sky130_fd_sc_hd__decap_3 PHY_25 -1 0 8556 0 1 8704
+use sky130_fd_sc_hd__decap_4 FILLER_12_74 1 0 7912 0 1 8704
+port "VGND" 11 1104 4326 8556 4646 m5
+port "VPWR" 12 1104 3146 8556 3466 m5
+port "load" 14 8935 1640 9735 1760 m3
+port "INPUT[1]" 1 5354 0 5410 800 m2
+port "INPUT[9]" 9 2594 0 2650 800 m2
+port "INPUT[4]" 4 18 0 74 800 m2
+port "INPUT[5]" 5 8114 0 8170 800 m2
+port "INPUT[6]" 6 0 3816 800 3936 m3
+port "INPUT[0]" 0 8935 5720 9735 5840 m3
+port "clk" 13 2778 11079 2834 11879 m2
+port "INPUT[8]" 8 8935 9800 9735 9920 m3
+port "INPUT[2]" 2 8298 11079 8354 11879 m2
+port "OUTPUT" 10 18 11079 74 11879 m2
+port "INPUT[7]" 7 5538 11079 5594 11879 m2
+port "INPUT[3]" 3 0 7896 800 8016 m3
+node "VGND" 17 32870.8 1104 4326 m5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5007744 105672 397824 10976 295680 10808 4587520 29952 4776732 31090 0 0
+node "VPWR" 24 37840.6 1104 3146 m5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5007744 105672 596736 16464 443520 16212 6881280 44928 7153920 46632 0 0
+node "load" 17 1260.72 8935 1640 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1156 136 4420 310 23628 1590 168036 4240 0 0 0 0 0 0
+node "INPUT[1]" 21 1145.58 5354 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1156 136 6864 446 92424 5052 0 0 0 0 0 0 0 0
+node "INPUT[9]" 21 1145.58 2594 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1156 136 6864 446 92424 5052 0 0 0 0 0 0 0 0
+node "INPUT[4]" 29 1895.18 18 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1156 136 53232 3758 92424 5052 0 0 0 0 0 0 0 0
+node "INPUT[5]" 25 1442.07 8114 0 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1156 136 12016 814 109560 6276 0 0 0 0 0 0 0 0
+node "INPUT[6]" 15 897.235 0 3816 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1156 136 4420 310 12204 774 158016 3906 0 0 0 0 0 0
+node "li_1961_2601#" 84 1048.45 1961 2601 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2312 272 8840 620 75312 5312 0 0 0 0 0 0 0 0
+node "li_5181_5185#" 92 1975.2 5181 5185 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2312 272 78260 5540 61984 4360 0 0 0 0 0 0 0 0
+node "li_4261_5321#" 75 482.418 4261 5321 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2312 272 26896 1900 0 0 0 0 0 0 0 0 0 0
+node "li_2421_5321#" 75 461.436 2421 5321 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2312 272 25524 1802 0 0 0 0 0 0 0 0 0 0
+node "li_5641_2601#" 87 1274.44 5641 2601 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2312 272 16436 1124 86736 6128 0 0 0 0 0 0 0 0
+node "li_4068_5593#" 78 657.884 4068 5593 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2312 272 26992 1878 20096 1368 0 0 0 0 0 0 0 0
+node "li_5181_4573#" 90 1755.63 5181 4573 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2312 272 80200 5640 44848 3136 0 0 0 0 0 0 0 0
+node "li_5825_6069#" 75 411.493 5825 6069 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2312 272 13860 940 16288 1096 0 0 0 0 0 0 0 0
+node "li_1961_3961#" 104 3038.27 1961 3961 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2312 272 145236 10324 67696 4768 0 0 0 0 0 0 0 0
+node "INPUT[0]" 16 1175.95 8935 5720 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1156 136 4420 310 19820 1318 162516 4056 0 0 0 0 0 0
+node "li_5181_5865#" 81 1014.22 5181 5865 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2312 272 52500 3700 16288 1096 0 0 0 0 0 0 0 0
+node "li_4712_6273#" 81 856.466 4712 6273 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2312 272 21708 1462 46752 3272 0 0 0 0 0 0 0 0
+node "li_1869_6613#" 79 715.261 1869 6613 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2312 272 13860 940 41040 2864 0 0 0 0 0 0 0 0
+node "li_6000_6681#" 78 580.608 6000 6681 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2312 272 19264 1326 27712 1912 0 0 0 0 0 0 0 0
+node "li_4160_6681#" 83 1214.72 4160 6681 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2312 272 70652 4958 12480 824 0 0 0 0 0 0 0 0
+node "li_2881_6409#" 74 330.387 2881 6409 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2312 272 11536 774 12480 824 0 0 0 0 0 0 0 0
+node "li_3249_6409#" 76 492.903 3249 6409 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2312 272 13860 940 25808 1776 0 0 0 0 0 0 0 0
+node "li_6745_7361#" 76 492.169 6745 7361 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2312 272 18880 1260 16288 1096 0 0 0 0 0 0 0 0
+node "clk" 37 2566.47 2778 11079 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1156 136 34696 2434 168108 10458 0 0 0 0 0 0 0 0
+node "li_2320_7429#" 90 1896.76 2320 7429 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2312 272 119380 8506 0 0 0 0 0 0 0 0 0 0
+node "li_2881_2601#" 101 2422.61 2881 2601 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2312 272 47348 3332 147664 10480 0 0 0 0 0 0 0 0
+node "li_3249_5593#" 142 1953.18 3249 5593 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3468 408 76724 5386 68000 4728 0 0 0 0 0 0 0 0
+node "INPUT[8]" 28 2557.03 8935 9800 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1156 136 35200 2470 61708 4310 228756 6264 0 0 0 0 0 0
+node "li_6837_7497#" 79 756.85 6837 7497 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2312 272 31892 2228 25808 1776 0 0 0 0 0 0 0 0
+node "li_1961_5525#" 353 3385.55 1961 5525 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 8092 952 141236 9676 108576 7424 0 0 0 0 0 0 0 0
+node "INPUT[2]" 27 1684.13 8298 11079 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1156 136 17168 1182 120396 7050 0 0 0 0 0 0 0 0
+node "li_5273_6613#" 87 1450.93 5273 6613 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2312 272 49792 3468 56272 3952 0 0 0 0 0 0 0 0
+node "li_3453_8449#" 76 493.531 3453 8449 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2312 272 18452 1268 16288 1096 0 0 0 0 0 0 0 0
+node "OUTPUT" 32 2209.18 18 11079 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1156 136 48080 3390 118492 6914 0 0 0 0 0 0 0 0
+node "li_4712_8517#" 79 872.508 4712 8517 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2312 272 52404 3722 0 0 0 0 0 0 0 0 0 0
+node "li_7573_8789#" 76 486.856 7573 8789 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2312 272 11284 756 25808 1776 0 0 0 0 0 0 0 0
+node "li_5825_8313#" 82 1082.31 5825 8313 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2312 272 55076 3884 18192 1232 0 0 0 0 0 0 0 0
+node "li_6653_8789#" 74 337.239 6653 8789 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2312 272 13860 940 10576 688 0 0 0 0 0 0 0 0
+node "li_4169_7837#" 77 612.318 4169 7837 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2312 272 13860 940 31520 2184 0 0 0 0 0 0 0 0
+node "li_2329_8585#" 76 494.816 2329 8585 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2312 272 24164 1676 10576 688 0 0 0 0 0 0 0 0
+node "li_1961_8789#" 89 1634.1 1961 8789 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2312 272 47348 3332 73408 5176 0 0 0 0 0 0 0 0
+node "li_5488_8857#" 79 855.38 5488 8857 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2312 272 51284 3642 0 0 0 0 0 0 0 0 0 0
+node "li_1777_8517#" 131 1070.52 1777 8517 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3468 408 46484 3226 29248 1960 0 0 0 0 0 0 0 0
+node "INPUT[7]" 27 1724.64 5538 11079 m2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1156 136 35928 2522 101356 5690 0 0 0 0 0 0 0 0
+node "li_3893_6749#" 307 3694.07 3893 6749 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 6936 816 177616 12504 81824 5592 0 0 0 0 0 0 0 0
+node "INPUT[3]" 18 1270.82 0 7896 m3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1156 136 4420 310 33148 2270 158016 3906 0 0 0 0 0 0
+node "li_1777_5117#" 670 9917.3 1777 5117 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 13872 1632 417096 29236 306096 21224 0 0 0 0 0 0 0 0
+node "li_2513_9061#" 80 811.98 2513 9061 v0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2312 272 21696 1492 39136 2728 0 0 0 0 0 0 0 0
+substrate "VSUBS" 0 0 -1073741817 -1073741817 space 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+cap "li_5641_2601#" "li_5181_5185#" 84.0499
+cap "VGND" "li_2320_7429#" 1916.26
+cap "li_1961_5525#" "li_1869_6613#" 39.9507
+cap "li_5273_6613#" "li_5181_5865#" 49.2235
+cap "VGND" "li_5641_2601#" 854.929
+cap "VGND" "li_7573_8789#" 252.029
+cap "li_5825_8313#" "li_4712_8517#" 158.675
+cap "li_4712_6273#" "li_3893_6749#" 557.27
+cap "li_5825_6069#" "li_5641_2601#" 3.63636
+cap "li_1777_5117#" "VPWR" 7774.31
+cap "li_5273_6613#" "li_5488_8857#" 149.269
+cap "li_5181_5865#" "VGND" 496.524
+cap "INPUT[2]" "VPWR" 183.871
+cap "li_1777_8517#" "li_1961_8789#" 823.16
+cap "li_3249_6409#" "li_1961_8789#" 146.732
+cap "li_5181_5865#" "li_5825_6069#" 64.6386
+cap "li_6653_8789#" "li_5825_8313#" 19.6064
+cap "li_3893_6749#" "li_1777_5117#" 250.678
+cap "li_3893_6749#" "VPWR" 2373.65
+cap "INPUT[3]" "li_1777_8517#" 803.127
+cap "li_1961_2601#" "VPWR" 571.006
+cap "li_1777_5117#" "INPUT[7]" 16.9565
+cap "INPUT[7]" "VPWR" 1210.12
+cap "li_5488_8857#" "VGND" 836.324
+cap "li_1777_5117#" "li_1961_2601#" 176.776
+cap "VGND" "li_2513_9061#" 190.142
+cap "li_1777_8517#" "OUTPUT" 27.676
+cap "li_2329_8585#" "VPWR" 136.006
+cap "li_6745_7361#" "VGND" 161.533
+cap "li_1961_5525#" "li_3453_8449#" 492.24
+cap "li_5181_4573#" "VPWR" 2278.58
+cap "li_1777_5117#" "INPUT[8]" 1153.76
+cap "li_5181_4573#" "li_1777_5117#" 1628.12
+cap "INPUT[8]" "VPWR" 888.946
+cap "li_1961_5525#" "VGND" 2783.87
+cap "li_4160_6681#" "li_5181_5865#" 455.038
+cap "li_3893_6749#" "INPUT[7]" 27.5326
+cap "INPUT[2]" "INPUT[8]" 49.612
+cap "li_5273_6613#" "li_3249_5593#" 321.388
+cap "VGND" "INPUT[6]" 27.5326
+cap "li_2320_7429#" "clk" 551.52
+cap "li_6000_6681#" "li_1777_5117#" 46.25
+cap "li_6000_6681#" "VPWR" 297.288
+cap "li_2881_2601#" "li_4261_5321#" 70.3748
+cap "li_3249_6409#" "li_2881_6409#" 62.1375
+cap "li_4068_5593#" "li_4261_5321#" 151.539
+cap "VGND" "li_3249_5593#" 1275.7
+cap "li_1961_3961#" "li_2881_2601#" 34.8264
+cap "INPUT[1]" "VPWR" 29.2374
+cap "li_4712_6273#" "li_4261_5321#" 70.3748
+cap "li_1869_6613#" "VGND" 645.687
+cap "li_2513_9061#" "clk" 1029.33
+cap "VPWR" "li_1961_8789#" 574.174
+cap "li_6000_6681#" "li_5181_4573#" 295.017
+cap "li_4160_6681#" "li_3249_5593#" 320.403
+cap "li_3249_6409#" "li_2320_7429#" 46.2046
+cap "INPUT[3]" "VPWR" 425.938
+cap "li_1777_5117#" "li_4261_5321#" 325.316
+cap "li_4261_5321#" "VPWR" 171.56
+cap "li_5488_8857#" "li_4712_8517#" 141.739
+cap "li_1961_5525#" "clk" 652.126
+cap "OUTPUT" "VPWR" 77.4119
+cap "VGND" "load" 133.015
+cap "li_1961_5525#" "li_2421_5321#" 216.549
+cap "li_1777_5117#" "li_5825_8313#" 522.142
+cap "li_5825_8313#" "VPWR" 875.019
+cap "li_1961_3961#" "VPWR" 2495.63
+cap "li_6837_7497#" "li_7573_8789#" 337.266
+cap "li_5273_6613#" "VGND" 986.177
+cap "li_1961_3961#" "li_1777_5117#" 886.004
+cap "li_5488_8857#" "li_6653_8789#" 355.247
+cap "VGND" "li_5181_5185#" 1106.28
+cap "li_3893_6749#" "li_5825_8313#" 147.254
+cap "li_2881_2601#" "li_2320_7429#" 54.4328
+cap "VGND" "li_3453_8449#" 198.12
+cap "li_1777_8517#" "li_2513_9061#" 205.682
+cap "li_2881_6409#" "VPWR" 36.4276
+cap "li_1961_3961#" "li_1961_2601#" 70.3748
+cap "li_5825_6069#" "VGND" 278.1
+cap "li_5273_6613#" "li_4160_6681#" 528.735
+cap "li_6837_7497#" "li_6745_7361#" 107.614
+cap "li_5825_8313#" "INPUT[8]" 34.8264
+cap "li_1961_5525#" "li_3249_6409#" 916.381
+cap "li_1961_3961#" "li_5181_4573#" 81.0764
+cap "INPUT[4]" "VPWR" 133.012
+cap "li_1869_6613#" "li_2421_5321#" 10.0367
+cap "li_4169_7837#" "VPWR" 249.795
+cap "li_1777_5117#" "li_4169_7837#" 467.049
+cap "li_4160_6681#" "VGND" 2107.7
+cap "li_2320_7429#" "VPWR" 713.924
+cap "li_4712_6273#" "li_5181_5865#" 495.205
+cap "li_4160_6681#" "li_5825_6069#" 35.9542
+cap "li_1777_5117#" "li_2320_7429#" 421.655
+cap "li_5641_2601#" "VPWR" 594.421
+cap "li_1777_5117#" "li_5641_2601#" 164.877
+cap "li_7573_8789#" "VPWR" 435.022
+cap "VGND" "INPUT[9]" 127.881
+cap "li_1777_5117#" "li_7573_8789#" 27.6428
+cap "INPUT[3]" "li_1961_8789#" 298.599
+cap "li_3893_6749#" "li_2320_7429#" 34.8264
+cap "li_5273_6613#" "li_4712_8517#" 1027.74
+cap "li_5181_5865#" "VPWR" 557.511
+cap "VGND" "clk" 474.235
+cap "VGND" "li_2421_5321#" 386.391
+cap "li_3249_5593#" "li_2881_2601#" 34.8264
+cap "VGND" "li_4712_8517#" 852.991
+cap "li_5273_6613#" "li_6653_8789#" 25.7679
+cap "li_5488_8857#" "li_1777_5117#" 257.077
+cap "li_5488_8857#" "VPWR" 258.92
+cap "li_2513_9061#" "VPWR" 457.492
+cap "li_5181_5865#" "li_3893_6749#" 754.714
+cap "li_5181_4573#" "li_5641_2601#" 34.8264
+cap "li_3249_5593#" "li_4068_5593#" 894.676
+cap "li_6745_7361#" "VPWR" 428.424
+cap "li_6745_7361#" "li_1777_5117#" 395.488
+cap "INPUT[8]" "li_7573_8789#" 41.1159
+cap "INPUT[0]" "VGND" 27.5326
+cap "li_1961_5525#" "VPWR" 1687.42
+cap "li_1961_5525#" "li_1777_5117#" 323.667
+cap "li_2881_6409#" "li_1961_8789#" 170.715
+cap "li_6653_8789#" "VGND" 558.923
+cap "li_5488_8857#" "li_3893_6749#" 239.013
+cap "li_4712_6273#" "li_3249_5593#" 172.429
+cap "li_5181_5865#" "li_5181_4573#" 135.207
+cap "li_5488_8857#" "INPUT[7]" 257.796
+cap "INPUT[5]" "load" 155.571
+cap "INPUT[6]" "VPWR" 376.689
+cap "li_2513_9061#" "li_2329_8585#" 252.058
+cap "li_1777_8517#" "VGND" 659.437
+cap "li_3249_6409#" "VGND" 388.878
+cap "li_1961_5525#" "li_1961_2601#" 10.637
+cap "li_5488_8857#" "INPUT[8]" 34.8264
+cap "li_1777_5117#" "li_3249_5593#" 149.928
+cap "li_6837_7497#" "VGND" 1149.13
+cap "li_3249_5593#" "VPWR" 1010.23
+cap "li_6000_6681#" "li_5181_5865#" 99.5531
+cap "li_1961_2601#" "INPUT[6]" 102.445
+cap "VGND" "INPUT[5]" 174.926
+cap "li_3893_6749#" "li_3249_5593#" 156.812
+cap "li_1869_6613#" "VPWR" 211.288
+cap "li_1869_6613#" "li_1777_5117#" 107.614
+cap "VGND" "li_2881_2601#" 951.47
+cap "VGND" "li_4068_5593#" 405.02
+cap "load" "VPWR" 15.225
+cap "li_5825_8313#" "li_7573_8789#" 566.33
+cap "li_1961_3961#" "li_5641_2601#" 34.8264
+cap "li_1869_6613#" "li_1961_2601#" 27.7384
+cap "li_4712_6273#" "VGND" 219.282
+cap "li_5273_6613#" "li_1777_5117#" 291.578
+cap "li_5273_6613#" "VPWR" 513.239
+cap "li_6653_8789#" "li_4712_8517#" 5.53008
+cap "li_5181_5865#" "li_1961_3961#" 11.6129
+cap "li_4160_6681#" "li_2881_2601#" 34.8264
+cap "li_3249_6409#" "clk" 107.614
+cap "li_1961_5525#" "li_1961_8789#" 64.6667
+cap "li_5181_5185#" "VPWR" 882.511
+cap "li_1777_5117#" "li_5181_5185#" 261.875
+cap "li_3453_8449#" "VPWR" 373.303
+cap "VGND" "VPWR" 11952.2
+cap "li_1777_5117#" "VGND" 4306.67
+cap "li_5488_8857#" "li_5825_8313#" 11.1185
+cap "li_5273_6613#" "li_3893_6749#" 1110.27
+cap "INPUT[2]" "VGND" 221.972
+cap "li_5825_6069#" "VPWR" 496.837
+cap "li_5825_6069#" "li_1777_5117#" 221.443
+cap "li_4160_6681#" "li_4712_6273#" 52.2822
+cap "li_4169_7837#" "li_2320_7429#" 12.4445
+cap "li_5273_6613#" "INPUT[8]" 70.3748
+cap "li_3893_6749#" "VGND" 3494.83
+cap "VGND" "li_1961_2601#" 272.292
+cap "INPUT[7]" "VGND" 193.555
+cap "VGND" "li_2329_8585#" 972.923
+cap "li_3249_5593#" "li_4261_5321#" 128.285
+cap "li_5181_4573#" "li_5181_5185#" 34.8264
+cap "li_4160_6681#" "li_1777_5117#" 34.8264
+cap "li_4160_6681#" "VPWR" 379.668
+cap "VGND" "INPUT[8]" 386.631
+cap "li_5181_4573#" "VGND" 975.146
+cap "li_1961_5525#" "li_2881_6409#" 69.0541
+cap "li_1869_6613#" "li_1961_8789#" 285.577
+cap "li_5825_6069#" "li_5181_4573#" 110.268
+cap "li_4160_6681#" "li_3893_6749#" 2338.08
+cap "INPUT[9]" "VPWR" 29.2374
+cap "li_6000_6681#" "VGND" 491.392
+cap "li_2513_9061#" "li_2320_7429#" 12.4617
+cap "clk" "VPWR" 517.527
+cap "li_6000_6681#" "li_5825_6069#" 40.1004
+cap "li_4160_6681#" "li_5181_4573#" 22.685
+cap "li_1777_5117#" "li_2421_5321#" 874.08
+cap "li_5488_8857#" "li_7573_8789#" 5.18797
+cap "li_2421_5321#" "VPWR" 159.259
+cap "li_1961_5525#" "li_2320_7429#" 1301.88
+cap "li_4712_8517#" "VPWR" 318.01
+cap "VGND" "INPUT[1]" 127.881
+cap "INPUT[0]" "VPWR" 395.584
+cap "li_4160_6681#" "li_6000_6681#" 152.046
+cap "li_2329_8585#" "clk" 89.3162
+cap "VGND" "li_1961_8789#" 1079.52
+cap "li_5273_6613#" "li_5825_8313#" 411.894
+cap "li_6653_8789#" "VPWR" 41.8714
+cap "li_3893_6749#" "li_4712_8517#" 1323.56
+cap "li_1777_5117#" "li_6653_8789#" 318.956
+cap "INPUT[3]" "VGND" 114.297
+cap "VGND" "li_4261_5321#" 1034.64
+cap "li_3249_5593#" "li_2320_7429#" 271.977
+cap "VGND" "OUTPUT" 225.114
+cap "li_1777_8517#" "VPWR" 570.898
+cap "li_1961_3961#" "li_5181_5185#" 34.8264
+cap "li_2881_2601#" "li_4068_5593#" 34.8264
+cap "li_3249_6409#" "VPWR" 424.635
+cap "li_5825_8313#" "VGND" 548.359
+cap "li_1961_5525#" "li_2513_9061#" 20.1004
+cap "li_1961_3961#" "VGND" 1105.73
+cap "li_6837_7497#" "VPWR" 495.632
+cap "li_6837_7497#" "li_1777_5117#" 111.373
+cap "li_5181_5865#" "li_3249_5593#" 217.06
+cap "INPUT[5]" "VPWR" 149.937
+cap "li_4712_6273#" "li_4068_5593#" 90.1004
+cap "li_6653_8789#" "INPUT[8]" 267.278
+cap "li_1777_8517#" "li_2329_8585#" 260.806
+cap "li_2881_6409#" "VGND" 387.568
+cap "li_2881_2601#" "VPWR" 2311.82
+cap "li_1777_5117#" "li_2881_2601#" 1336.21
+cap "li_4068_5593#" "VPWR" 550.38
+cap "li_1777_5117#" "li_4068_5593#" 166.043
+cap "li_1961_5525#" "li_3249_5593#" 742.315
+cap "li_5273_6613#" "li_2320_7429#" 34.8264
+cap "li_6837_7497#" "INPUT[8]" 176.11
+cap "VGND" "INPUT[4]" 184.634
+cap "li_4169_7837#" "li_3453_8449#" 70.1004
+cap "li_4169_7837#" "VGND" 439.723
+cap "li_3893_6749#" "li_2881_2601#" 34.8264
+cap "li_4712_6273#" "VPWR" 710.241
+cap "li_4712_6273#" "li_1777_5117#" 190.417
+subcap "INPUT[4]" -1277.78
+subcap "INPUT[9]" -528.178
+subcap "INPUT[1]" -528.178
+subcap "INPUT[5]" -824.667
+subcap "VPWR" -37856
+cap "PHY_2/VGND" "FILLER_0_3/VPWR" 7.60019
+cap "FILLER_0_3/VPWR" "input5/a_75_212#" 4.99739
+cap "FILLER_0_3/VGND" "input5/a_75_212#" 3.27415
+cap "PHY_2/VGND" "FILLER_0_3/VGND" 64.619
+cap "PHY_2/VGND" "FILLER_1_3/VGND" 1.89241
+cap "FILLER_0_3/VPWR" "input5/A" 105.169
+cap "FILLER_0_3/VPB" "FILLER_0_3/VPWR" -17.39
+cap "FILLER_0_3/VPWR" "FILLER_0_3/VGND" 83.9686
+cap "FILLER_0_3/VGND" "input5/A" 88.3211
+subcap "VPWR" -38292.6
+subcap "li_1961_2601#" -964.32
+subcap "li_2881_2601#" -2483.17
+cap "FILLER_0_10/VPWR" "input5/a_75_212#" 203.961
+cap "FILLER_1_3/VGND" "input5/A" 20.8959
+cap "FILLER_0_10/VPB" "FILLER_0_10/VPWR" -81.7636
+cap "FILLER_0_10/VGND" "input10/a_75_212#" 36.7393
+cap "FILLER_0_10/VPWR" "FILLER_0_10/VGND" 490.071
+cap "FILLER_1_3/VGND" "FILLER_1_15/VGND" 3.78481
+cap "FILLER_0_10/VPWR" "input5/X" 309.924
+cap "FILLER_0_10/VGND" "input5/a_75_212#" 164.007
+cap "FILLER_1_15/VGND" "input10/A" 20.8959
+cap "FILLER_0_10/VPWR" "FILLER_1_3/VGND" 178.04
+cap "input5/a_75_212#" "input5/X" 14.919
+cap "FILLER_0_10/VPB" "input5/X" 0.1014
+cap "FILLER_0_10/VPWR" "input10/A" 30.4927
+cap "FILLER_1_3/VGND" "input5/a_75_212#" 20.105
+cap "FILLER_0_10/VGND" "input5/X" 234.882
+cap "FILLER_0_10/VPB" "input10/A" 0.4212
+cap "FILLER_0_10/VPWR" "input5/A" 282.706
+cap "FILLER_1_3/VGND" "FILLER_0_10/VGND" 280.381
+cap "input10/A" "FILLER_0_20/VPWR" 2.43089
+cap "FILLER_1_15/VGND" "input10/a_75_212#" 1.75313
+cap "FILLER_0_10/VPWR" "input10/X" 14.7971
+cap "FILLER_0_10/VGND" "input10/A" 38.2833
+cap "FILLER_1_3/VGND" "input5/X" 25.73
+cap "FILLER_0_10/VPWR" "input10/a_75_212#" 68.3378
+cap "FILLER_0_10/VGND" "input5/A" -35.6365
+cap "PHY_2/VGND" "FILLER_1_3/VGND" 1.89241
+cap "FILLER_0_10/VGND" "input10/X" 6.21236
+subcap "li_2881_2601#" -2671
+cap "input10/a_75_212#" "FILLER_0_10/VGND" 1.76923
+cap "FILLER_1_15/VGND" "FILLER_0_10/VGND" 280.563
+cap "input10/X" "FILLER_0_10/VPWR" 1090.6
+cap "FILLER_1_27/VGND" "FILLER_0_10/VGND" 205.539
+cap "input10/a_75_212#" "FILLER_0_10/VGND" 69.6784
+cap "FILLER_1_15/VGND" "FILLER_1_3/VGND" 0.756962
+cap "input10/X" "FILLER_1_15/VGND" 2.78437
+cap "FILLER_0_10/VPWR" "FILLER_1_15/VGND" -28.3161
+cap "input10/A" "FILLER_0_10/VGND" 11.6405
+cap "FILLER_0_10/VPWR" "FILLER_1_27/VGND" 21.0131
+cap "input10/a_75_212#" "FILLER_0_10/VPWR" 41.6819
+cap "input10/X" "FILLER_0_10/VGND" 659.314
+cap "FILLER_0_10/VPWR" "FILLER_0_10/VGND" 435.08
+cap "FILLER_0_10/VPWR" "input10/A" 2.43089
+cap "FILLER_1_15/VGND" "FILLER_1_27/VGND" 3.78481
+cap "input10/a_75_212#" "FILLER_1_15/VGND" 18.3519
+subcap "li_5641_2601#" -1324.66
+cap "FILLER_1_39/VGND" "FILLER_1_27/VGND" 3.78481
+cap "li_2881_2601#" "FILLER_1_39/VPWR" -88.3402
+cap "FILLER_1_39/VGND" "FILLER_1_51/VGND" 1.08727
+cap "FILLER_1_39/VPB" "FILLER_1_39/VPWR" -79.9594
+cap "input2/a_75_212#" "FILLER_1_39/VPWR" 168.503
+cap "input2/a_75_212#" "FILLER_1_39/VGND" 4.34088
+cap "input2/a_75_212#" "input2/X" 2.3815
+cap "input2/a_75_212#" "FILLER_0_50/VPWR" 3.26776
+cap "input2/A" "FILLER_1_39/VPB" 0.00585
+cap "FILLER_0_41/VGND" "FILLER_1_39/VPWR" 230.96
+cap "FILLER_0_41/VGND" "FILLER_1_39/VGND" 230
+cap "FILLER_0_41/VGND" "input2/X" 8.73519
+cap "li_2881_2601#" "FILLER_1_27/VGND" 25.73
+cap "FILLER_0_41/VGND" "input2/A" 172.977
+cap "FILLER_1_39/VGND" "FILLER_1_39/VPWR" 158.728
+cap "input2/X" "FILLER_1_39/VPWR" 50.9658
+cap "input2/A" "FILLER_1_39/VPWR" 201.218
+cap "FILLER_0_41/VGND" "FILLER_1_27/VGND" 226.167
+cap "input2/A" "FILLER_1_39/VGND" 20.8959
+cap "input2/A" "FILLER_0_50/VPWR" 2.43089
+cap "FILLER_0_41/VGND" "li_2881_2601#" 38.775
+cap "FILLER_1_39/VPWR" "FILLER_1_27/VGND" -99.6778
+cap "FILLER_0_41/VGND" "input2/a_75_212#" 105.795
+subcap "li_5641_2601#" -1176.98
+cap "input2/a_75_212#" "FILLER_0_41/VGND" -146.838
+cap "FILLER_1_51/VGND" "FILLER_1_39/VPWR" 13.8186
+cap "FILLER_1_39/VPWR" "FILLER_1_39/VGND" -128.32
+cap "input2/X" "FILLER_1_39/VPWR" 259.06
+cap "input2/a_75_212#" "FILLER_1_39/VGND" 14.011
+cap "input2/a_75_212#" "input2/X" 9.4825
+cap "input2/A" "FILLER_1_39/VPWR" 2.43089
+cap "FILLER_1_51/VGND" "FILLER_0_41/VGND" 134.614
+cap "input11/X" "FILLER_1_39/VPWR" 4.86316
+cap "input2/X" "FILLER_0_41/VGND" 226.147
+cap "FILLER_1_57/VGND" "FILLER_1_39/VPWR" -127.751
+cap "FILLER_1_51/VGND" "FILLER_1_39/VGND" 3.78481
+cap "input2/A" "FILLER_0_41/VGND" 11.6405
+cap "input2/X" "FILLER_1_39/VGND" 25.73
+cap "input11/X" "FILLER_0_41/VGND" 1.04211
+cap "input2/a_75_212#" "FILLER_1_39/VPWR" -160.94
+cap "FILLER_1_57/VGND" "FILLER_0_41/VGND" 313.786
+cap "FILLER_1_51/VGND" "FILLER_1_57/VGND" 1.74854
+cap "li_1777_5117#" "FILLER_1_39/VPWR" -23.45
+cap "FILLER_0_41/VGND" "input2/a_75_212#" 2.38247
+cap "FILLER_0_41/VGND" "FILLER_1_39/VPWR" 456.304
+cap "FILLER_1_57/VPWR" "PHY_3/VGND" -3.58093
+cap "FILLER_0_57/VGND" "input11/A" 159.997
+cap "FILLER_1_57/VPWR" "input11/a_27_47#" 387.049
+cap "FILLER_1_57/VGND" "FILLER_0_57/VGND" 69.7075
+cap "input6/A" "input11/a_27_47#" 2.9537
+cap "FILLER_1_74/VGND" "FILLER_0_57/VGND" 115
+cap "FILLER_1_57/VPWR" "input6/A" 304.003
+cap "FILLER_1_57/VPB" "FILLER_0_57/VGND" 1.38778e-17
+cap "input11/A" "input11/X" 15.5387
+cap "FILLER_1_57/VPWR" "input6/a_75_212#" 18.4038
+cap "input6/a_75_212#" "input11/a_27_47#" 23.3099
+cap "FILLER_1_57/VGND" "input11/X" 25.73
+cap "FILLER_0_57/VGND" "input11/X" 146.822
+cap "FILLER_1_57/VPB" "input11/X" 1.4846
+cap "FILLER_1_57/VPWR" "input11/A" 20.437
+cap "input11/a_27_47#" "input11/A" 19.6644
+cap "FILLER_1_57/VPWR" "FILLER_1_57/VGND" 22.2621
+cap "FILLER_1_74/VGND" "PHY_3/VGND" 3.78481
+cap "PHY_3/VGND" "FILLER_0_57/VGND" 22.4524
+cap "FILLER_1_57/VPWR" "FILLER_1_74/VGND" 13.8186
+cap "input6/A" "input11/A" 16.1416
+cap "FILLER_1_57/VPB" "FILLER_1_57/VPWR" -79.9562
+cap "FILLER_0_57/VGND" "input11/a_27_47#" 265.817
+cap "FILLER_1_57/VPWR" "FILLER_0_57/VGND" 218.63
+cap "input6/A" "FILLER_1_74/VGND" 29.5148
+cap "FILLER_1_57/VGND" "input6/a_75_212#" 1.74854
+cap "input6/X" "input11/X" 16.1765
+cap "input6/A" "FILLER_0_57/VGND" 191.652
+cap "input6/a_75_212#" "FILLER_1_74/VGND" 2.43089
+cap "FILLER_1_57/VPWR" "input6/X" 8.68067
+cap "input6/X" "input11/a_27_47#" 5.7007
+cap "FILLER_1_57/VPWR" "input11/X" 782.377
+cap "input11/a_27_47#" "input11/X" 19.4572
+subcap "load" -638.039
+cap "PHY_3/VPWR" "PHY_3/VGND" -127.434
+cap "PHY_3/VGND" "FILLER_1_74/VGND" 1.50251
+cap "PHY_1/VGND" "PHY_3/VPWR" -256.259
+cap "PHY_1/VGND" "PHY_3/VGND" 42.1667
+cap "FILLER_0_74/VGND" "PHY_1/VGND" 5.29492
+cap "PHY_3/VPB" "PHY_3/VPWR" -9.165
+subcap "VGND" -32876.3
+subcap "VPWR" -37805.8
+subcap "INPUT[6]" -720.984
+cap "input7/VGND" "PHY_2/VGND" 64.619
+cap "FILLER_0_3/VPWR" "FILLER_1_3/VPWR" 3.78481
+cap "PHY_4/VPWR" "VPWR" 50.2317
+cap "PHY_4/VPWR" "FILLER_0_3/VPWR" 66.3596
+cap "input7/VGND" "INPUT[6]" 78.8875
+cap "PHY_4/VPWR" "PHY_2/VGND" 91.1364
+cap "input7/VGND" "PHY_4/VPWR" 87.7687
+cap "PHY_4/VPB" "INPUT[6]" 1.449
+cap "PHY_4/VPWR" "INPUT[6]" 32.2762
+cap "input7/VGND" "PHY_8/VPWR" 4.70636
+cap "PHY_4/VPB" "PHY_4/VPWR" -17.39
+cap "FILLER_0_3/VPWR" "PHY_0/VGND" 3.8001
+cap "FILLER_0_3/VPWR" "VPWR" 28.7
+cap "PHY_4/VPWR" "FILLER_2_3/VPWR" 3.78481
+cap "input7/VGND" "input7/a_75_212#" 0.387728
+cap "PHY_8/VPWR" "PHY_4/VPWR" 0.87027
+cap "PHY_2/VGND" "VPWR" 146.37
+cap "PHY_2/VGND" "FILLER_0_3/VPWR" 83.5362
+cap "PHY_4/VPWR" "input7/a_75_212#" 4.99739
+subcap "VGND" -32897
+subcap "VPWR" -37542.5
+subcap "li_1961_2601#" -1597.7
+subcap "li_1961_3961#" -3188.37
+subcap "li_2881_2601#" -2111.18
+cap "FILLER_0_10/VPWR" "input7/A" -157.239
+cap "PHY_4/VPB" "FILLER_0_10/VPWR" -80.571
+cap "FILLER_0_10/VPWR" "input5/X" 505.952
+cap "input7/VGND" "FILLER_4_3/VPWR" 22.6013
+cap "FILLER_0_10/VPWR" "FILLER_0_3/VGND" 6.32199
+cap "input7/a_75_212#" "PHY_2/VGND" 21.8582
+cap "input7/VGND" "input7/X" 449.563
+cap "FILLER_0_10/VPB" "PHY_2/VGND" 1.11022e-16
+cap "FILLER_4_3/VPWR" "input7/A" 2.98848
+cap "FILLER_0_10/VPWR" "PHY_2/VGND" 764.928
+cap "PHY_4/VPB" "input7/X" 0.6188
+cap "input7/VGND" "input7/A" 185.049
+cap "input7/X" "input5/X" 191.225
+cap "PHY_4/VPB" "input7/VGND" 1.38778e-17
+cap "FILLER_0_10/VPWR" "FILLER_0_10/VGND" 11.2032
+cap "FILLER_0_10/VPWR" "input7/a_75_212#" 188.454
+cap "FILLER_0_10/VPB" "FILLER_0_10/VPWR" 1.455
+cap "PHY_4/VPB" "input7/A" 2.085
+cap "input7/VGND" "FILLER_4_15/VPWR" 8.57075
+cap "PHY_4/VPB" "input5/X" 0.43605
+cap "FILLER_0_10/VPWR" "input5/A" 0.903141
+cap "input7/VGND" "PHY_2/VGND" 410.167
+cap "FILLER_4_3/VPWR" "input7/a_75_212#" 1.18455
+cap "PHY_2/VGND" "input5/a_75_212#" 1.75313
+cap "input7/a_75_212#" "input7/X" -5.68434e-14
+cap "input7/A" "PHY_2/VGND" 20.8959
+cap "PHY_4/VPB" "PHY_2/VGND" 1.11022e-16
+cap "input7/VGND" "input7/a_75_212#" 82.1147
+cap "FILLER_4_3/VPWR" "FILLER_0_10/VPWR" 3.17619
+cap "PHY_2/VGND" "input5/X" 335.774
+cap "FILLER_0_10/VPWR" "input10/A" 0.903141
+cap "FILLER_0_10/VPWR" "input7/X" 700.433
+cap "input7/A" "input7/a_75_212#" 156.249
+cap "input7/VGND" "FILLER_0_10/VPWR" 470.786
+cap "PHY_2/VGND" "input10/a_75_212#" 1.75313
+cap "FILLER_0_10/VPWR" "input5/a_75_212#" 0.903141
+subcap "li_2881_2601#" -2657.64
+cap "FILLER_1_3/VPWR" "FILLER_0_10/VPWR" 1.51392
+cap "FILLER_1_15/VGND" "li_1961_3961#" 467.415
+cap "FILLER_1_3/VGND" "FILLER_1_15/VGND" 0.756962
+cap "FILLER_1_15/VGND" "FILLER_0_10/VPWR" 891.686
+cap "FILLER_1_15/VGND" "input10/X" 2.78437
+cap "FILLER_0_10/VPWR" "FILLER_0_29/VGND" 10.7932
+cap "FILLER_2_3/VPWR" "FILLER_1_15/VGND" 0.465823
+cap "FILLER_0_10/VPWR" "input10/a_75_212#" 0.903141
+cap "FILLER_0_10/VPWR" "li_1961_3961#" 604.784
+cap "FILLER_1_3/VPWR" "FILLER_1_15/VGND" 0.465823
+cap "FILLER_2_3/VPWR" "FILLER_0_10/VPWR" 1.51392
+cap "FILLER_0_10/VPWR" "FILLER_0_20/VGND" 17.8053
+cap "FILLER_2_3/VGND" "FILLER_1_15/VGND" 1.51392
+cap "FILLER_3_34/VPWR" "FILLER_0_10/VPWR" 1.89241
+cap "FILLER_4_29/VPWR" "FILLER_1_15/VGND" 10.9214
+cap "FILLER_1_15/VGND" "FILLER_4_15/VPWR" 23.1226
+subcap "li_5641_2601#" -1130.47
+subcap "li_5181_4573#" -1990.15
+cap "VPWR" "input2/A" 1.1129
+cap "VPWR" "FILLER_0_29/VGND" 16.1037
+cap "VGND" "_12_/a_59_75#" 1.08491
+cap "VPWR" "li_1961_3961#" 505.269
+cap "VPWR" "FILLER_1_39/VPB" 1.8426
+cap "VGND" "li_2881_2601#" 481.453
+cap "VPWR" "_12_/X" 7.21875
+cap "FILLER_2_41/VPB" "li_2881_2601#" 0.9044
+cap "VPWR" "_12_/a_59_75#" 11.6105
+cap "FILLER_2_41/VPB" "VGND" -1.11022e-16
+cap "FILLER_3_22/VGND" "VGND" 3.78481
+cap "VPWR" "input2/a_75_212#" 0.185484
+cap "VPWR" "li_2881_2601#" 601.104
+cap "VGND" "_12_/B" 0.99711
+cap "VPWR" "FILLER_0_41/VGND" 12.4626
+cap "VPWR" "VGND" 241.601
+cap "VPWR" "FILLER_1_51/VPWR" 2.17455
+cap "VGND" "FILLER_4_29/VPWR" 22.3385
+cap "VPWR" "FILLER_2_41/VPB" -79.921
+cap "FILLER_4_47/VPWR" "VGND" 4.34756
+cap "VGND" "li_1961_3961#" 531.57
+cap "FILLER_2_41/VPB" "li_1961_3961#" 1.274
+subcap "li_5641_2601#" -1918.21
+cap "FILLER_1_39/VPWR" "FILLER_0_57/VGND" 17.8164
+cap "FILLER_1_39/VGND" "FILLER_3_34/VGND" 1.74344
+cap "FILLER_1_39/VPWR" "li_1961_3961#" 601.223
+cap "FILLER_1_39/VGND" "FILLER_1_39/VPWR" -177.993
+cap "FILLER_1_39/VGND" "FILLER_0_50/VGND" 2.43431
+cap "FILLER_1_39/VPWR" "input2/a_75_212#" 0.927419
+cap "FILLER_1_39/VGND" "FILLER_4_47/VPWR" 16.2639
+cap "FILLER_1_39/VGND" "input2/X" 524.537
+cap "FILLER_1_39/VPWR" "FILLER_0_50/VGND" 9.06094
+cap "FILLER_1_39/VGND" "li_1961_3961#" 478.898
+cap "FILLER_1_39/VGND" "FILLER_4_59/VPWR" 16.8831
+cap "FILLER_1_39/VPWR" "input2/X" 624.712
+cap "FILLER_1_39/VPWR" "FILLER_2_65/VPWR" 3.66871
+cap "FILLER_1_57/VPWR" "FILLER_0_74/VGND" 6.90932
+cap "FILLER_1_57/VPWR" "input6/a_75_212#" 207.878
+cap "FILLER_2_53/VGND" "FILLER_1_57/VGND" 7.56962
+cap "FILLER_3_57/VGND" "FILLER_1_57/VGND" 453.976
+cap "FILLER_3_57/VGND" "FILLER_4_59/VPWR" 14.7044
+cap "FILLER_1_57/VPWR" "FILLER_2_53/VGND" -127.587
+cap "FILLER_3_57/VGND" "FILLER_1_57/VPWR" 229.222
+cap "input6/A" "input11/A" 0.184
+cap "FILLER_1_57/VPWR" "FILLER_0_57/VGND" 0.185484
+cap "FILLER_1_57/VGND" "input6/A" 327.113
+cap "FILLER_3_57/VGND" "input11/X" 108.065
+cap "PHY_9/VPWR" "FILLER_1_57/VPWR" 0.87027
+cap "FILLER_3_57/VGND" "input6/X" 188.763
+cap "PHY_5/VPB" "FILLER_1_57/VPWR" -80.5098
+cap "input6/a_75_212#" "input11/a_27_47#" 0.809885
+cap "FILLER_1_57/VPWR" "PHY_1/VGND" 1.48203
+cap "FILLER_3_57/VGND" "FILLER_4_71/VPWR" 15.0952
+cap "FILLER_1_57/VPWR" "input6/A" 330.509
+cap "FILLER_1_57/VPB" "input6/A" 0.00585
+cap "FILLER_1_57/VPWR" "FILLER_1_57/VGND" 123.07
+cap "FILLER_3_57/VGND" "FILLER_2_53/VGND" 2.7381
+cap "FILLER_1_57/VGND" "input11/X" 285.134
+cap "FILLER_1_57/VPWR" "FILLER_0_65/VGND" 4.37742
+cap "FILLER_1_57/VGND" "input6/X" 241.386
+cap "FILLER_1_57/VPB" "FILLER_1_57/VPWR" 1.624
+cap "FILLER_3_57/VGND" "PHY_9/VPWR" 1.50159
+cap "input6/A" "input11/a_27_47#" 2.9537
+cap "FILLER_1_57/VPWR" "input11/X" 677.903
+cap "FILLER_1_57/VGND" "input6/a_75_212#" 115.162
+cap "FILLER_1_57/VPWR" "input6/X" 482.907
+cap "PHY_5/VPWR" "PHY_7/VGND" -127.138
+cap "FILLER_3_69/VGND" "PHY_7/VGND" 2.05498
+cap "VPWR" "PHY_3/VGND" -706.868
+cap "PHY_5/VPWR" "PHY_5/VPB" -9.165
+cap "PHY_5/VPWR" "VPWR" -318.702
+cap "PHY_3/VGND" "PHY_3/VPWR" -120.098
+cap "PHY_5/VPWR" "PHY_3/VPWR" 42.1667
+cap "FILLER_2_65/VGND" "PHY_3/VGND" 2.05498
+cap "FILLER_1_74/VGND" "PHY_3/VGND" 3.7924
+cap "VPWR" "PHY_3/VPWR" -143.14
+cap "PHY_3/VPWR" "PHY_1/VGND" 2.31806
+cap "PHY_7/VGND" "PHY_9/VPWR" 3.20477
+cap "PHY_5/VPWR" "PHY_3/VGND" -252.815
+cap "PHY_7/VGND" "PHY_3/VGND" 42.1667
+subcap "VGND" -32862.3
+subcap "li_1777_5117#" -10321.5
+cap "input7/VGND" "VGND" 124.339
+cap "PHY_8/VPWR" "_16_/VGND" 65.6804
+cap "input7/VGND" "PHY_8/VPWR" 86.4301
+cap "_16_/VGND" "_16_/a_505_21#" 13.0512
+cap "PHY_4/VPWR" "VGND" 27.5
+cap "clkbuf_1_0__f_clk/VPWR" "PHY_8/VPWR" 65.4893
+cap "input7/VGND" "input7/a_75_212#" 2.88642
+cap "PHY_8/VPWR" "_16_/S" 0.748
+cap "clkbuf_1_0__f_clk/a_110_47#" "clkbuf_1_0__f_clk/VPWR" 2.18649
+cap "PHY_4/VPWR" "PHY_8/VPWR" 65.4893
+cap "PHY_8/VPWR" "VGND" 51.2253
+cap "_16_/VGND" "VPWR" 87.7364
+cap "FILLER_4_3/VPWR" "PHY_8/VPWR" 3.78481
+cap "input7/VGND" "_16_/VGND" 64.619
+cap "clkbuf_1_0__f_clk/VPWR" "VPWR" 26.18
+cap "PHY_8/VPB" "VGND" 0.5445
+cap "clkbuf_1_0__f_clk/VPWR" "_16_/VGND" 9.41272
+cap "clkbuf_1_0__f_clk/X" "_16_/VGND" 7.79841
+cap "PHY_8/VPWR" "_16_/a_505_21#" 20.1533
+cap "PHY_8/VPB" "PHY_8/VPWR" -17.39
+cap "input7/VGND" "PHY_4/VPWR" 9.41272
+subcap "VGND" -32805
+subcap "li_2421_5321#" -566.289
+subcap "li_1961_3961#" -3217.31
+subcap "li_1961_5525#" -4121.65
+subcap "li_1777_5117#" -9106.42
+cap "input7/a_75_212#" "PHY_4/VPWR" 26.9455
+cap "input7/VGND" "_16_/S" 23.6211
+cap "input7/VGND" "PHY_8/VPB" 1.11022e-16
+cap "input7/VGND" "input7/A" 2.98135
+cap "clkbuf_1_0__f_clk/a_110_47#" "_22_/D" 3.16353
+cap "_16_/S" "_16_/a_76_199#" 106.988
+cap "_16_/a_505_21#" "_16_/A1" 8.96
+cap "PHY_4/VPWR" "_22_/CLK" 410.542
+cap "_22_/VGND" "_16_/A0" 332.603
+cap "clkbuf_1_0__f_clk/a_110_47#" "_16_/a_505_21#" 13.865
+cap "input7/a_75_212#" "VGND" 7.26
+cap "input7/VGND" "PHY_4/VPWR" 612.844
+cap "_22_/CLK" "_16_/A1" 16.5051
+cap "PHY_4/VPWR" "_16_/a_76_199#" 164.424
+cap "_16_/S" "_16_/A0" 73.3323
+cap "input7/VGND" "_16_/A1" 208.327
+cap "_22_/VGND" "_16_/S" 192.136
+cap "clkbuf_1_0__f_clk/a_110_47#" "_22_/CLK" 153.807
+cap "PHY_8/VPB" "_22_/VGND" 5.55112e-17
+cap "_22_/CLK" "_22_/D" 11.7548
+cap "input7/VGND" "VGND" -79.1509
+cap "_16_/A1" "_16_/a_76_199#" 17.6841
+cap "_22_/CLK" "_16_/a_505_21#" 31.7565
+cap "PHY_4/VPWR" "_16_/A0" 41.0481
+cap "_22_/VGND" "_22_/a_27_47#" 21.9103
+cap "clkbuf_1_0__f_clk/a_110_47#" "_16_/a_76_199#" 17.4703
+cap "input7/X" "PHY_4/VPWR" 6.70312
+cap "PHY_8/VPB" "_16_/S" 0.3445
+cap "input7/VGND" "_16_/a_505_21#" 24.2578
+cap "_22_/VGND" "PHY_4/VPWR" 438.373
+cap "PHY_4/VPWR" "_16_/a_218_47#" 0.6156
+cap "input7/VGND" "input7/a_75_212#" 84.0624
+cap "_16_/A0" "_16_/A1" 35.4142
+cap "_22_/VGND" "_16_/A1" 24.9896
+cap "PHY_4/VPWR" "_16_/S" 294.621
+cap "clkbuf_1_0__f_clk/a_110_47#" "_16_/A0" 10.0401
+cap "input7/X" "_16_/A1" 95.8923
+cap "PHY_8/VPB" "PHY_4/VPWR" -76.5872
+cap "input7/A" "PHY_4/VPWR" 25.6328
+cap "_22_/VGND" "clkbuf_1_0__f_clk/a_110_47#" 8.43788
+cap "_22_/a_193_47#" "_22_/VGND" 4.4
+cap "_16_/A0" "_22_/D" -3.34888
+cap "_22_/CLK" "_16_/a_76_199#" 52.0488
+cap "_22_/VGND" "_22_/D" 401.426
+cap "PHY_4/VPWR" "_22_/a_27_47#" 29.5392
+cap "_16_/a_505_21#" "_16_/A0" 14.415
+cap "_16_/S" "_16_/A1" 135.924
+cap "PHY_8/VPB" "_16_/A1" 1.01175
+cap "_22_/VGND" "_16_/a_505_21#" 71.922
+cap "clkbuf_1_0__f_clk/a_110_47#" "_16_/S" 15.0614
+cap "input7/VGND" "_16_/a_76_199#" 18.0386
+cap "VGND" "PHY_8/VPB" 0.5103
+cap "_16_/a_218_374#" "PHY_4/VPWR" 0.8156
+cap "input7/A" "VGND" 7.26
+cap "_16_/S" "_22_/D" 32.5732
+cap "_16_/A0" "_16_/a_439_47#" 31.3688
+cap "_22_/CLK" "_16_/A0" 24.4305
+cap "PHY_4/VPWR" "_16_/A1" 347.454
+cap "_16_/S" "_16_/a_505_21#" 19.805
+cap "_22_/VGND" "_22_/CLK" 316.684
+cap "clkbuf_1_0__f_clk/a_110_47#" "PHY_4/VPWR" 215.43
+cap "VGND" "PHY_4/VPWR" 421.002
+cap "input7/VGND" "_16_/A0" 23.3361
+cap "input7/VGND" "input7/X" 112.909
+cap "_22_/a_193_47#" "PHY_4/VPWR" 12.0353
+cap "input7/A" "input7/a_75_212#" -7.8
+cap "input7/VGND" "_22_/VGND" 179.619
+cap "PHY_4/VPWR" "_22_/D" 342.251
+cap "_16_/A0" "_16_/a_76_199#" 21.1374
+cap "_22_/CLK" "_16_/S" 9.18453
+cap "_22_/VGND" "_16_/a_76_199#" 83.0557
+cap "PHY_4/VPWR" "_16_/a_505_21#" 271.671
+cap "clkbuf_1_0__f_clk/a_110_47#" "_16_/A1" 21.8131
+subcap "li_4261_5321#" -528.816
+subcap "li_2421_5321#" -138.384
+subcap "li_4068_5593#" -753.102
+subcap "li_3249_5593#" -2230.97
+cap "FILLER_2_3/VPWR" "_22_/CLK" 185.368
+cap "FILLER_3_10/VGND" "clkbuf_1_0__f_clk/a_110_47#" -58.0073
+cap "_22_/D" "li_1777_5117#" 66.5783
+cap "_23_/a_27_47#" "_22_/a_193_47#" 5.95853
+cap "FILLER_2_3/VPWR" "_22_/a_381_47#" 24.7383
+cap "FILLER_3_10/VGND" "_22_/a_1059_315#" 48.7946
+cap "FILLER_2_3/VPWR" "_22_/D" 30.0105
+cap "FILLER_3_10/VGND" "_23_/D" 3.39259
+cap "_22_/a_891_413#" "li_1777_5117#" 199.586
+cap "_22_/CLK" "_22_/a_381_47#" -1.77636e-15
+cap "_23_/a_193_47#" "_22_/a_1059_315#" 3.256
+cap "_23_/D" "_22_/a_891_413#" 17.297
+cap "FILLER_2_3/VPWR" "clkbuf_1_0__f_clk/A" 102.286
+cap "_22_/a_1059_315#" "_22_/Q" -1.42109e-14
+cap "FILLER_3_10/VGND" "FILLER_2_3/VPWR" 909.865
+cap "_22_/CLK" "_22_/D" 30.7531
+cap "FILLER_2_3/VPWR" "_22_/a_891_413#" 1.80628
+cap "FILLER_3_10/VGND" "_22_/a_634_159#" 147.834
+cap "_22_/D" "_22_/a_381_47#" 5.68434e-14
+cap "_23_/D" "_23_/a_193_47#" 14.6591
+cap "FILLER_2_3/VPWR" "_16_/a_76_199#" 0.936547
+cap "FILLER_3_10/VGND" "FILLER_4_3/VPWR" 0.465823
+cap "FILLER_2_3/VPWR" "_23_/a_193_47#" 19.7223
+cap "clkbuf_1_0__f_clk/A" "_22_/CLK" 28.7529
+cap "FILLER_3_10/VGND" "_22_/CLK" 194.906
+cap "_22_/a_466_413#" "li_1777_5117#" 69.5099
+cap "_22_/CLK" "_22_/a_891_413#" 4.3097
+cap "_23_/a_27_47#" "_22_/a_1059_315#" 15.9971
+cap "clkbuf_1_0__f_clk/A" "_22_/a_381_47#" 9.0531
+cap "FILLER_3_10/VGND" "_22_/a_381_47#" 8.3375
+cap "clkbuf_1_0__f_clk/a_110_47#" "_22_/a_193_47#" 2.14965
+cap "clkbuf_1_0__f_clk/A" "_22_/D" 16.6569
+cap "FILLER_2_3/VPWR" "_22_/a_466_413#" 11.3179
+cap "FILLER_3_10/VGND" "_22_/D" -183.513
+cap "_23_/a_27_47#" "_23_/D" 9.675
+cap "FILLER_2_3/VPWR" "clkbuf_1_0__f_clk/X" 20.1355
+cap "_23_/a_381_47#" "_22_/a_1059_315#" 7.51697
+cap "FILLER_2_3/VPWR" "FILLER_3_34/VPWR" 1.89241
+cap "FILLER_2_3/VPWR" "_23_/a_27_47#" 37.7504
+cap "FILLER_3_10/VGND" "clkbuf_1_0__f_clk/A" 315.983
+cap "_22_/a_193_47#" "li_1777_5117#" 1144.33
+cap "FILLER_3_10/VGND" "_22_/a_891_413#" 71.4435
+cap "_22_/a_1059_315#" "FILLER_5_35/VPWR" 0.768997
+cap "_23_/D" "_23_/a_381_47#" 30.388
+cap "FILLER_2_3/VPWR" "_22_/a_193_47#" 63.8582
+cap "_22_/CLK" "clkbuf_1_0__f_clk/X" 67.6624
+cap "clkbuf_1_0__f_clk/a_110_47#" "_22_/a_27_47#" 12.6955
+cap "_22_/D" "_22_/a_466_413#" 7.10543e-15
+cap "FILLER_2_3/VPWR" "_23_/a_381_47#" 21.0957
+cap "clkbuf_1_0__f_clk/A" "_23_/a_193_47#" 20.7791
+cap "FILLER_3_10/VGND" "_23_/a_193_47#" 23.275
+cap "_23_/a_193_47#" "_22_/a_891_413#" 4.55597
+cap "FILLER_3_10/VGND" "_22_/Q" -7.10543e-15
+cap "_22_/a_27_47#" "li_1777_5117#" 534.146
+cap "_22_/CLK" "_22_/a_193_47#" 23.8859
+cap "FILLER_3_10/VGND" "_22_/a_466_413#" 123.78
+cap "FILLER_2_3/VPWR" "_22_/a_27_47#" 141.654
+cap "_22_/D" "_22_/a_193_47#" 91.8932
+cap "clkbuf_1_0__f_clk/A" "_23_/a_27_47#" 116.236
+cap "FILLER_3_10/VGND" "_23_/a_27_47#" 78.6042
+cap "_22_/a_1059_315#" "li_1777_5117#" 91.8478
+cap "_23_/D" "_22_/a_1059_315#" 6.3399
+cap "_23_/a_27_47#" "_22_/a_891_413#" 22.5783
+cap "FILLER_3_10/VGND" "_22_/a_592_47#" 15.012
+cap "FILLER_2_3/VPWR" "clkbuf_1_0__f_clk/a_110_47#" -10.9626
+cap "_22_/CLK" "_22_/a_27_47#" 87.0602
+cap "FILLER_2_3/VPWR" "_22_/a_1059_315#" 19.1373
+cap "clkbuf_1_0__f_clk/A" "_22_/a_193_47#" 0.960317
+cap "FILLER_3_10/VGND" "_22_/a_193_47#" 237.393
+cap "FILLER_3_10/VGND" "_23_/a_381_47#" 7.38474
+cap "_22_/a_27_47#" "_22_/D" 156.657
+cap "FILLER_2_3/VPWR" "li_1777_5117#" -409.327
+cap "FILLER_3_10/VGND" "FILLER_4_3/VGND" 1.51392
+cap "clkbuf_1_0__f_clk/a_110_47#" "_22_/CLK" -30.4268
+cap "FILLER_2_3/VPWR" "_23_/D" 8.48622
+cap "_22_/a_634_159#" "li_1777_5117#" 52.3782
+cap "_22_/a_891_413#" "FILLER_5_35/VPWR" 3.67413
+cap "clkbuf_1_0__f_clk/A" "_22_/a_27_47#" 9.45424
+cap "FILLER_2_3/VPWR" "_22_/a_634_159#" 32.1181
+cap "clkbuf_1_0__f_clk/a_110_47#" "_22_/D" 6.73846
+cap "FILLER_3_10/VGND" "_22_/a_27_47#" 272.91
+cap "_22_/CLK" "li_1777_5117#" 86.826
+cap "_22_/a_381_47#" "li_1777_5117#" 32.5732
+cap "FILLER_2_3/VPWR" "FILLER_4_3/VPWR" 1.51392
+cap "FILLER_3_10/VGND" "_22_/a_561_413#" 16.1084
+subcap "li_5181_5185#" -1458.55
+subcap "li_4261_5321#" -167.067
+subcap "li_4068_5593#" -537.74
+subcap "li_5181_4573#" -1493.3
+subcap "li_5181_5865#" -1177.36
+cap "_23_/a_1059_315#" "FILLER_2_41/VPWR" 80.8284
+cap "_12_/a_59_75#" "FILLER_4_47/VPWR" 1.90674
+cap "_23_/a_891_413#" "_12_/A" 1.61683
+cap "_23_/a_1059_315#" "_17_/A1" 5.03139
+cap "_23_/a_466_413#" "_22_/Q" 14.1253
+cap "_23_/a_381_47#" "_22_/a_1059_315#" 1.69853
+cap "FILLER_2_41/VPWR" "_22_/a_891_413#" 3.67413
+cap "VGND" "_17_/a_76_199#" 56.2164
+cap "_17_/a_76_199#" "_12_/A" 115.28
+cap "_23_/a_27_47#" "_17_/a_76_199#" 10.1708
+cap "_23_/a_193_47#" "_22_/a_1059_315#" 1.30682
+cap "VGND" "_12_/a_59_75#" 141.727
+cap "_17_/a_76_199#" "_12_/X" 92.8297
+cap "_12_/A" "_12_/a_59_75#" 102.141
+cap "FILLER_2_41/VPWR" "_17_/a_505_21#" 156.094
+cap "_17_/A1" "_17_/a_505_21#" 75.1514
+cap "FILLER_2_41/VPWR" "li_2881_2601#" 196.554
+cap "_23_/a_634_159#" "FILLER_2_41/VPWR" 77.1192
+cap "_23_/a_466_413#" "VGND" 2.16981
+cap "_23_/a_193_47#" "_22_/Q" 31.9489
+cap "_23_/a_1059_315#" "_17_/a_76_199#" 22.7314
+cap "VGND" "_22_/a_1059_315#" 72.2204
+cap "_12_/a_59_75#" "_12_/X" 44.1704
+cap "_22_/a_1059_315#" "_12_/A" -408.013
+cap "_17_/X" "_23_/a_634_159#" 101.743
+cap "FILLER_4_41/VPB" "VGND" 1.4013
+cap "VGND" "_13_/A1" 5.62031
+cap "FILLER_4_41/VPB" "_12_/A" 6.473
+cap "_23_/a_27_47#" "_22_/a_1059_315#" 7.3769
+cap "FILLER_2_41/VPWR" "_13_/a_505_21#" 0.896505
+cap "FILLER_4_41/VPB" "_12_/X" 0.608
+cap "FILLER_2_41/VPWR" "_17_/A1" 70.721
+cap "VGND" "_22_/Q" 559.978
+cap "_17_/a_76_199#" "_17_/a_505_21#" 3.55271e-15
+cap "_12_/A" "_22_/Q" 67.5203
+cap "_17_/X" "FILLER_2_41/VPWR" 350.246
+cap "_23_/a_193_47#" "VGND" 1.77642
+cap "_23_/a_27_47#" "_22_/Q" 11.5898
+cap "VGND" "FILLER_4_47/VPWR" 11.5478
+cap "FILLER_2_41/VPWR" "_12_/B" 102.22
+cap "_22_/Q" "_12_/X" 187.072
+cap "_17_/A1" "_12_/B" 5.37147
+cap "_12_/A" "FILLER_4_47/VPWR" 2.84536
+cap "FILLER_2_41/VPWR" "_23_/Q" 33.0412
+cap "_23_/Q" "_17_/A1" 14.2752
+cap "_22_/Q" "_17_/a_218_47#" 27.7152
+cap "_23_/a_891_413#" "FILLER_2_41/VPWR" 68.7271
+cap "_23_/a_891_413#" "_17_/A1" 4.7436
+cap "_23_/a_1059_315#" "_22_/Q" 9.50585
+cap "FILLER_2_41/VPWR" "_17_/a_76_199#" 199.025
+cap "VGND" "_12_/A" 341.982
+cap "_17_/a_76_199#" "_17_/A1" 1.13687e-13
+cap "_23_/a_466_413#" "li_2881_2601#" 37.889
+cap "_17_/X" "_23_/a_891_413#" 69.1647
+cap "FILLER_4_41/VPB" "li_2881_2601#" 0.2964
+cap "VGND" "_12_/X" 188.971
+cap "FILLER_2_41/VPWR" "_12_/a_59_75#" 101.328
+cap "_12_/A" "_12_/X" 52.4691
+cap "_17_/a_76_199#" "_12_/B" 0.91206
+cap "_17_/A1" "_12_/a_59_75#" 10.712
+cap "_22_/Q" "_17_/a_505_21#" -2.84217e-14
+cap "_23_/a_466_413#" "FILLER_2_41/VPWR" 60.9872
+cap "_23_/a_1059_315#" "VGND" 15.566
+cap "_22_/Q" "li_2881_2601#" 241.152
+cap "_12_/a_59_75#" "_12_/B" 49.3222
+cap "_23_/a_891_413#" "_17_/a_76_199#" 15.8853
+cap "_23_/a_1059_315#" "_12_/A" 4.75308
+cap "FILLER_2_41/VPWR" "_22_/a_1059_315#" 35.0344
+cap "VGND" "_22_/a_891_413#" 9.20508
+cap "FILLER_4_41/VPB" "FILLER_2_41/VPWR" -73.1844
+cap "_17_/X" "_23_/a_466_413#" 25.9176
+cap "FILLER_2_41/VPWR" "_17_/a_218_374#" 0.8156
+cap "FILLER_4_41/VPB" "_17_/X" 0.973
+cap "_17_/a_76_199#" "_12_/a_59_75#" 10.2925
+cap "FILLER_2_41/VPWR" "_23_/a_381_47#" -545.762
+cap "FILLER_4_41/VPB" "_12_/B" 3.4242
+cap "VGND" "_17_/a_505_21#" 152.624
+cap "FILLER_2_41/VPWR" "_22_/Q" 274.771
+cap "_12_/A" "_17_/a_505_21#" 78.6477
+cap "_17_/A1" "_22_/Q" 14.2618
+cap "VGND" "li_2881_2601#" 398.986
+cap "_23_/a_193_47#" "FILLER_2_41/VPWR" 62.6328
+cap "_23_/a_634_159#" "VGND" 5.44029
+cap "_17_/X" "_22_/Q" 65.4722
+cap "VGND" "_12_/a_145_75#" 0.5508
+cap "_23_/a_27_47#" "li_2881_2601#" 44.8734
+cap "FILLER_2_41/VPWR" "FILLER_4_47/VPWR" 50.9286
+cap "_17_/X" "_23_/a_193_47#" 209.82
+cap "VGND" "_13_/a_505_21#" 18.9101
+cap "FILLER_2_41/VPWR" "_13_/S" 1.6348
+cap "_22_/Q" "_17_/a_439_47#" 11.07
+cap "VGND" "FILLER_2_41/VPWR" 449.219
+cap "_12_/B" "FILLER_4_47/VPWR" 1.98561
+cap "_23_/a_891_413#" "_22_/Q" 1.97143
+cap "FILLER_2_41/VPWR" "_12_/A" 464.933
+cap "VGND" "_17_/A1" 7.41478
+cap "_17_/a_76_199#" "_22_/Q" 140.745
+cap "_12_/A" "_17_/A1" 118.275
+cap "_17_/X" "VGND" 171.114
+cap "_23_/a_27_47#" "FILLER_2_41/VPWR" 32.0264
+cap "FILLER_2_41/VPWR" "_23_/a_1017_47#" 13.2584
+cap "_17_/X" "_12_/A" 32.5732
+cap "VGND" "_13_/A0" 4.58801
+cap "_23_/a_193_47#" "_17_/a_76_199#" 0.369883
+cap "FILLER_2_41/VPWR" "_12_/X" 348.188
+cap "_23_/a_27_47#" "_17_/X" 135.603
+cap "VGND" "_12_/B" 57.9647
+cap "_17_/A1" "_12_/X" 31.301
+cap "_22_/Q" "_12_/a_59_75#" 3.34951
+cap "_12_/A" "_12_/B" 52.5596
+cap "FILLER_2_41/VPWR" "_23_/a_592_47#" 13.9396
+cap "VGND" "_23_/Q" 76.8971
+cap "FILLER_2_41/VPWR" "_17_/a_218_47#" 0.414
+cap "FILLER_3_34/VGND" "_13_/a_218_47#" 13.9406
+cap "_13_/A1" "_12_/A" 15.045
+cap "_13_/A1" "FILLER_3_34/VGND" 782.401
+cap "FILLER_2_41/VPWR" "_12_/A" 626.009
+cap "FILLER_2_41/VPWR" "_13_/X" 34.7532
+cap "FILLER_2_41/VPWR" "FILLER_3_34/VGND" 87.737
+cap "FILLER_3_34/VGND" "_13_/a_505_21#" 70.5706
+cap "li_1961_3961#" "FILLER_3_34/VGND" 670.675
+cap "FILLER_2_41/VPWR" "_17_/A1" 441.094
+cap "FILLER_2_41/VPWR" "_12_/a_59_75#" 5.27586
+cap "_13_/a_76_199#" "_12_/B" 18.8414
+cap "FILLER_2_41/VPWR" "_13_/a_218_47#" 12.87
+cap "FILLER_3_34/VGND" "_17_/a_505_21#" 29.5182
+cap "FILLER_2_41/VPWR" "_13_/A1" 474.128
+cap "_13_/A1" "_13_/a_505_21#" 117.001
+cap "_13_/A0" "FILLER_3_34/VGND" 46.1997
+cap "li_1961_3961#" "FILLER_2_41/VPWR" 486.628
+cap "FILLER_2_41/VPWR" "_13_/a_505_21#" 63.8688
+cap "FILLER_3_34/VGND" "_12_/B" 427.584
+cap "_13_/a_76_199#" "FILLER_3_34/VGND" 69.7707
+cap "FILLER_3_34/VGND" "_13_/a_439_47#" 14.0216
+cap "FILLER_3_34/VGND" "_12_/A" 789.7
+cap "FILLER_3_34/VGND" "_13_/X" 102.771
+cap "FILLER_2_41/VPWR" "_17_/a_505_21#" 24.4355
+cap "_13_/A1" "_13_/A0" -5.10703e-15
+cap "_13_/a_76_199#" "_13_/A1" -1.42109e-14
+cap "FILLER_2_41/VPWR" "_13_/A0" 55.5906
+cap "_13_/A1" "_13_/a_439_47#" 21.209
+cap "FILLER_3_34/VGND" "_17_/A1" 761.613
+cap "_12_/a_59_75#" "FILLER_3_34/VGND" 5.47598
+cap "FILLER_2_41/VPWR" "_12_/B" 652.872
+cap "FILLER_2_41/VPWR" "_13_/a_76_199#" 91.0747
+cap "FILLER_2_41/VPWR" "_13_/a_439_47#" 12.87
+cap "PHY_9/VPB" "li_5181_5185#" 0.9044
+cap "FILLER_5_57/VGND" "FILLER_3_57/VGND" 456.714
+cap "li_5181_5185#" "FILLER_3_57/VGND" 253.405
+cap "VGND" "FILLER_2_53/VPWR" 187.543
+cap "PHY_9/VPB" "li_1777_5117#" 0.00975
+cap "FILLER_5_57/VGND" "li_5181_5185#" 453.736
+cap "FILLER_3_57/VGND" "li_1777_5117#" -93.0362
+cap "PHY_9/VPB" "FILLER_2_53/VPWR" -80.571
+cap "FILLER_5_57/VGND" "li_1777_5117#" 260.411
+cap "FILLER_2_53/VPWR" "FILLER_3_57/VGND" 576.689
+cap "PHY_9/VPB" "VGND" 1.251
+cap "FILLER_5_57/VGND" "FILLER_2_53/VPWR" 513.128
+cap "VGND" "FILLER_3_57/VGND" -667.19
+cap "FILLER_2_53/VPWR" "li_5181_5185#" 385.362
+cap "PHY_9/VPB" "FILLER_3_57/VGND" 3.46945e-17
+cap "FILLER_2_53/VPWR" "li_1777_5117#" 565.041
+subcap "INPUT[0]" -1208.66
+cap "PHY_11/VGND" "PHY_15/VPWR" -125.66
+cap "PHY_9/VPWR" "PHY_15/VPWR" 42.1667
+cap "PHY_11/VGND" "PHY_7/VGND" 42.1667
+cap "PHY_7/VGND" "VGND" -621.584
+cap "PHY_7/VGND" "PHY_9/VPWR" -256.004
+cap "PHY_7/VGND" "FILLER_4_71/VGND" 2.05498
+cap "PHY_7/VGND" "PHY_5/VPWR" -125.66
+cap "PHY_11/VGND" "PHY_9/VPWR" -256.004
+cap "PHY_15/VPWR" "VPWR" -143.83
+cap "PHY_9/VPWR" "VGND" -401.328
+cap "PHY_11/VGND" "FILLER_5_69/VGND" 2.05498
+cap "PHY_9/VPWR" "PHY_5/VPWR" 42.1667
+cap "PHY_11/VGND" "VPWR" -208.311
+cap "PHY_5/VPWR" "VGND" -63.54
+cap "PHY_9/VPB" "PHY_9/VPWR" -9.165
+cap "PHY_9/VPB" "VGND" 0.36765
+cap "clkbuf_1_0__f_clk/X" "clkbuf_1_0__f_clk/VPWR" 26.9113
+cap "clkbuf_1_0__f_clk/VPWR" "clkbuf_1_0__f_clk/a_110_47#" 5.22379
+cap "PHY_16/VPWR" "PHY_16/VPB" -1.77636e-15
+cap "clkbuf_1_0__f_clk/VPWR" "VPWR" 111.177
+cap "FILLER_7_3/VPWR" "clkbuf_1_0__f_clk/VPWR" 3.78481
+cap "PHY_14/VGND" "clkbuf_1_0__f_clk/VPWR" 91.1364
+cap "PHY_14/VPB" "clkbuf_1_0__f_clk/VPWR" -17.39
+cap "PHY_16/VPWR" "PHY_18/VGND" 3.8001
+cap "VGND" "PHY_16/VPB" 2.05245
+cap "clkbuf_1_0__f_clk/VPWR" "PHY_10/VPWR" 0.87027
+cap "PHY_16/VPWR" "VGND" 127.129
+cap "PHY_14/VPB" "VPWR" 1.4193
+cap "PHY_16/VPWR" "clkbuf_1_0__f_clk/VPWR" 66.3596
+cap "_16_/VGND" "clkbuf_1_0__f_clk/VPWR" 7.60019
+cap "clkbuf_1_0__f_clk/X" "_16_/VGND" 7.12123
+cap "_16_/VGND" "clkbuf_1_0__f_clk/a_110_47#" 4.50902
+cap "PHY_16/VPWR" "PHY_14/VGND" 89.5812
+cap "_16_/VGND" "VPWR" 106.186
+cap "_16_/VGND" "PHY_14/VGND" 64.619
+cap "PHY_14/VGND" "VGND" 107.884
+cap "_16_/VGND" "PHY_10/VPWR" 4.70636
+subcap "li_1869_6613#" -1261.26
+subcap "li_2881_6409#" -610.668
+subcap "li_1961_5525#" -3533.26
+cap "_29_/a_27_47#" "_30_/a_27_47#" 28.7862
+cap "_29_/D" "_30_/a_193_47#" 3.47959
+cap "_29_/a_193_47#" "_30_/a_891_413#" 2.95469
+cap "clkbuf_1_0__f_clk/VPWR" "li_1961_8789#" 546.455
+cap "_30_/a_193_47#" "VGND" 152.248
+cap "clkbuf_1_0__f_clk/X" "_16_/a_505_21#" 12.4223
+cap "clkbuf_1_0__f_clk/VPWR" "_15_/VGND" 580.68
+cap "clkbuf_1_0__f_clk/a_110_47#" "_16_/S" 1.01803
+cap "_15_/VGND" "_30_/a_634_159#" 3.73843
+cap "clkbuf_1_0__f_clk/VPB" "_16_/A0" 0.8512
+cap "_22_/VGND" "clkbuf_1_0__f_clk/X" 7.12123
+cap "_29_/a_466_413#" "_30_/a_634_159#" 1.66247
+cap "_29_/a_381_47#" "_30_/a_891_413#" 4.46149
+cap "_30_/a_975_413#" "VGND" 16.38
+cap "clkbuf_1_0__f_clk/VPB" "_15_/VGND" 1.11022e-16
+cap "clkbuf_1_0__f_clk/VPWR" "_30_/a_634_159#" 160.078
+cap "_30_/a_466_413#" "_15_/X" -3.55271e-15
+cap "_30_/a_27_47#" "_15_/X" -12.075
+cap "_30_/a_1059_315#" "VGND" 151.939
+cap "clkbuf_1_0__f_clk/X" "FILLER_5_3/VPWR" 3.01662
+cap "clkbuf_1_0__f_clk/a_110_47#" "_16_/a_505_21#" 9.74916
+cap "clkbuf_1_0__f_clk/VPB" "clkbuf_1_0__f_clk/VPWR" -75.1189
+cap "_15_/VGND" "_30_/a_193_47#" 2.45912
+cap "_22_/VGND" "clkbuf_1_0__f_clk/a_110_47#" 4.50902
+cap "_29_/a_466_413#" "_30_/a_193_47#" 0.393836
+cap "_15_/VGND" "_15_/A1" 0.352
+cap "clkbuf_1_0__f_clk/X" "_16_/a_76_199#" 15.8355
+cap "_29_/CLK" "_30_/a_1059_315#" 0.302356
+cap "clkbuf_1_0__f_clk/VPWR" "_30_/a_193_47#" 142.704
+cap "_30_/a_1059_315#" "li_1961_8789#" 55.9856
+cap "clkbuf_1_0__f_clk/X" "_16_/A1" 1.79143
+cap "clkbuf_1_0__f_clk/a_110_47#" "FILLER_5_3/VPWR" 0.184
+cap "clkbuf_1_0__f_clk/VPWR" "_15_/A1" 7.22508
+cap "_15_/VGND" "_30_/a_1059_315#" 26.5307
+cap "clkbuf_1_0__f_clk/VPWR" "_30_/a_975_413#" 0.296
+cap "_29_/D" "_30_/a_27_47#" 1.20629
+cap "_30_/a_466_413#" "VGND" 91.2204
+cap "_15_/VGND" "_15_/a_76_199#" 17.2003
+cap "_30_/a_27_47#" "VGND" 152.823
+cap "clkbuf_1_0__f_clk/VPWR" "_30_/a_1059_315#" 148.23
+cap "clkbuf_1_0__f_clk/a_110_47#" "_16_/a_76_199#" 15.5885
+cap "_15_/VGND" "_15_/X" 28.107
+cap "clkbuf_1_0__f_clk/a_110_47#" "_16_/A1" 2.35714
+cap "PHY_16/VPB" "VGND" 7.16985
+cap "clkbuf_1_0__f_clk/a_110_47#" "clkbuf_1_0__f_clk/X" -179.97
+cap "clkbuf_1_0__f_clk/VPWR" "_15_/a_76_199#" 16.8983
+cap "_29_/a_381_47#" "_30_/a_193_47#" 0.510309
+cap "_30_/a_561_413#" "VGND" 14.5087
+cap "clkbuf_1_0__f_clk/VPWR" "FILLER_9_3/VGND" 9.06094
+cap "clkbuf_1_0__f_clk/VPWR" "_15_/X" 43.8429
+cap "_29_/a_27_47#" "_30_/a_193_47#" 28.6469
+cap "_29_/D" "_30_/a_891_413#" 3.20833
+cap "_16_/A0" "clkbuf_1_0__f_clk/X" 52.8995
+cap "_30_/a_891_413#" "VGND" 95.0075
+cap "clkbuf_1_0__f_clk/a_110_47#" "_16_/A1" 3.26526
+cap "_15_/VGND" "_30_/a_466_413#" 2.52439
+cap "_15_/VGND" "_30_/a_27_47#" 2.16981
+cap "_15_/VGND" "clkbuf_1_0__f_clk/X" 14.3925
+cap "PHY_16/VPB" "li_1961_8789#" 0.8512
+cap "clkbuf_1_0__f_clk/VPWR" "_30_/a_1017_47#" 0.5834
+cap "_29_/a_466_413#" "_30_/a_466_413#" 23.1247
+cap "clkbuf_1_0__f_clk/X" "_22_/D" 5.92324
+cap "_29_/a_466_413#" "_30_/a_27_47#" 5.20404
+cap "_16_/A0" "VGND" 82.2463
+cap "clkbuf_1_0__f_clk/VPWR" "_30_/a_466_413#" 56.1337
+cap "_29_/a_27_47#" "_30_/a_1059_315#" 6.38745
+cap "clkbuf_1_0__f_clk/VPWR" "_30_/a_27_47#" 108.441
+cap "_29_/CLK" "_30_/a_891_413#" 1.12745
+cap "clkbuf_1_0__f_clk/X" "FILLER_5_15/VPWR" 5.19863
+cap "clkbuf_1_0__f_clk/VPWR" "clkbuf_1_0__f_clk/X" 591.802
+cap "_30_/a_891_413#" "_16_/A0" -1.42109e-14
+cap "_16_/A0" "clkbuf_1_0__f_clk/a_110_47#" 70.363
+cap "_15_/VGND" "VGND" 6.5297
+cap "clkbuf_1_0__f_clk/a_110_47#" "_16_/S" 1.63507
+cap "PHY_16/VPB" "clkbuf_1_0__f_clk/VPWR" 2.4512
+cap "_15_/VGND" "_30_/a_891_413#" 2.16981
+cap "_15_/VGND" "clkbuf_1_0__f_clk/a_110_47#" 252.725
+cap "_29_/a_193_47#" "_30_/a_27_47#" 23.7635
+cap "clkbuf_1_0__f_clk/a_110_47#" "_22_/D" 3.16353
+cap "clkbuf_1_0__f_clk/VPWR" "VGND" 44.3272
+cap "_30_/a_634_159#" "VGND" 131.967
+cap "_15_/VGND" "_15_/S" 6.545
+cap "clkbuf_1_0__f_clk/X" "_16_/S" 1.14903
+cap "clkbuf_1_0__f_clk/VPWR" "_30_/a_891_413#" 154.445
+cap "clkbuf_1_0__f_clk/a_110_47#" "FILLER_5_15/VPWR" 8.12085
+cap "clkbuf_1_0__f_clk/VPWR" "clkbuf_1_0__f_clk/a_110_47#" 556.934
+cap "_15_/VGND" "_16_/A0" 310.554
+cap "_30_/a_466_413#" "_29_/a_634_159#" 1.66247
+cap "_15_/VGND" "li_1961_8789#" 688.723
+cap "clkbuf_1_0__f_clk/VPWR" "_15_/S" 16.9861
+cap "_29_/a_381_47#" "_30_/a_27_47#" 2.69554
+cap "_29_/a_27_47#" "_30_/a_466_413#" 6.55169
+cap "clkbuf_1_0__f_clk/VPWR" "_16_/A0" 421.441
+subcap "li_4261_5321#" -151.637
+subcap "li_4068_5593#" -344.596
+subcap "li_4160_6681#" -1043.05
+subcap "li_3249_6409#" -504.464
+subcap "li_3249_5593#" -1509.41
+subcap "li_3893_6749#" -3377.2
+cap "_23_/CLK" "_15_/A1" 135.928
+cap "_15_/A0" "clkbuf_1_0__f_clk/A" 6.12994
+cap "_22_/VNB" "_22_/a_27_47#" 1.0556
+cap "clkbuf_0_clk/a_110_47#" "_24_/D" 2.01527
+cap "_15_/A0" "_23_/CLK" 163.956
+cap "clkbuf_1_0__f_clk/VPB" "_15_/S" 287.438
+cap "_22_/VNB" "_15_/A1" -187.295
+cap "clkbuf_1_0__f_clk/A" "_22_/a_381_47#" 4.39056
+cap "_30_/a_193_47#" "_15_/a_76_199#" 6.435
+cap "_24_/CLK" "_24_/a_193_47#" 214.401
+cap "_24_/a_27_47#" "_24_/D" 14.012
+cap "_22_/VNB" "_15_/A0" 44.4601
+cap "clkbuf_1_0__f_clk/A" "_23_/a_27_47#" 206.841
+cap "_29_/a_634_159#" "_30_/a_193_47#" 2.10359
+cap "_23_/CLK" "_23_/a_27_47#" 1.13687e-13
+cap "clkbuf_1_0__f_clk/X" "FILLER_5_15/VPWR" 0.180822
+cap "clkbuf_1_0__f_clk/VPB" "clkbuf_1_0__f_clk/X" -68.4092
+cap "_23_/CLK" "_22_/a_27_47#" 1.47482
+cap "_22_/VNB" "_23_/a_27_47#" 27.1354
+cap "clkbuf_0_clk/A" "_30_/a_27_47#" 8.97004
+cap "_15_/X" "clkbuf_1_0__f_clk/a_110_47#" 6.7
+cap "clkbuf_1_0__f_clk/A" "_22_/a_27_47#" 0.858209
+cap "_30_/a_193_47#" "_23_/CLK" -7.10543e-15
+cap "_15_/X" "_30_/a_381_47#" 162.808
+cap "_15_/S" "clkbuf_1_0__f_clk/a_110_47#" 26.8529
+cap "_15_/a_76_199#" "clkbuf_1_0__f_clk/A" 15.5298
+cap "_29_/a_193_47#" "_30_/a_27_47#" 12.932
+cap "_22_/VNB" "_30_/a_193_47#" -110.486
+cap "_23_/CLK" "_15_/a_76_199#" 99.2384
+cap "clkbuf_1_0__f_clk/A" "_23_/a_381_47#" 32.5732
+cap "_23_/D" "_23_/a_193_47#" 62.197
+cap "clkbuf_0_clk/A" "_24_/a_27_47#" 7.78068
+cap "_30_/a_27_47#" "_15_/X" 82.1801
+cap "clkbuf_1_0__f_clk/VPB" "FILLER_7_3/VPWR" 0.931646
+cap "_22_/VNB" "_15_/a_76_199#" 31.8641
+cap "_15_/A1" "_15_/a_505_21#" 24.1675
+cap "clkbuf_1_0__f_clk/a_110_47#" "_22_/a_193_47#" 2.14965
+cap "_24_/CLK" "_24_/a_27_47#" 176.231
+cap "_15_/A0" "_15_/a_505_21#" -2.84217e-14
+cap "_22_/VNB" "_23_/a_381_47#" 0.173228
+cap "_29_/a_1059_315#" "_23_/CLK" 4.15236
+cap "_29_/a_891_413#" "_30_/a_381_47#" 0.852113
+cap "_29_/a_634_159#" "_30_/a_466_413#" 4.15854
+cap "clkbuf_1_0__f_clk/VPB" "_24_/a_193_47#" 23.2831
+cap "_23_/CLK" "clkbuf_1_0__f_clk/A" 296
+cap "_22_/VNB" "_29_/a_1059_315#" 0.587591
+cap "clkbuf_1_0__f_clk/VPB" "clkbuf_1_0__f_clk/a_110_47#" 72.3417
+cap "_22_/VNB" "clkbuf_1_0__f_clk/A" 375.328
+cap "clkbuf_1_0__f_clk/VPB" "_30_/a_381_47#" 13.9626
+cap "clkbuf_1_0__f_clk/VPB" "_22_/a_634_159#" 8.36087
+cap "_22_/VNB" "_23_/CLK" 635.064
+cap "clkbuf_1_0__f_clk/VPB" "_32_/CLK" 9.9842
+cap "_22_/VNB" "_32_/a_27_47#" 5.69669
+cap "clkbuf_1_0__f_clk/VPB" "_30_/a_27_47#" 109.645
+cap "_23_/a_381_47#" "_22_/a_1059_315#" 0.505571
+cap "_15_/X" "_15_/A1" 51.9283
+cap "_22_/VNB" "_30_/a_466_413#" -302.376
+cap "_23_/a_27_47#" "_23_/D" 37.6174
+cap "_15_/A0" "_15_/X" -3.34888
+cap "FILLER_9_26/VGND" "_24_/CLK" 3.52617
+cap "_15_/a_76_199#" "_15_/a_505_21#" 3.55271e-15
+cap "_15_/S" "_15_/A1" 19.5012
+cap "_23_/a_27_47#" "_22_/a_1059_315#" 0.0477178
+cap "clkbuf_1_0__f_clk/VPB" "_23_/a_193_47#" 125.553
+cap "_15_/A0" "_15_/S" 0.0970588
+cap "clkbuf_1_0__f_clk/VPB" "_24_/a_27_47#" 94.8373
+cap "_22_/VNB" "_24_/D" 19.3458
+cap "_22_/VNB" "_15_/a_535_374#" 15.54
+cap "_15_/S" "_23_/a_27_47#" 37.3508
+cap "_29_/a_466_413#" "_30_/a_27_47#" 0.537088
+cap "_22_/VNB" "_22_/a_193_47#" 1.40244
+cap "_23_/D" "_23_/a_381_47#" 35.9869
+cap "_30_/a_193_47#" "_15_/X" 87.5559
+cap "clkbuf_1_0__f_clk/VPB" "_15_/A1" 28.0401
+cap "_22_/VNB" "_15_/a_505_21#" 285.553
+cap "clkbuf_1_0__f_clk/VPB" "_15_/A0" 0.6099
+cap "clkbuf_1_0__f_clk/VPB" "clkbuf_1_0__f_clk/X" -12.5648
+cap "_30_/a_193_47#" "_15_/S" 0.123134
+cap "_15_/X" "_15_/a_76_199#" 23.1731
+cap "clkbuf_1_0__f_clk/A" "_23_/D" 66.5783
+cap "clkbuf_1_0__f_clk/VPB" "FILLER_9_26/VGND" 3.11613
+cap "_23_/a_27_47#" "_22_/a_193_47#" 0.274086
+cap "clkbuf_1_0__f_clk/VPB" "_23_/a_27_47#" 343.588
+cap "_22_/VNB" "_23_/D" 9.46794
+cap "_22_/VNB" "_24_/CLK" 55.0884
+cap "clkbuf_1_0__f_clk/A" "_22_/D" 0.0572139
+cap "_15_/X" "_23_/CLK" 1.42109e-14
+cap "_15_/A1" "clkbuf_1_0__f_clk/a_110_47#" 3.18908
+cap "_15_/S" "clkbuf_1_0__f_clk/A" 13.46
+cap "_29_/a_27_47#" "_30_/a_27_47#" 9.49924
+cap "clkbuf_1_0__f_clk/VPB" "_30_/a_193_47#" 24.45
+cap "_22_/VNB" "_15_/X" 233.315
+cap "_23_/CLK" "_15_/S" 22.7044
+cap "clkbuf_0_clk/A" "_24_/D" 0.396552
+cap "clkbuf_1_0__f_clk/VPB" "_15_/a_76_199#" 67.3326
+cap "_22_/VNB" "_15_/S" 323.177
+cap "clkbuf_1_0__f_clk/A" "_22_/a_193_47#" 0.471429
+cap "clkbuf_1_0__f_clk/VPB" "_23_/a_381_47#" 50.2306
+cap "_24_/CLK" "_24_/D" 47.3088
+cap "_30_/a_27_47#" "_15_/A1" 17.1541
+cap "_15_/A0" "_30_/a_27_47#" 170.45
+cap "clkbuf_1_0__f_clk/VPB" "_29_/a_1059_315#" 0.481675
+cap "clkbuf_1_0__f_clk/VPB" "clkbuf_1_0__f_clk/A" 125.36
+cap "_23_/CLK" "_22_/a_193_47#" 2.85147
+cap "_29_/a_466_413#" "_30_/a_193_47#" 0.787671
+cap "clkbuf_1_0__f_clk/VPB" "_23_/CLK" 507.42
+cap "clkbuf_1_0__f_clk/VPB" "_22_/a_466_413#" 1.90337
+cap "clkbuf_1_0__f_clk/a_110_47#" "_22_/a_27_47#" 4.62886
+cap "_22_/VNB" "clkbuf_1_0__f_clk/VPB" 971.224
+cap "clkbuf_1_0__f_clk/VPB" "_32_/a_27_47#" 13.1621
+cap "_15_/a_76_199#" "clkbuf_1_0__f_clk/a_110_47#" 14.2902
+cap "clkbuf_1_0__f_clk/VPB" "_30_/a_466_413#" 3.67986
+cap "_30_/a_381_47#" "_15_/a_76_199#" 0.988024
+cap "_15_/S" "_15_/a_505_21#" 55.3464
+cap "_23_/a_27_47#" "_22_/a_891_413#" 6.36451
+cap "clkbuf_1_0__f_clk/a_110_47#" "_22_/D" 1.01397
+cap "_30_/a_27_47#" "_15_/a_76_199#" 12.6067
+cap "_15_/A0" "_15_/A1" 73.577
+cap "clkbuf_1_0__f_clk/VPB" "_24_/D" 12.6637
+cap "_22_/VNB" "_24_/a_193_47#" 84.5097
+cap "_23_/CLK" "clkbuf_1_0__f_clk/a_110_47#" 500.475
+cap "_22_/VNB" "clkbuf_1_0__f_clk/a_110_47#" 36.0487
+cap "_29_/a_1059_315#" "_30_/a_27_47#" 5.55185
+cap "_22_/VNB" "_30_/a_381_47#" 76.8899
+cap "_29_/a_193_47#" "_15_/X" 4.00298
+cap "_29_/a_27_47#" "_30_/a_193_47#" 8.03627
+cap "clkbuf_1_0__f_clk/a_110_47#" "FILLER_5_15/VPWR" 0.879947
+cap "_22_/VNB" "_22_/a_634_159#" 1.08491
+cap "_30_/a_27_47#" "_23_/CLK" 221.172
+cap "clkbuf_1_0__f_clk/VPB" "_15_/a_505_21#" 181.751
+cap "_22_/VNB" "_32_/CLK" 1.92088
+cap "_15_/X" "_15_/S" 0.385965
+cap "_15_/A0" "_15_/a_439_47#" 26.24
+cap "_22_/VNB" "_30_/a_27_47#" 47.5198
+cap "_24_/D" "_24_/a_193_47#" 23.6364
+cap "clkbuf_1_0__f_clk/A" "_23_/a_193_47#" 318.234
+cap "clkbuf_1_0__f_clk/VPB" "_22_/a_466_413#" 5.83115
+cap "_15_/a_76_199#" "_15_/A1" 136.529
+cap "_15_/A0" "_15_/a_76_199#" 84.4162
+cap "clkbuf_1_0__f_clk/VPB" "_23_/D" 53.6367
+cap "_23_/CLK" "_22_/a_891_413#" 4.3097
+cap "_22_/VNB" "_23_/a_193_47#" 5.70819
+cap "_29_/a_891_413#" "_15_/X" 3.20833
+cap "clkbuf_1_0__f_clk/VPB" "_24_/CLK" 62.5796
+cap "_22_/VNB" "_24_/a_27_47#" 181.541
+cap "clkbuf_1_0__f_clk/VPB" "_15_/X" 274.265
+cap "_15_/A1" "clkbuf_1_0__f_clk/A" 1.84821
+subcap "li_4261_5321#" -1105.1
+subcap "li_4068_5593#" -916.533
+subcap "li_5825_6069#" -618.507
+subcap "li_5181_5865#" -1050.43
+subcap "li_4712_6273#" -558.121
+subcap "li_6000_6681#" -796.894
+subcap "li_4160_6681#" -1217.54
+subcap "li_5273_6613#" -1587.99
+subcap "li_3893_6749#" -3754.28
+cap "_23_/a_891_413#" "_17_/S" 1.61683
+cap "_32_/a_891_413#" "li_3249_5593#" 75.3691
+cap "_32_/VPWR" "_23_/a_27_47#" 207.918
+cap "_24_/a_27_47#" "_32_/CLK" 357.915
+cap "_24_/a_466_413#" "clkbuf_0_clk/a_110_47#" 15.9669
+cap "_24_/a_891_413#" "_32_/VPWR" 100.771
+cap "_24_/a_891_413#" "_24_/Q" -7.10543e-15
+cap "_22_/VGND" "_23_/a_1059_315#" 52.3507
+cap "_24_/a_27_47#" "_32_/D" 4.57596
+cap "_32_/VPWR" "_32_/a_381_47#" 93.575
+cap "_23_/a_193_47#" "_22_/a_1059_315#" 1.30682
+cap "_32_/CLK" "_32_/a_193_47#" 501.558
+cap "_24_/VPB" "li_1777_5117#" 1.8069
+cap "_32_/VPWR" "_32_/CLK" 180.379
+cap "_32_/a_381_47#" "_23_/a_891_413#" 13.4902
+cap "_32_/a_634_159#" "_23_/Q" 223.07
+cap "_24_/a_466_413#" "_22_/VGND" 104.82
+cap "_24_/Q" "_32_/CLK" 32.5732
+cap "_32_/VPWR" "_13_/S" 22.3783
+cap "_23_/a_634_159#" "li_3249_5593#" 52.3782
+cap "_23_/a_27_47#" "li_2881_2601#" 137.205
+cap "_32_/D" "_32_/a_193_47#" 696.571
+cap "_32_/VPWR" "_32_/D" 307.005
+cap "_32_/VPB" "_32_/VPWR" -72.4556
+cap "_32_/D" "_23_/a_891_413#" 6.41667
+cap "_22_/VGND" "_32_/a_891_413#" 14.6573
+cap "_32_/a_193_47#" "_23_/a_1059_315#" 11.2147
+cap "_24_/D" "_24_/a_634_159#" 165.296
+cap "_24_/a_891_413#" "clkbuf_0_clk/X" 16.5214
+cap "_32_/VPWR" "_23_/a_1059_315#" 291.548
+cap "_24_/a_1059_315#" "_32_/CLK" 159.585
+cap "_32_/a_27_47#" "_23_/a_27_47#" 21.8431
+cap "_24_/a_891_413#" "_32_/a_27_47#" 13.6743
+cap "_24_/a_466_413#" "_32_/a_193_47#" 0.103774
+cap "_24_/D" "_32_/a_1059_315#" 35.0204
+cap "_24_/a_193_47#" "clkbuf_0_clk/a_110_47#" 1.56029
+cap "_24_/a_466_413#" "_32_/VPWR" 46.6151
+cap "_23_/a_1059_315#" "_17_/a_76_199#" 3.10976
+cap "_23_/a_193_47#" "_22_/Q" 31.9489
+cap "_22_/VGND" "_17_/a_505_21#" 1.69289
+cap "_32_/VPB" "li_2881_2601#" 1.8069
+cap "_22_/VGND" "_24_/a_561_413#" 14.5087
+cap "_23_/D" "_23_/a_634_159#" 161.203
+cap "_32_/VPWR" "_32_/a_891_413#" 13.4121
+cap "_32_/CLK" "_32_/a_27_47#" 442.779
+cap "_24_/D" "_24_/a_381_47#" 37.8999
+cap "_24_/a_193_47#" "_22_/VGND" 126.898
+cap "_32_/VPB" "_23_/Q" 0.6666
+cap "_32_/CLK" "_23_/a_466_413#" 5.58204
+cap "_22_/VGND" "li_3249_5593#" 577.472
+cap "_32_/a_27_47#" "_32_/D" 257.627
+cap "_32_/VPWR" "_24_/a_1017_47#" 0.5834
+cap "_23_/a_1059_315#" "_23_/Q" 20.433
+cap "_32_/VPWR" "_17_/a_505_21#" 4.61961
+cap "_24_/D" "_32_/a_1017_47#" 55.5981
+cap "_32_/a_27_47#" "_23_/a_1059_315#" 15.3112
+cap "_24_/a_466_413#" "clkbuf_0_clk/X" 7.39455
+cap "_32_/VPWR" "_23_/a_634_159#" 69.8035
+cap "_24_/a_634_159#" "_32_/CLK" 55.8282
+cap "_22_/VGND" "clkbuf_0_clk/a_110_47#" 0.167883
+cap "_22_/VGND" "_28_/a_193_47#" 3.65472
+cap "_24_/a_634_159#" "_32_/D" 6.875
+cap "_24_/a_193_47#" "_32_/a_193_47#" 0.901639
+cap "_24_/a_466_413#" "_32_/a_27_47#" 18.1133
+cap "_23_/a_466_413#" "FILLER_5_35/VPWR" 3.26303
+cap "_32_/a_193_47#" "li_3249_5593#" 237.514
+cap "_32_/CLK" "_32_/a_1059_315#" 19.805
+cap "_24_/D" "clkbuf_0_clk/A" 0.049569
+cap "_24_/a_193_47#" "_32_/VPWR" 106.843
+cap "_24_/a_27_47#" "clkbuf_0_clk/a_110_47#" 1.95192
+cap "_32_/VPWR" "li_3249_5593#" 205.861
+cap "_22_/VGND" "_23_/D" 10.25
+cap "_32_/a_891_413#" "_23_/Q" 106.924
+cap "_24_/Q" "li_3249_5593#" 88.0972
+cap "_23_/a_891_413#" "li_3249_5593#" 199.586
+cap "_32_/VPWR" "_32_/a_466_413#" 53.5194
+cap "_32_/VPWR" "clkbuf_0_clk/a_110_47#" 2.21435
+cap "_32_/a_466_413#" "_23_/a_891_413#" 8.64957
+cap "_24_/a_27_47#" "_22_/VGND" 127.966
+cap "_24_/D" "_24_/a_891_413#" 48.6192
+cap "_23_/a_27_47#" "li_1777_5117#" 24.3398
+cap "_28_/a_193_47#" "_32_/VPWR" 9.56678
+cap "_24_/a_381_47#" "_32_/CLK" 32.5732
+cap "_24_/a_193_47#" "li_2881_2601#" 49.5364
+cap "_22_/VGND" "_13_/a_505_21#" 10.7856
+cap "_32_/a_27_47#" "_23_/a_634_159#" 6.55742
+cap "_32_/D" "_23_/a_193_47#" 10.1396
+cap "_24_/a_891_413#" "_32_/a_634_159#" 5.96318
+cap "_22_/VGND" "_32_/a_193_47#" 38.7792
+cap "_24_/a_1059_315#" "_32_/a_466_413#" 18.1139
+cap "_24_/a_193_47#" "clkbuf_0_clk/X" 3.44283
+cap "_23_/a_1059_315#" "_22_/Q" 4.31537
+cap "_23_/a_891_413#" "_17_/A1" 2.7436
+cap "_24_/D" "_32_/CLK" 19.2695
+cap "_24_/a_1059_315#" "clkbuf_0_clk/a_110_47#" 1.53667
+cap "_22_/VGND" "_32_/VPWR" -266.789
+cap "_22_/VGND" "_23_/a_891_413#" 18.4102
+cap "_22_/VGND" "_24_/Q" 628.586
+cap "_23_/Q" "li_3249_5593#" 32.5732
+cap "_24_/a_27_47#" "_32_/a_193_47#" 2.61364
+cap "_32_/a_27_47#" "li_3249_5593#" 15.38
+cap "_32_/CLK" "_32_/a_634_159#" 165.296
+cap "_24_/a_27_47#" "_32_/VPWR" 94.6447
+cap "_24_/VPB" "li_3249_5593#" 1.7024
+cap "_32_/VPB" "li_1777_5117#" 0.1014
+cap "_32_/a_466_413#" "_23_/Q" 134.713
+cap "_32_/VPWR" "_13_/a_505_21#" 126.72
+cap "_24_/a_1059_315#" "_22_/VGND" 215.336
+cap "_23_/a_466_413#" "li_3249_5593#" 69.5099
+cap "_22_/VGND" "li_2881_2601#" 191.652
+cap "_32_/D" "_32_/a_634_159#" 125.281
+cap "_22_/VGND" "_13_/A0" 0.46301
+cap "_32_/VPWR" "_32_/a_193_47#" 226.667
+cap "_24_/Q" "_32_/a_193_47#" 18.0879
+cap "_24_/a_891_413#" "_32_/a_381_47#" 16.889
+cap "_24_/D" "_24_/a_466_413#" 48.2032
+cap "_24_/a_27_47#" "li_2881_2601#" 34.8264
+cap "_22_/VGND" "clkbuf_0_clk/X" 2.6729
+cap "_24_/a_466_413#" "li_1777_5117#" 85.0809
+cap "_32_/VPWR" "_23_/a_891_413#" 173.799
+cap "_24_/a_891_413#" "_32_/CLK" 199.586
+cap "_24_/Q" "_32_/VPWR" 463.866
+cap "_22_/VGND" "_23_/Q" 111.618
+cap "_24_/D" "_32_/a_891_413#" 79.332
+cap "_32_/D" "_23_/a_27_47#" 1.76923
+cap "_24_/a_1059_315#" "_32_/a_193_47#" 4.3934
+cap "_22_/VGND" "_32_/a_27_47#" 79.2999
+cap "_32_/CLK" "_32_/a_381_47#" 37.8999
+cap "_23_/a_891_413#" "_17_/a_76_199#" 7.514
+cap "_24_/a_27_47#" "clkbuf_0_clk/X" 2.00493
+cap "_22_/VGND" "_24_/VPB" 4.5192
+cap "_22_/VGND" "_17_/S" 1.40244
+cap "_23_/a_1059_315#" "_17_/S" 0.889881
+cap "_24_/a_1059_315#" "_32_/VPWR" 103.026
+cap "_24_/a_634_159#" "clkbuf_0_clk/a_110_47#" 0.457386
+cap "_32_/VPWR" "li_2881_2601#" 276.507
+cap "_22_/VGND" "_24_/a_975_413#" 16.38
+cap "_23_/D" "_23_/a_466_413#" 46.4156
+cap "_23_/Q" "_17_/A1" 0.672479
+cap "_32_/VPWR" "_13_/A0" 4.47487
+cap "_32_/D" "_32_/a_381_47#" 32.5732
+cap "_24_/a_27_47#" "_32_/a_27_47#" 3.83333
+cap "_32_/CLK" "_32_/D" 61.7628
+cap "_32_/a_193_47#" "_23_/Q" 425.894
+cap "_24_/a_634_159#" "_22_/VGND" 130.797
+cap "_32_/VPWR" "_23_/Q" 212.569
+cap "_23_/a_193_47#" "li_3249_5593#" 773.769
+cap "_32_/VPB" "_32_/D" 1.3162
+cap "_32_/VPWR" "_32_/a_27_47#" 319.909
+cap "_24_/VPB" "_32_/VPWR" 2.4512
+cap "_24_/Q" "_32_/a_27_47#" 3.97518
+cap "_32_/D" "_23_/a_1059_315#" 55.2408
+cap "_32_/a_27_47#" "_23_/a_891_413#" 2.3
+cap "_24_/D" "_24_/a_193_47#" 405.423
+cap "_22_/VGND" "_32_/a_1059_315#" 24.1117
+cap "_24_/a_975_413#" "_32_/VPWR" 0.296
+cap "_24_/a_1059_315#" "clkbuf_0_clk/X" 9.2561
+cap "_32_/VPWR" "_23_/a_466_413#" 60.1421
+cap "_24_/a_193_47#" "li_1777_5117#" 88.2551
+cap "_24_/a_466_413#" "_32_/CLK" 75.1741
+cap "_24_/a_634_159#" "_32_/a_193_47#" 5.66749
+cap "_22_/VGND" "_28_/D" 1.98889
+cap "_24_/a_1059_315#" "_32_/a_27_47#" 1.98512
+cap "_32_/VPWR" "_32_/a_561_413#" 16.0774
+cap "_32_/CLK" "_32_/a_891_413#" 32.5732
+cap "_24_/a_634_159#" "_32_/VPWR" 132.806
+cap "_24_/a_193_47#" "clkbuf_0_clk/A" 1.18151
+cap "_24_/VPB" "li_2881_2601#" 1.8126
+cap "_22_/VGND" "_24_/a_381_47#" 58.9652
+cap "_23_/D" "_23_/a_193_47#" 401.319
+cap "_22_/VGND" "_23_/a_193_47#" 25.0753
+cap "_32_/VPWR" "_13_/a_76_199#" 1.53699
+cap "_23_/a_466_413#" "li_2881_2601#" 57.7275
+cap "_32_/VPWR" "_32_/a_1059_315#" 24.1471
+cap "_32_/a_27_47#" "_23_/Q" 208.411
+cap "_24_/D" "_22_/VGND" 132.017
+cap "_32_/VPWR" "_23_/a_975_413#" 17.9192
+cap "_23_/a_27_47#" "li_3249_5593#" 319.582
+cap "_22_/VGND" "li_1777_5117#" 58.4868
+cap "_32_/VPWR" "_28_/D" 4.10317
+cap "_22_/VGND" "_13_/A1" 1.37095
+cap "_32_/VPWR" "_22_/Q" 1.09707
+cap "_24_/a_193_47#" "_32_/a_381_47#" 11.647
+cap "_32_/a_27_47#" "_23_/a_466_413#" 11.663
+cap "_24_/a_27_47#" "_24_/D" 282.913
+cap "_24_/a_891_413#" "_32_/a_466_413#" 21.9151
+cap "_24_/a_634_159#" "clkbuf_0_clk/X" 1.48806
+cap "_24_/a_381_47#" "_32_/VPWR" 9.02088
+cap "_32_/VPWR" "_23_/a_193_47#" -56.1712
+cap "_24_/a_193_47#" "_32_/CLK" 931.812
+cap "_24_/a_27_47#" "li_1777_5117#" 220.211
+cap "_24_/a_891_413#" "clkbuf_0_clk/a_110_47#" 9.43032
+cap "_22_/VGND" "_28_/a_27_47#" 16.5109
+cap "_24_/a_634_159#" "_32_/a_27_47#" 10.343
+cap "_24_/a_193_47#" "_32_/D" 9.26135
+cap "_32_/a_193_47#" "li_1777_5117#" 10
+cap "_23_/a_634_159#" "FILLER_5_35/VPWR" 4.46818
+cap "_23_/a_193_47#" "_17_/a_76_199#" 0.369883
+cap "_32_/CLK" "_32_/a_466_413#" 48.2032
+cap "_24_/D" "_32_/VPWR" 136.722
+cap "_24_/a_27_47#" "clkbuf_0_clk/A" 0.726648
+cap "_32_/VPB" "li_3249_5593#" 0.07235
+cap "_32_/VPWR" "li_1777_5117#" -68.6792
+cap "_23_/a_27_47#" "_23_/D" 264.068
+cap "_32_/a_1059_315#" "_23_/Q" 18.86
+cap "_24_/D" "_24_/Q" 64.5249
+cap "_22_/VGND" "_23_/a_27_47#" 21.0989
+cap "_24_/a_891_413#" "_22_/VGND" 110.329
+cap "_32_/VPWR" "_13_/A1" 7.8375
+cap "_24_/a_381_47#" "li_2881_2601#" 136.025
+cap "_23_/a_1059_315#" "li_3249_5593#" 159.585
+cap "_23_/a_193_47#" "li_2881_2601#" 50.4836
+cap "_32_/D" "_32_/a_466_413#" 178.565
+cap "_32_/VPWR" "_32_/a_634_159#" 0.0829146
+cap "_22_/VGND" "_32_/a_381_47#" 8.3375
+cap "_24_/Q" "_32_/a_634_159#" 14.7611
+cap "_32_/a_634_159#" "_23_/a_891_413#" 11.6533
+cap "_32_/a_466_413#" "_23_/a_1059_315#" 45.2052
+cap "_24_/D" "_24_/a_1059_315#" 96.2585
+cap "_32_/a_975_413#" "li_3249_5593#" 17.3241
+cap "_23_/a_634_159#" "FILLER_5_35/VGND" 1.31429
+cap "_22_/VGND" "_32_/CLK" 189.759
+cap "_28_/a_27_47#" "_32_/VPWR" 20.119
+cap "_22_/VGND" "_13_/S" 3.97478
+cap "_32_/a_27_47#" "_23_/a_193_47#" 28.1622
+cap "_32_/a_193_47#" "_23_/a_27_47#" 12.7585
+cap "_24_/a_891_413#" "_32_/a_193_47#" 5.31544
+cap "_24_/a_1059_315#" "_32_/a_634_159#" 21.7787
+cap "_22_/VGND" "_32_/D" 11.9859
+subcap "li_5825_6069#" -156.329
+subcap "li_6000_6681#" -380.996
+subcap "li_6745_7361#" -705.215
+subcap "li_5273_6613#" -1698.41
+cap "_13_/a_505_21#" "FILLER_5_48/VPWR" 5.81053
+cap "_18_/S" "_18_/a_505_21#" 104.758
+cap "_32_/a_1059_315#" "_13_/a_505_21#" 18.5228
+cap "_28_/a_634_159#" "_32_/VPWR" 0.620968
+cap "_28_/a_466_413#" "_17_/VGND" 163.424
+cap "_28_/a_891_413#" "_18_/A1" 14.8536
+cap "_28_/a_1059_315#" "_18_/A1" 3.51261
+cap "_13_/X" "_28_/a_466_413#" 32.5732
+cap "_32_/a_891_413#" "_18_/X" 14.856
+cap "_18_/a_505_21#" "FILLER_7_66/VPWR" 1.75806
+cap "_17_/VGND" "_32_/a_1059_315#" 65.9246
+cap "_28_/a_891_413#" "FILLER_8_66/VPWR" 1.44314
+cap "_32_/VPWR" "_13_/a_505_21#" 222.821
+cap "_17_/VGND" "_13_/A1" 130.042
+cap "_32_/a_1059_315#" "_23_/Q" 140.725
+cap "_17_/VGND" "_32_/VPWR" -886.654
+cap "_28_/a_193_47#" "FILLER_9_52/VGND" 0.858209
+cap "_28_/a_27_47#" "_18_/S" 78.4611
+cap "_18_/S" "_18_/A1" 108.82
+cap "_17_/VGND" "li_5181_4573#" 7.0465
+cap "_13_/a_76_199#" "FILLER_5_48/VPWR" 2.39589
+cap "_28_/a_634_159#" "_18_/X" 8.25
+cap "_13_/X" "_32_/VPWR" 290.699
+cap "_28_/a_193_47#" "_17_/VGND" 565.103
+cap "_17_/VGND" "_18_/a_505_21#" 21.9798
+cap "_32_/VPWR" "_23_/Q" 181.891
+cap "_23_/Q" "li_5181_4573#" 15.045
+cap "_32_/Q" "FILLER_5_48/VPWR" 7.86344
+cap "_13_/X" "_28_/a_193_47#" 209.717
+cap "_28_/a_466_413#" "_18_/a_76_199#" 3.75459
+cap "_32_/a_1059_315#" "_32_/Q" 5.68434e-14
+cap "_23_/Q" "_18_/a_505_21#" 1.42109e-14
+cap "_14_/A1" "_28_/a_891_413#" 6.61597
+cap "_28_/a_891_413#" "_28_/Q" 1.02141
+cap "_18_/S" "_28_/a_891_413#" 86.0843
+cap "_14_/a_76_199#" "_28_/a_193_47#" 4
+cap "_32_/Q" "_13_/A1" 23.8738
+cap "_14_/A1" "_28_/a_1059_315#" 3.91403
+cap "_32_/VPWR" "_13_/a_76_199#" 114.785
+cap "_28_/CLK" "_32_/a_1059_315#" 139.68
+cap "_28_/a_1059_315#" "_18_/S" 75.072
+cap "_17_/VGND" "_28_/a_561_413#" 14.5087
+cap "_32_/VPWR" "_28_/a_381_47#" 30.6005
+cap "_13_/a_76_199#" "li_5181_4573#" 58.568
+cap "_17_/VGND" "_18_/X" 540.692
+cap "_32_/VPWR" "_32_/Q" 431.788
+cap "_28_/a_27_47#" "FILLER_9_52/VGND" 0.947802
+cap "_13_/X" "_18_/X" 335.135
+cap "_23_/Q" "_18_/X" 32.5826
+cap "_28_/a_27_47#" "_17_/VGND" 601.159
+cap "_28_/CLK" "_32_/VPWR" -181.46
+cap "_32_/VPWR" "_18_/a_76_199#" 59.038
+cap "_17_/VGND" "_18_/A1" 214.349
+cap "_18_/a_76_199#" "li_5181_4573#" 93.6448
+cap "_28_/CLK" "_28_/a_193_47#" 20.2946
+cap "_28_/a_27_47#" "_13_/X" 230.693
+cap "_32_/VPWR" "_13_/a_218_374#" 14.235
+cap "_28_/a_193_47#" "_18_/a_76_199#" 15.9844
+cap "_28_/a_27_47#" "_23_/Q" 1.97143
+cap "_18_/A1" "_23_/Q" 72.3661
+cap "_28_/a_634_159#" "_18_/S" 4.73162
+cap "_28_/CLK" "clkbuf_0_clk/X" 2.61808
+cap "_28_/a_466_413#" "_14_/a_76_199#" 1.34766
+cap "_17_/VGND" "_28_/a_891_413#" 99.1677
+cap "_18_/a_218_374#" "li_5181_4573#" 31.204
+cap "_13_/A1" "FILLER_5_48/VPWR" 6.92787
+cap "_32_/Q" "_18_/X" 75.3268
+cap "_28_/a_466_413#" "_32_/VPWR" 10.6362
+cap "_28_/a_1059_315#" "_17_/VGND" 127.676
+cap "_28_/a_891_413#" "_23_/Q" 10.0548
+cap "_28_/CLK" "clkbuf_0_clk/a_110_47#" 1.49109
+cap "_28_/a_27_47#" "_32_/Q" 12.7851
+cap "_17_/VGND" "FILLER_5_57/VPWR" 22.1577
+cap "_28_/a_1059_315#" "_23_/Q" 5.21446
+cap "_24_/Q" "_17_/VGND" 4.35569
+cap "_18_/a_76_199#" "_18_/X" -2.84217e-14
+cap "_24_/a_1059_315#" "_32_/VPWR" 6.30903
+cap "_18_/S" "_13_/a_505_21#" 22.136
+cap "_17_/VGND" "_32_/a_891_413#" 18.4102
+cap "_32_/VPWR" "_32_/a_1059_315#" 56.7109
+cap "_14_/a_76_199#" "_28_/a_891_413#" 16.2923
+cap "_14_/a_76_199#" "_28_/a_1059_315#" 1.6383
+cap "_28_/CLK" "_28_/a_27_47#" 162.417
+cap "_14_/a_505_21#" "_28_/a_891_413#" 1.0177
+cap "_28_/a_27_47#" "_18_/a_76_199#" 3.3
+cap "_32_/VPWR" "_13_/A1" 79.6916
+cap "_28_/a_634_159#" "_14_/X" 2.91879
+cap "_18_/a_76_199#" "_18_/A1" 17.5294
+cap "_32_/a_891_413#" "_23_/Q" 46.6422
+cap "_17_/VGND" "_18_/S" 590.184
+cap "_13_/X" "_18_/S" 60.7533
+cap "_18_/S" "_23_/Q" 66.7325
+cap "_32_/VPWR" "li_5181_4573#" 474.584
+cap "_28_/a_466_413#" "_18_/X" 5.35987
+cap "_28_/a_193_47#" "_32_/VPWR" 47.6362
+cap "_28_/a_634_159#" "_17_/VGND" 132.807
+cap "_32_/VPWR" "_18_/a_505_21#" -7.59987
+cap "_28_/a_891_413#" "_18_/a_76_199#" 26.3468
+cap "_18_/a_505_21#" "li_5181_4573#" 14.541
+cap "_13_/X" "_28_/a_634_159#" 191.955
+cap "_32_/a_1059_315#" "_18_/X" 90.1828
+cap "_18_/S" "_13_/a_76_199#" 48.3264
+cap "_17_/VGND" "_13_/a_505_21#" 20.0848
+cap "_28_/a_27_47#" "_32_/a_1059_315#" 7.22338
+cap "_28_/CLK" "_32_/a_891_413#" 16.046
+cap "_17_/VGND" "_28_/a_975_413#" 16.602
+cap "_18_/S" "_32_/Q" 50.4324
+cap "_32_/VPWR" "clkbuf_0_clk/a_110_47#" 1.00161
+cap "_32_/VPWR" "_18_/X" 361.163
+cap "_13_/X" "FILLER_9_52/VGND" 3.22198
+cap "_18_/X" "li_5181_4573#" 75.9966
+cap "_28_/a_193_47#" "_18_/X" 62.7893
+cap "_13_/X" "_17_/VGND" 303.207
+cap "_28_/a_27_47#" "_32_/VPWR" 145.252
+cap "_17_/VGND" "_23_/Q" 193.346
+cap "_32_/VPWR" "_18_/A1" 149.905
+cap "_18_/A1" "li_5181_4573#" 15.045
+cap "_28_/a_634_159#" "_18_/a_76_199#" 19.6932
+cap "_28_/a_193_47#" "_18_/A1" 6.28602
+cap "_18_/A1" "_18_/a_505_21#" -5.68434e-14
+cap "_32_/Q" "_13_/a_505_21#" 5.57033
+cap "_17_/VGND" "_13_/a_76_199#" 126.255
+cap "_28_/a_27_47#" "clkbuf_0_clk/X" 3.76068
+cap "_17_/VGND" "_28_/a_381_47#" 135.601
+cap "_32_/VPWR" "_28_/a_891_413#" 2.84217e-14
+cap "_28_/a_193_47#" "_14_/A0" 1.4769
+cap "_18_/a_535_374#" "li_5181_4573#" 17.6568
+cap "_13_/a_505_21#" "FILLER_5_48/VGND" 1.57614
+cap "_13_/X" "_13_/a_76_199#" 14.856
+cap "_28_/a_1059_315#" "_32_/VPWR" 12.5678
+cap "_18_/S" "FILLER_5_48/VPWR" 0.929293
+cap "_13_/X" "_28_/a_381_47#" 37.8999
+cap "_17_/VGND" "_32_/Q" 373.321
+cap "_28_/a_891_413#" "_18_/a_505_21#" 8.32512
+cap "_18_/S" "_32_/a_1059_315#" 2.81183
+cap "_13_/X" "_32_/Q" 0.00939935
+cap "_23_/Q" "_32_/Q" 32.5732
+cap "_28_/a_1059_315#" "_18_/a_505_21#" 10.7717
+cap "_24_/Q" "_32_/VPWR" 12.2031
+cap "_28_/CLK" "_17_/VGND" 193.696
+cap "_32_/VPWR" "_32_/a_891_413#" 13.4
+cap "_17_/VGND" "_18_/a_76_199#" 66.3424
+cap "_18_/S" "_13_/A1" 98.4696
+cap "_28_/CLK" "_13_/X" -7.10543e-15
+cap "_32_/VPWR" "_13_/a_535_374#" 8.226
+cap "_17_/VGND" "_13_/a_218_374#" 0.8156
+cap "_28_/a_27_47#" "_18_/A1" 5.55556
+cap "_28_/a_466_413#" "_14_/X" 5.90388
+cap "_18_/a_76_199#" "_23_/Q" 107.342
+cap "_18_/S" "_18_/a_439_47#" 17.2366
+cap "_32_/VPWR" "_18_/S" 575.988
+cap "_32_/Q" "_13_/a_76_199#" 58.0939
+cap "_18_/S" "li_5181_4573#" 79.2464
+cap "_14_/A1" "_28_/a_193_47#" 1.34187
+cap "_28_/a_193_47#" "_18_/S" 64.686
+cap "_28_/a_27_47#" "_14_/A0" 1.06154
+cap "FILLER_5_57/VGND" "_18_/VGND" 262.19
+cap "VGND" "_28_/Q" 76.1101
+cap "PHY_11/VPWR" "_18_/VPWR" 0.87027
+cap "FILLER_5_57/VGND" "FILLER_5_69/VPWR" 20.3698
+cap "_18_/S" "_18_/VPWR" 144.271
+cap "VGND" "_18_/VGND" 573.686
+cap "_28_/Q" "_14_/a_505_21#" 0.626582
+cap "input1/X" "FILLER_5_57/VGND" 5.56875
+cap "_18_/VPWR" "_18_/a_505_21#" 231.523
+cap "_28_/Q" "PHY_17/VPB" 0.3588
+cap "input1/a_75_212#" "input1/A" 138.17
+cap "_28_/a_891_413#" "_18_/VPWR" 2.944
+cap "_18_/VGND" "input1/A" 104.123
+cap "_18_/VPB" "input1/A" 1.68015
+cap "VGND" "_28_/a_1059_315#" -220.873
+cap "_28_/a_1059_315#" "_14_/a_505_21#" 1.57787
+cap "_18_/S" "_18_/VGND" 14.0051
+cap "_18_/S" "_18_/VPB" 1.0803
+cap "_18_/a_505_21#" "_28_/Q" 15.1463
+cap "_18_/VGND" "_18_/a_505_21#" 142.405
+cap "FILLER_5_57/VGND" "input1/A" 414.815
+cap "input1/X" "_18_/S" 15.045
+cap "_18_/A0" "_18_/VGND" 9.54774
+cap "_28_/a_891_413#" "_18_/VGND" 10.4083
+cap "VGND" "PHY_17/VPB" 1.8663
+cap "FILLER_5_57/VGND" "PHY_11/VPWR" 1.50159
+cap "_18_/S" "_28_/a_1059_315#" 0.553875
+cap "input1/X" "_18_/a_505_21#" 101.84
+cap "FILLER_5_57/VGND" "_18_/S" 26.3165
+cap "_18_/A1" "_18_/S" -3.74
+cap "_28_/a_1059_315#" "_18_/a_505_21#" 9.42416
+cap "PHY_19/VGND" "_18_/VPWR" 1.48203
+cap "_18_/VPWR" "_28_/Q" 286.178
+cap "_18_/VPWR" "input1/a_75_212#" 222.485
+cap "_18_/VPB" "_18_/VPWR" -78.7942
+cap "FILLER_5_57/VGND" "FILLER_5_57/VPWR" 13.489
+cap "_18_/VGND" "_18_/VPWR" 551.993
+cap "VGND" "_28_/a_891_413#" -565.772
+cap "input1/X" "_18_/VPWR" 198.545
+cap "_18_/A1" "_18_/VPWR" 2.475
+cap "_28_/a_1059_315#" "_18_/VPWR" 17.0015
+cap "_18_/VGND" "_28_/Q" 188.515
+cap "FILLER_5_57/VGND" "_18_/VPWR" 204.337
+cap "_18_/VGND" "input1/a_75_212#" 140.512
+cap "_18_/a_76_199#" "_18_/VPWR" 1.53699
+cap "_18_/S" "_18_/a_505_21#" 4.55
+cap "VGND" "_18_/VPWR" 652.517
+cap "_18_/S" "_28_/a_891_413#" 0.387205
+cap "input1/X" "_18_/VGND" 172.852
+cap "input1/X" "_18_/VPB" 2.912
+cap "_28_/a_1059_315#" "_28_/Q" 36.469
+cap "FILLER_9_66/VGND" "_18_/VPWR" 31.6535
+cap "_18_/VPWR" "PHY_17/VPB" 1.9674
+cap "FILLER_5_57/VGND" "input1/a_75_212#" 21.8582
+cap "_18_/A1" "_18_/VGND" 13.0886
+cap "_18_/VPWR" "input1/A" 483.96
+cap "_28_/a_1059_315#" "_18_/VGND" 43.2973
+subcap "INPUT[0]" -244.956
+cap "PHY_11/VGND" "PHY_15/VGND" 42.1667
+cap "PHY_15/VGND" "PHY_15/VPWR" -247.531
+cap "PHY_11/VGND" "INPUT[0]" -210.24
+cap "VGND" "PHY_17/VPWR" -589.044
+cap "PHY_15/VPWR" "INPUT[0]" -111.326
+cap "PHY_15/VGND" "PHY_17/VPWR" -122.66
+cap "PHY_15/VGND" "FILLER_7_74/VGND" 5.29492
+cap "PHY_19/VGND" "PHY_17/VPWR" 2.31806
+cap "VGND" "PHY_15/VGND" -168.441
+cap "FILLER_6_70/VGND" "PHY_11/VGND" 3.00503
+cap "INPUT[0]" "PHY_15/VPB" 0.99
+cap "PHY_11/VGND" "VPWR" -207.483
+cap "PHY_11/VGND" "PHY_15/VPWR" -124.394
+cap "VPWR" "PHY_15/VPWR" -363.438
+cap "PHY_11/VGND" "PHY_11/VPWR" 3.20477
+cap "VPWR" "PHY_15/VPB" 0.58365
+cap "PHY_17/VPB" "VGND" 0.96105
+cap "PHY_15/VPWR" "PHY_15/VPB" -9.165
+cap "PHY_17/VPWR" "PHY_15/VPWR" 42.1667
+cap "PHY_15/VGND" "FILLER_8_66/VGND" 1.50251
+subcap "li_1777_8517#" -804.636
+subcap "INPUT[3]" -880.525
+cap "PHY_20/VPWR" "output12/a_27_47#" 1.46779
+cap "PHY_18/VGND" "PHY_16/VGND" 64.619
+cap "VPWR" "output12/VGND" 27.14
+cap "PHY_18/VGND" "INPUT[3]" 77.28
+cap "VGND" "PHY_16/VPWR" 70.843
+cap "PHY_20/VPWR" "output12/X" 11.69
+cap "PHY_20/VPWR" "output12/VGND" 7.60019
+cap "PHY_20/VPWR" "INPUT[3]" 108.037
+cap "VPWR" "PHY_18/VGND" 57.0879
+cap "PHY_16/VPWR" "PHY_16/VGND" 7.60019
+cap "PHY_20/VPWR" "PHY_18/VGND" 93.3813
+cap "FILLER_8_3/VGND" "PHY_16/VGND" 1.89241
+cap "VPWR" "PHY_20/VPWR" 95.7442
+cap "PHY_16/VPWR" "PHY_18/VGND" 87.3363
+cap "output12/a_27_47#" "output12/VGND" 0.874269
+cap "VGND" "PHY_16/VGND" 23.6
+cap "INPUT[3]" "PHY_20/VPB" 1.602
+cap "PHY_16/VPWR" "PHY_16/VPB" -17.39
+cap "PHY_20/VPWR" "PHY_16/VPWR" 66.3596
+cap "VPWR" "PHY_20/VPB" 1.77705
+cap "PHY_18/VGND" "output12/VGND" 64.619
+cap "VGND" "PHY_16/VPB" 0.0153
+cap "output12/VGND" "PHY_24/VPWR" 2.83077
+cap "PHY_20/VPWR" "PHY_20/VPB" -17.39
+subcap "li_1869_6613#" -975.392
+subcap "li_2320_7429#" -1515.12
+subcap "li_2329_8585#" -288.646
+subcap "li_1961_8789#" -1749.17
+subcap "li_1777_8517#" -1130.33
+cap "_31_/a_634_159#" "_29_/a_466_413#" 21.0726
+cap "_31_/a_27_47#" "_29_/a_381_47#" 3.89441
+cap "_30_/VPWR" "_30_/a_193_47#" 22.33
+cap "_27_/Q" "_31_/a_193_47#" 10.5829
+cap "_30_/VPWR" "_29_/a_27_47#" 305.393
+cap "_30_/VPWR" "INPUT[3]" -9.5563
+cap "_30_/VPWR" "_27_/a_891_413#" 31.9715
+cap "_31_/a_891_413#" "_29_/D" 8.55556
+cap "_31_/Q" "PHY_20/VPB" 1.3764
+cap "_30_/VPWR" "output12/VGND" 118.76
+cap "_27_/a_1059_315#" "_31_/a_27_47#" 2.82348
+cap "_30_/a_561_413#" "VGND" 14.2569
+cap "_29_/a_27_47#" "_30_/a_27_47#" 28.7862
+cap "_29_/a_193_47#" "_30_/a_891_413#" 2.95469
+cap "_29_/D" "_30_/a_193_47#" 6.45373
+cap "_30_/VPWR" "_29_/VGND" 279.133
+cap "_30_/a_193_47#" "VGND" 6
+cap "_30_/VPWR" "_30_/Q" 2.86957
+cap "_29_/CLK" "_29_/a_193_47#" 828.595
+cap "_29_/a_27_47#" "_29_/D" 243.303
+cap "_31_/a_466_413#" "_29_/a_634_159#" 15.1858
+cap "_31_/a_27_47#" "_29_/a_466_413#" 1.33333
+cap "_31_/a_891_413#" "_29_/a_381_47#" 3.55341
+cap "_30_/VPWR" "_30_/a_1059_315#" 24.5947
+cap "_31_/a_634_159#" "_29_/a_193_47#" 6.84877
+cap "_30_/VPWR" "_31_/Q" 132.6
+cap "_31_/a_1059_315#" "_29_/a_27_47#" 21.8928
+cap "_31_/a_891_413#" "_29_/CLK" 6.97457
+cap "_29_/VGND" "_29_/D" 11.8425
+cap "_29_/a_381_47#" "_30_/a_193_47#" 0.510309
+cap "_29_/a_466_413#" "_30_/a_466_413#" 23.1247
+cap "_27_/a_1059_315#" "_31_/a_891_413#" 1.94663
+cap "_30_/VPWR" "PHY_20/VPB" -71.9857
+cap "_29_/a_634_159#" "_30_/a_634_159#" 10.9524
+cap "_30_/VPWR" "_31_/a_466_413#" 111.28
+cap "_30_/Q" "VGND" 23.8564
+cap "_31_/a_1059_315#" "output12/VGND" 9.5737
+cap "_30_/a_1059_315#" "VGND" 36.6656
+cap "_30_/VPWR" "_30_/a_634_159#" 20.9304
+cap "_29_/CLK" "_29_/a_27_47#" 394.335
+cap "_29_/VGND" "_31_/a_1059_315#" 24.4911
+cap "_31_/a_634_159#" "_29_/a_27_47#" 13.75
+cap "_31_/a_193_47#" "_29_/a_634_159#" 1.53333
+cap "_27_/a_1059_315#" "output12/VGND" 3.55952
+cap "_27_/a_193_47#" "_31_/a_27_47#" 7.16296
+cap "_29_/VGND" "input4/X" 119.309
+cap "_29_/VGND" "_29_/CLK" 4.59576
+cap "_29_/a_466_413#" "_30_/a_193_47#" 0.393836
+cap "_29_/a_193_47#" "_30_/a_466_413#" 2.36301
+cap "_30_/VPWR" "_31_/a_193_47#" 245.474
+cap "_30_/a_634_159#" "VGND" 29.1019
+cap "_29_/D" "_29_/a_634_159#" 100.751
+cap "_29_/CLK" "_30_/a_1059_315#" 8.00236
+cap "_30_/VPWR" "_30_/a_27_47#" 22.33
+cap "_30_/VPWR" "_29_/D" 77.6899
+cap "_30_/VPWR" "VGND" 95.6943
+cap "output12/a_27_47#" "INPUT[3]" 20.2714
+cap "PHY_20/VPB" "input4/X" 0.9842
+cap "_31_/a_891_413#" "_29_/a_193_47#" 6.08561
+cap "_31_/a_193_47#" "_29_/D" 10.0649
+cap "_30_/VPWR" "_31_/a_975_413#" 17.9192
+cap "_27_/a_891_413#" "_31_/a_27_47#" 13.3825
+cap "_27_/a_1059_315#" "_31_/a_466_413#" 13.3297
+cap "output12/a_27_47#" "output12/VGND" 4.99783
+cap "_29_/VGND" "FILLER_8_3/VGND" 115
+cap "_29_/D" "_30_/a_27_47#" 1.20629
+cap "_29_/a_27_47#" "_30_/a_466_413#" 7.62587
+cap "output12/a_27_47#" "_29_/VGND" 14.2381
+cap "_30_/VPWR" "_31_/a_1059_315#" 239.097
+cap "_30_/a_27_47#" "VGND" 12.0105
+cap "_29_/CLK" "_29_/a_634_159#" 19.805
+cap "_30_/VPWR" "_30_/a_975_413#" 17.6232
+cap "_30_/VPWR" "_29_/a_381_47#" 68.8367
+cap "FILLER_8_3/VGND" "_30_/a_1059_315#" 2.3
+cap "_27_/a_1059_315#" "_11_/S" 0.410714
+cap "_30_/VPWR" "output12/X" 35.3653
+cap "_31_/a_193_47#" "_29_/a_381_47#" 3.16568
+cap "_31_/a_466_413#" "_29_/a_466_413#" 16.7904
+cap "_30_/VPWR" "_30_/a_891_413#" 11.3292
+cap "_31_/a_634_159#" "_29_/a_634_159#" 1.44654
+cap "_30_/VPWR" "input4/X" 404.686
+cap "_27_/Q" "_31_/a_891_413#" 17.1919
+cap "_30_/VPWR" "_29_/CLK" 44.6983
+cap "output12/a_27_47#" "_31_/Q" 186.252
+cap "_30_/VPWR" "_27_/a_1059_315#" 150.182
+cap "_31_/a_891_413#" "_29_/a_27_47#" 8.40184
+cap "_29_/VGND" "_29_/a_193_47#" 10.7885
+cap "_29_/a_381_47#" "_30_/a_27_47#" 2.69554
+cap "_29_/a_466_413#" "_30_/a_634_159#" 9.97954
+cap "_30_/VPWR" "PHY_16/VPB" -79.3002
+cap "_27_/a_1059_315#" "_31_/a_193_47#" 1.92737
+cap "_30_/VPWR" "_31_/a_634_159#" 203.32
+cap "_30_/a_975_413#" "VGND" 16.38
+cap "_29_/D" "_29_/a_381_47#" 37.8999
+cap "_27_/a_193_47#" "_11_/A1" 1.00877
+cap "_31_/a_891_413#" "output12/VGND" 25.0152
+cap "_29_/a_27_47#" "_30_/a_193_47#" 28.6469
+cap "_29_/D" "_30_/a_891_413#" 3.20833
+cap "_30_/a_891_413#" "VGND" 16.5384
+cap "_29_/CLK" "_29_/D" 66.5783
+cap "_27_/a_1059_315#" "_11_/X" 0.831933
+cap "PHY_16/VGND" "FILLER_8_3/VGND" 1.89241
+cap "_30_/VPWR" "_29_/a_466_413#" 33.7918
+cap "_29_/VGND" "_31_/a_891_413#" 1.73837
+cap "_31_/a_27_47#" "_29_/a_634_159#" 3.96
+cap "output12/VGND" "FILLER_12_10/VPWR" 4.17538
+cap "_31_/a_466_413#" "_29_/a_193_47#" 4.2803
+cap "_31_/a_193_47#" "_29_/a_466_413#" 1.66667
+cap "_30_/VPWR" "FILLER_8_3/VGND" 12.644
+cap "PHY_16/VPB" "VGND" 0.0552
+cap "output12/a_27_47#" "input4/a_75_212#" 1.58028
+cap "_27_/a_891_413#" "output12/VGND" 2.37302
+cap "_30_/VPWR" "_31_/a_1017_47#" 0.5834
+cap "_27_/a_193_47#" "_31_/a_466_413#" 3.34562
+cap "_30_/VPWR" "output12/a_27_47#" 191.015
+cap "_31_/a_1059_315#" "_29_/CLK" 7.63529
+cap "_31_/a_1059_315#" "input4/X" 55.9856
+cap "_29_/VGND" "_29_/a_27_47#" 25.6796
+cap "_29_/a_381_47#" "_30_/a_891_413#" 4.46149
+cap "_29_/a_634_159#" "_30_/a_466_413#" 1.66247
+cap "_29_/a_193_47#" "_30_/a_634_159#" 4.20717
+cap "_29_/a_466_413#" "_30_/a_27_47#" 7.89935
+cap "_30_/VPWR" "_31_/a_27_47#" 236.77
+cap "_29_/VGND" "INPUT[3]" 136.62
+cap "_29_/CLK" "_29_/a_381_47#" 32.5732
+cap "_29_/D" "_29_/a_466_413#" 32.5732
+cap "_29_/a_27_47#" "_30_/a_1059_315#" 19.3478
+cap "_29_/CLK" "_30_/a_891_413#" 1.12745
+cap "FILLER_8_3/VGND" "VGND" 42
+cap "_31_/a_634_159#" "_29_/a_381_47#" 5.65068
+cap "_30_/VPWR" "_29_/a_193_47#" 209.335
+cap "_30_/VPWR" "_27_/a_193_47#" -1.605
+cap "PHY_16/VPB" "input4/X" 6.251
+cap "_31_/a_27_47#" "_29_/D" 3.75347
+cap "_31_/a_466_413#" "_29_/a_27_47#" 11.6694
+cap "PHY_20/VPB" "INPUT[3]" 7.8402
+cap "_30_/VPWR" "_31_/a_561_413#" 0.53655
+cap "_27_/a_1059_315#" "_31_/a_634_159#" 16.8029
+cap "_31_/Q" "output12/VGND" 3.76101
+cap "_27_/a_891_413#" "_31_/a_466_413#" 27.2293
+cap "_27_/a_193_47#" "_31_/a_193_47#" 0.236301
+cap "_27_/a_27_47#" "_31_/a_27_47#" 1.04545
+cap "_29_/a_193_47#" "_30_/a_27_47#" 24.1068
+cap "_31_/Q" "_29_/VGND" 38.2051
+cap "_30_/VPWR" "_31_/a_891_413#" 230.718
+cap "_30_/a_466_413#" "VGND" 9.7191
+cap "_29_/CLK" "_29_/a_466_413#" 53.8889
+cap "_29_/D" "_29_/a_193_47#" 228.884
+cap "FILLER_8_3/VGND" "_30_/a_891_413#" 1.73837
+cap "_30_/VPWR" "_27_/Q" 169.954
+subcap "li_4160_6681#" -1357.76
+subcap "li_3453_8449#" -414.213
+subcap "li_3893_6749#" -4036.51
+cap "_29_/a_466_413#" "_30_/VPB" -0.85
+cap "_29_/a_1059_315#" "_29_/VGND" 61.2512
+cap "_29_/Q" "FILLER_8_24/VGND" 3.31003
+cap "_27_/a_381_47#" "_30_/VPB" 15.7304
+cap "_27_/a_27_47#" "_11_/S" 0.239583
+cap "_29_/VGND" "_30_/D" 6.0084
+cap "_30_/VPB" "_30_/a_193_47#" 3.15
+cap "_31_/a_381_47#" "_29_/a_634_159#" 5.65068
+cap "_31_/D" "_29_/a_891_413#" 8.55556
+cap "_31_/a_193_47#" "clkbuf_0_clk/A" 293.445
+cap "_21_/X" "_29_/VGND" 188.482
+cap "_27_/a_634_159#" "_30_/VPB" 6.9
+cap "_29_/a_466_413#" "li_2320_7429#" 15.63
+cap "_31_/a_27_47#" "_29_/a_634_159#" 9.79
+cap "_29_/a_891_413#" "_30_/a_193_47#" 5.90937
+cap "_29_/a_193_47#" "_30_/a_381_47#" 1.02062
+cap "_30_/VPB" "_24_/a_193_47#" 2.22115
+cap "_30_/CLK" "_31_/D" 1.06581e-14
+cap "_21_/a_505_21#" "_21_/A0" -1.78095
+cap "_30_/a_27_47#" "FILLER_8_24/VGND" 1.90083
+cap "_31_/a_193_47#" "_29_/VGND" 30.9
+cap "_27_/a_466_413#" "clkbuf_0_clk/A" 62.9336
+cap "_30_/CLK" "_29_/a_466_413#" -82.864
+cap "_29_/a_193_47#" "_30_/a_27_47#" 12.932
+cap "clkbuf_0_clk/A" "_29_/Q" 66.2328
+cap "_30_/VPB" "FILLER_8_24/VGND" 1.56545
+cap "_27_/a_466_413#" "_31_/a_27_47#" 25.6792
+cap "_27_/a_891_413#" "_31_/a_193_47#" 5.71841
+cap "_27_/a_193_47#" "_31_/a_466_413#" 6.3871
+cap "_21_/a_76_199#" "clkbuf_0_clk/A" 10.1912
+cap "_29_/a_193_47#" "_30_/VPB" 1.77636e-15
+cap "clkbuf_0_clk/A" "_24_/D" 0.396552
+cap "_27_/a_27_47#" "li_2329_8585#" 6.43391
+cap "clkbuf_0_clk/A" "_21_/A0" 4.14556
+cap "FILLER_8_24/VGND" "_24_/CLK" 1.34503
+cap "_31_/a_381_47#" "_29_/a_27_47#" 3.89441
+cap "_27_/a_193_47#" "_30_/VPB" 40.455
+cap "_29_/VGND" "_29_/Q" 343.568
+cap "_29_/a_193_47#" "li_2320_7429#" 200.175
+cap "_31_/a_381_47#" "_30_/VPB" 47.9028
+cap "_21_/a_76_199#" "_29_/VGND" 67.5843
+cap "clkbuf_0_clk/A" "_30_/a_27_47#" 8.97004
+cap "_30_/VPB" "_24_/a_27_47#" 7.74894
+cap "_29_/a_466_413#" "_30_/a_193_47#" 0.787671
+cap "_27_/a_634_159#" "_31_/D" 96.4965
+cap "_27_/a_27_47#" "_31_/a_381_47#" 4.41089
+cap "clkbuf_0_clk/a_110_47#" "_29_/VGND" 36.1509
+cap "_30_/CLK" "FILLER_8_24/VGND" 2.91139
+cap "clkbuf_0_clk/A" "_30_/VPB" 496.662
+cap "_29_/VGND" "_21_/A0" 112.562
+cap "_21_/S" "_21_/A0" 22.9022
+cap "_21_/A1" "clkbuf_0_clk/A" 9.5828
+cap "_27_/a_27_47#" "clkbuf_0_clk/A" 34.8264
+cap "_30_/CLK" "_29_/a_193_47#" 315.736
+cap "_31_/a_27_47#" "_30_/VPB" 238.721
+cap "_29_/VGND" "_30_/a_381_47#" 21.1583
+cap "_29_/a_1059_315#" "_29_/Q" 223.354
+cap "_27_/a_27_47#" "_31_/a_27_47#" 61.3746
+cap "_27_/a_891_413#" "_31_/a_466_413#" 9.96644
+cap "_31_/a_381_47#" "_29_/a_891_413#" 3.55341
+cap "_25_/CLK" "_30_/VPB" 1.48077
+cap "_25_/a_27_47#" "_29_/VGND" 1.18338
+cap "_29_/VGND" "_30_/a_27_47#" 23.2865
+cap "_29_/a_891_413#" "clkbuf_0_clk/A" 174.047
+cap "clkbuf_0_clk/A" "li_2320_7429#" 85.4404
+cap "_27_/a_193_47#" "_30_/CLK" 15.3005
+cap "_31_/a_27_47#" "_29_/a_891_413#" 8.40184
+cap "_31_/a_193_47#" "_29_/a_634_159#" 5.31544
+cap "_29_/VGND" "_30_/VPB" 1002.71
+cap "_21_/A1" "_29_/VGND" 5.68155
+cap "_21_/S" "_30_/VPB" 142.706
+cap "_31_/D" "_29_/a_193_47#" 10.0649
+cap "_27_/a_27_47#" "_29_/VGND" 103.715
+cap "_21_/X" "_21_/A0" 0.00939935
+cap "_27_/a_193_47#" "_31_/D" 25.6608
+cap "_27_/a_466_413#" "_31_/a_193_47#" 8.1216
+cap "_29_/VGND" "_24_/CLK" 21.9929
+cap "_29_/a_1059_315#" "_30_/a_27_47#" 20.1834
+cap "_29_/a_27_47#" "_30_/D" 2.41259
+cap "_29_/a_891_413#" "_29_/VGND" 16.589
+cap "_29_/a_1059_315#" "_30_/VPB" 54.0597
+cap "_29_/VGND" "li_2320_7429#" 265.153
+cap "_27_/a_27_47#" "_11_/a_505_21#" 1.39974
+cap "_30_/CLK" "_29_/VGND" 579.048
+cap "_21_/X" "_30_/VPB" 525.711
+cap "_31_/a_27_47#" "_31_/D" 81.3037
+cap "_27_/a_27_47#" "_21_/X" 47.4053
+cap "_29_/a_1059_315#" "li_2320_7429#" 96.2585
+cap "_31_/a_466_413#" "_29_/a_634_159#" 5.88671
+cap "_31_/a_27_47#" "_29_/a_466_413#" 10.3361
+cap "_29_/a_891_413#" "_30_/D" 3.20833
+cap "_27_/a_634_159#" "_31_/a_381_47#" 3.55882
+cap "_30_/CLK" "_29_/a_1059_315#" 244.612
+cap "_31_/a_193_47#" "_30_/VPB" -33.4845
+cap "_31_/D" "_29_/VGND" 21.3803
+cap "_27_/a_27_47#" "_31_/a_193_47#" 32.9187
+cap "_27_/a_634_159#" "_31_/a_27_47#" 9.10417
+cap "_29_/a_634_159#" "_30_/VPB" 2.39808e-14
+cap "_21_/a_76_199#" "_21_/A0" 58.0939
+cap "clkbuf_0_clk/a_110_47#" "_24_/D" 2.01527
+cap "clkbuf_0_clk/A" "_24_/a_193_47#" 3.7
+cap "_27_/a_381_47#" "_29_/VGND" 5.15625
+cap "_27_/a_193_47#" "li_2329_8585#" 17.1066
+cap "_29_/VGND" "_30_/a_193_47#" 23.9148
+cap "clkbuf_0_clk/a_110_47#" "_21_/A0" 9.63967
+cap "_21_/a_218_374#" "_30_/VPB" 0.6117
+cap "_31_/a_193_47#" "_29_/a_891_413#" 6.08561
+cap "_31_/a_381_47#" "_29_/a_193_47#" 3.16568
+cap "_29_/Q" "_30_/a_27_47#" 18.203
+cap "_27_/a_466_413#" "_30_/VPB" 6.9
+cap "_29_/a_193_47#" "clkbuf_0_clk/A" 62.7273
+cap "_30_/VPB" "_29_/Q" 221.342
+cap "_29_/a_634_159#" "li_2320_7429#" -209.495
+cap "_21_/a_76_199#" "_30_/VPB" 160.321
+cap "_21_/a_76_199#" "_21_/A1" 5.68434e-14
+cap "_29_/VGND" "_24_/a_193_47#" 17.9043
+cap "_29_/a_27_47#" "_30_/a_381_47#" 5.39109
+cap "_30_/CLK" "_31_/a_193_47#" 23.7307
+cap "_21_/A1" "clkbuf_0_clk/a_110_47#" 3.33511
+cap "clkbuf_0_clk/a_110_47#" "_30_/VPB" 85.4556
+cap "_30_/VPB" "_21_/A0" 144.722
+cap "_21_/A1" "_21_/A0" 46.2388
+cap "_27_/a_193_47#" "clkbuf_0_clk/A" 25.6608
+cap "_30_/CLK" "_29_/a_634_159#" 32.5732
+cap "_31_/a_466_413#" "_30_/VPB" 5.6092
+cap "clkbuf_0_clk/A" "_29_/a_1017_47#" 34.984
+cap "_29_/a_27_47#" "_30_/a_27_47#" 9.49924
+cap "_30_/VPB" "_30_/a_381_47#" 1.76786
+cap "_29_/a_891_413#" "_29_/Q" 20.496
+cap "_29_/VGND" "FILLER_8_24/VGND" 71.8981
+cap "_29_/Q" "li_2320_7429#" 64.5249
+cap "_27_/a_193_47#" "_31_/a_27_47#" 48.921
+cap "_29_/a_27_47#" "_30_/VPB" 6.66134e-16
+cap "clkbuf_0_clk/A" "_24_/a_27_47#" 7.78068
+cap "_25_/a_27_47#" "_30_/VPB" 7.19276
+cap "_31_/a_193_47#" "_31_/D" 183.518
+cap "_29_/VGND" "_30_/a_466_413#" -69.2112
+cap "_30_/VPB" "_30_/a_27_47#" 13.3269
+cap "clkbuf_0_clk/a_110_47#" "li_2320_7429#" 28.2524
+cap "_27_/a_466_413#" "_30_/CLK" 7.93814
+cap "_31_/a_27_47#" "clkbuf_0_clk/A" 34.8264
+cap "_31_/a_193_47#" "_29_/a_466_413#" 2.61364
+cap "_21_/A1" "_30_/VPB" 27.1965
+cap "_29_/a_891_413#" "_30_/a_381_47#" 8.07086
+cap "_29_/a_1059_315#" "FILLER_8_24/VGND" 10.4228
+cap "_27_/a_27_47#" "_30_/VPB" 112.893
+cap "_27_/a_193_47#" "_29_/VGND" 49.6022
+cap "_31_/a_381_47#" "_29_/VGND" 17.3454
+cap "_29_/a_27_47#" "li_2320_7429#" 53.6223
+cap "_29_/VGND" "_24_/a_27_47#" 23.2974
+cap "_29_/a_634_159#" "_30_/a_193_47#" 2.10359
+cap "_30_/VPB" "_24_/CLK" 1.89241
+cap "_29_/a_193_47#" "_30_/D" 5.93035
+cap "_27_/a_634_159#" "_31_/a_193_47#" 1.62229
+cap "_27_/a_466_413#" "_31_/D" 51.3735
+cap "clkbuf_0_clk/A" "_29_/VGND" 221.319
+cap "_29_/a_891_413#" "_30_/VPB" 2.944
+cap "_29_/VGND" "FILLER_12_29/VPWR" 6.12154
+cap "_30_/VPB" "li_2320_7429#" 160.157
+cap "_30_/CLK" "_29_/a_27_47#" 139.812
+cap "_31_/a_27_47#" "_29_/VGND" 100.624
+cap "_25_/CLK" "_29_/VGND" 1.61363
+cap "_30_/CLK" "_30_/VPB" 839.982
+cap "_29_/a_1059_315#" "clkbuf_0_clk/A" 201.778
+cap "_29_/a_891_413#" "li_2320_7429#" 48.6192
+cap "_27_/a_27_47#" "_30_/CLK" 178.641
+cap "_27_/a_193_47#" "_21_/X" 39.8681
+cap "_21_/S" "_29_/VGND" 16.3877
+cap "_31_/D" "_29_/a_27_47#" 3.75347
+cap "_31_/a_27_47#" "_29_/a_1059_315#" 21.8928
+cap "_31_/D" "_30_/VPB" 139.703
+cap "_30_/CLK" "_29_/a_891_413#" 208.815
+cap "_29_/a_634_159#" "_30_/a_466_413#" 4.15854
+cap "_29_/a_466_413#" "_30_/a_27_47#" 0.537088
+cap "_29_/a_27_47#" "_30_/a_193_47#" 8.40427
+cap "_27_/a_27_47#" "_31_/D" 34.8264
+cap "_27_/a_193_47#" "_31_/a_193_47#" 4.07514
+subcap "li_4160_6681#" -1493.27
+subcap "li_5273_6613#" -2070.68
+subcap "li_4712_8517#" -858.715
+subcap "li_5825_8313#" -804.481
+subcap "li_4169_7837#" -390.585
+subcap "li_3893_6749#" -245.58
+cap "clkbuf_0_clk/VGND" "_25_/a_381_47#" 5.15625
+cap "clkbuf_0_clk/A" "clkbuf_0_clk/a_110_47#" -16.375
+cap "_24_/VPWR" "FILLER_8_46/VGND" -7.375
+cap "_24_/VPWR" "_25_/a_561_413#" 16.0774
+cap "_24_/a_1059_315#" "FILLER_8_46/VGND" 3.55952
+cap "clkbuf_0_clk/VGND" "clkbuf_0_clk/A" 7.10543e-15
+cap "clkbuf_0_clk/a_110_47#" "_24_/Q" 71.1648
+cap "_25_/D" "_25_/a_193_47#" 112.069
+cap "_24_/VPB" "clkbuf_0_clk/VGND" 0.0276
+cap "clkbuf_0_clk/X" "_24_/a_193_47#" 3.44283
+cap "_21_/a_505_21#" "clkbuf_0_clk/a_110_47#" 25.1719
+cap "clkbuf_0_clk/VGND" "_25_/D" 22.8725
+cap "clkbuf_0_clk/VGND" "_24_/Q" 45.6452
+cap "_24_/VPWR" "_24_/a_27_47#" 22.33
+cap "_25_/a_891_413#" "clkbuf_1_1__f_clk/a_110_47#" 21.7067
+cap "clkbuf_0_clk/VGND" "_21_/a_505_21#" 145.555
+cap "clkbuf_0_clk/a_110_47#" "_24_/a_381_47#" 5
+cap "_24_/VPWR" "_25_/a_1059_315#" 8.90164
+cap "clkbuf_0_clk/VGND" "_24_/a_381_47#" 21.1474
+cap "_25_/a_27_47#" "clkbuf_0_clk/X" 4.56928
+cap "clkbuf_0_clk/A" "_24_/a_193_47#" 17.6101
+cap "_24_/VPWR" "_24_/a_975_413#" 17.6232
+cap "clkbuf_0_clk/VGND" "_24_/D" 6.0084
+cap "_21_/S" "_24_/a_466_413#" 10.5356
+cap "clkbuf_0_clk/X" "FILLER_8_46/VGND" 2.6729
+cap "_24_/VPWR" "_24_/a_1059_315#" 25.5683
+cap "_24_/CLK" "_25_/a_193_47#" 74.9202
+cap "_25_/a_27_47#" "_25_/D" 80.7158
+cap "clkbuf_0_clk/X" "_24_/a_27_47#" 2.00493
+cap "clkbuf_0_clk/VGND" "_24_/CLK" 3.85382
+cap "_21_/A1" "clkbuf_0_clk/A" 46.2485
+cap "_21_/A0" "clkbuf_0_clk/A" 4.08487
+cap "_21_/S" "clkbuf_0_clk/a_110_47#" 546.441
+cap "_21_/VPB" "_24_/Q" 1.39365
+cap "_25_/a_27_47#" "_21_/a_505_21#" 17.7211
+cap "_26_/a_891_413#" "_24_/CLK" 1.0177
+cap "_25_/a_1059_315#" "clkbuf_0_clk/X" 9.26029
+cap "_24_/VPB" "_21_/A1" 0.399
+cap "clkbuf_0_clk/VGND" "_21_/S" 118.614
+cap "_24_/VPWR" "_25_/a_634_159#" 8.60645
+cap "clkbuf_0_clk/a_110_47#" "_24_/a_891_413#" 13.6141
+cap "_24_/VPWR" "_28_/a_193_47#" 0.429967
+cap "clkbuf_0_clk/VGND" "_24_/a_891_413#" 16.5384
+cap "_21_/A1" "_21_/a_505_21#" 48.3424
+cap "_21_/A0" "_21_/a_505_21#" 2.84217e-14
+cap "_24_/VPWR" "_21_/a_535_374#" 0.3024
+cap "FILLER_8_46/VGND" "_24_/Q" 22.45
+cap "_21_/A1" "_24_/a_381_47#" 20.7012
+cap "_26_/D" "_25_/a_193_47#" 0.369883
+cap "clkbuf_0_clk/A" "_24_/a_27_47#" 12.2266
+cap "_21_/a_76_199#" "_21_/S" 1.42109e-14
+cap "_24_/VPWR" "clkbuf_0_clk/X" 514.719
+cap "_21_/S" "_24_/a_193_47#" 37.7715
+cap "clkbuf_0_clk/X" "_24_/a_1059_315#" 18.4918
+cap "_25_/a_1059_315#" "_24_/Q" 60.255
+cap "_24_/VPWR" "_24_/a_634_159#" 20.9304
+cap "clkbuf_0_clk/X" "li_2320_7429#" 553.31
+cap "_24_/VPWR" "_25_/a_381_47#" 36.833
+cap "_24_/CLK" "_25_/a_27_47#" 73.6473
+cap "clkbuf_1_1__f_clk/a_110_47#" "clkbuf_0_clk/a_110_47#" 12.3134
+cap "_21_/A1" "_21_/a_439_47#" 43.5327
+cap "_24_/VPWR" "clkbuf_0_clk/A" 6.04354
+cap "_25_/a_193_47#" "clkbuf_1_1__f_clk/a_110_47#" 8.25
+cap "_25_/a_27_47#" "_21_/S" 3.6803
+cap "clkbuf_0_clk/VGND" "clkbuf_1_1__f_clk/a_110_47#" 27.3201
+cap "_21_/VPB" "_21_/S" 6.6313
+cap "clkbuf_0_clk/a_110_47#" "_24_/a_466_413#" 25.8022
+cap "_24_/VPWR" "_24_/VPB" -80.8164
+cap "_24_/VPWR" "_25_/D" 48.5591
+cap "_24_/VPWR" "_24_/Q" 128.422
+cap "_21_/A0" "_21_/S" -26.51
+cap "clkbuf_0_clk/VGND" "_24_/a_466_413#" 18.6945
+cap "_24_/CLK" "FILLER_8_46/VGND" 1.25683
+cap "_21_/S" "_21_/A1" 12.972
+cap "_24_/VPWR" "_21_/a_505_21#" 214.423
+cap "clkbuf_0_clk/A" "li_2320_7429#" -7.047
+cap "_24_/a_891_413#" "FILLER_8_46/VGND" 2.37302
+cap "clkbuf_0_clk/VGND" "clkbuf_0_clk/a_110_47#" -21.2432
+cap "_21_/S" "_24_/a_27_47#" 40.5525
+cap "clkbuf_0_clk/X" "_24_/a_634_159#" 13.3864
+cap "_26_/a_466_413#" "_25_/a_27_47#" 0.752976
+cap "clkbuf_0_clk/VGND" "_25_/a_193_47#" 25.8455
+cap "clkbuf_0_clk/VGND" "_24_/a_561_413#" 14.2569
+cap "_24_/VPB" "clkbuf_0_clk/X" 0.9082
+cap "_24_/VPWR" "_24_/CLK" 5.45669
+cap "clkbuf_0_clk/X" "_24_/Q" 349.792
+cap "clkbuf_0_clk/a_110_47#" "_24_/a_193_47#" 14.6922
+cap "clkbuf_0_clk/X" "_21_/a_505_21#" 15.8309
+cap "clkbuf_0_clk/VGND" "_24_/a_193_47#" 12.0105
+cap "_24_/VPWR" "_21_/S" 521.552
+cap "_24_/VPWR" "_24_/a_891_413#" 11.3292
+cap "_21_/A0" "clkbuf_0_clk/a_110_47#" 5.42047
+cap "_21_/A1" "clkbuf_0_clk/a_110_47#" 36.2575
+cap "clkbuf_0_clk/VGND" "_25_/a_27_47#" 25.0744
+cap "_21_/a_505_21#" "clkbuf_0_clk/A" 14.9978
+cap "_24_/VPB" "_24_/Q" 0.8512
+cap "_25_/a_1059_315#" "clkbuf_1_1__f_clk/a_110_47#" 7.67442
+cap "_25_/a_891_413#" "clkbuf_0_clk/X" 2.82202
+cap "_21_/A0" "clkbuf_0_clk/VGND" -112.512
+cap "clkbuf_0_clk/VGND" "_21_/A1" 184.898
+cap "_24_/VPWR" "_25_/a_466_413#" 41.1602
+cap "clkbuf_0_clk/a_110_47#" "FILLER_8_46/VGND" 47.7888
+cap "clkbuf_0_clk/VGND" "FILLER_8_46/VGND" 37
+cap "FILLER_8_46/VGND" "_28_/a_27_47#" 0.861423
+cap "clkbuf_0_clk/A" "_24_/D" 16.0118
+cap "clkbuf_0_clk/a_110_47#" "_24_/a_27_47#" 16.0257
+cap "clkbuf_0_clk/X" "_21_/S" 473.637
+cap "clkbuf_0_clk/VGND" "_24_/a_27_47#" 12.0105
+cap "_24_/VPWR" "clkbuf_1_1__f_clk/a_110_47#" 163.421
+cap "clkbuf_0_clk/X" "_24_/a_891_413#" 16.5214
+cap "_21_/S" "clkbuf_0_clk/A" 83.309
+cap "clkbuf_0_clk/VGND" "_24_/a_975_413#" 16.38
+cap "_24_/VPWR" "clkbuf_0_clk/a_110_47#" 455.861
+cap "_24_/CLK" "_21_/a_505_21#" 2.58824
+cap "clkbuf_0_clk/a_110_47#" "_24_/a_1059_315#" 18.1171
+cap "_24_/VPWR" "clkbuf_0_clk/VGND" 416.679
+cap "_24_/VPWR" "_25_/a_193_47#" 128.828
+cap "_24_/VPWR" "_28_/a_27_47#" 0.94964
+cap "_21_/A0" "_21_/A1" -23.1
+cap "clkbuf_0_clk/VGND" "_24_/a_1059_315#" 36.6656
+cap "_21_/S" "_21_/a_505_21#" 130.163
+cap "clkbuf_0_clk/a_110_47#" "li_2320_7429#" 184.595
+cap "clkbuf_0_clk/a_110_47#" "FILLER_9_52/VPWR" 1.62943
+cap "clkbuf_0_clk/A" "FILLER_9_26/VGND" 2.12373
+cap "clkbuf_0_clk/X" "clkbuf_1_1__f_clk/a_110_47#" 52.0746
+cap "_24_/VPWR" "_21_/a_76_199#" -307.137
+cap "clkbuf_0_clk/VGND" "FILLER_12_29/VPWR" 1.59231
+cap "clkbuf_0_clk/VGND" "_25_/a_634_159#" 12.5952
+cap "clkbuf_0_clk/X" "_24_/a_466_413#" 7.39455
+cap "_24_/VPWR" "_24_/a_193_47#" 22.33
+cap "clkbuf_0_clk/X" "clkbuf_0_clk/a_110_47#" 167.623
+cap "_24_/CLK" "_21_/S" 1.74466
+cap "_25_/a_193_47#" "clkbuf_0_clk/X" 5.33869
+cap "clkbuf_1_1__f_clk/a_110_47#" "_24_/Q" 246.854
+cap "_26_/a_193_47#" "_25_/a_1059_315#" 1.628
+cap "_24_/VPWR" "_25_/a_27_47#" 193.504
+cap "clkbuf_0_clk/VGND" "clkbuf_0_clk/X" 253.208
+cap "clkbuf_0_clk/a_110_47#" "_24_/a_634_159#" 9.6412
+cap "_24_/VPWR" "_21_/VPB" -69.9402
+cap "clkbuf_0_clk/VGND" "_24_/a_634_159#" 29.1019
+cap "_24_/VPWR" "_21_/A1" 49.0036
+cap "_24_/VPWR" "_21_/A0" -560.597
+subcap "li_6000_6681#" -889.164
+subcap "li_6837_7497#" -392.739
+subcap "li_5825_8313#" -1228.53
+subcap "li_6653_8789#" -512.837
+cap "INPUT[8]" "_24_/Q" 20.9028
+cap "clkbuf_0_clk/a_110_47#" "FILLER_8_46/VGND" 10.8648
+cap "_14_/S" "_28_/a_27_47#" 78.1658
+cap "_28_/CLK" "_28_/a_27_47#" 18.203
+cap "_24_/VPWR" "input8/a_75_212#" 1.20845
+cap "_25_/Q" "_19_/a_535_374#" 8.8284
+cap "_25_/a_1059_315#" "_25_/Q" 1.42109e-14
+cap "_24_/VPWR" "_14_/a_76_199#" 59.038
+cap "clkbuf_0_clk/VGND" "_14_/A1" 127.138
+cap "_14_/S" "_14_/X" 75.9966
+cap "_28_/CLK" "_14_/X" 20.912
+cap "_14_/A1" "_28_/Q" 36.4218
+cap "clkbuf_0_clk/VGND" "_28_/a_381_47#" 26.1292
+cap "_14_/S" "_28_/CLK" 192.883
+cap "_24_/Q" "clkbuf_1_1__f_clk/a_110_47#" 7.29406
+cap "clkbuf_1_1__f_clk/a_110_47#" "clkbuf_0_clk/a_110_47#" 31.2084
+cap "_19_/a_76_199#" "_24_/Q" 0.121324
+cap "clkbuf_0_clk/VGND" "_28_/D" 28.2591
+cap "_24_/VPWR" "_28_/a_27_47#" 13.3269
+cap "_14_/S" "_28_/a_1059_315#" 22.926
+cap "INPUT[8]" "clkbuf_1_1__f_clk/a_110_47#" 264.156
+cap "_14_/A1" "_28_/a_193_47#" 3.39544
+cap "INPUT[8]" "_19_/a_76_199#" 57.5728
+cap "_19_/a_505_21#" "_25_/Q" 16.921
+cap "_24_/VPWR" "_14_/X" 348.595
+cap "clkbuf_0_clk/X" "_28_/a_27_47#" 13.1426
+cap "_24_/VPWR" "_26_/a_27_47#" 1.3401
+cap "_14_/A1" "_14_/a_439_47#" 21.209
+cap "clkbuf_0_clk/VGND" "FILLER_12_51/VPWR" 1.20308
+cap "clkbuf_0_clk/VGND" "_28_/a_975_413#" 16.4052
+cap "_19_/A1" "_28_/CLK" 20.0093
+cap "_19_/A1" "_14_/S" 187.305
+cap "clkbuf_0_clk/VGND" "clkbuf_0_clk/a_110_47#" -64.8248
+cap "_24_/VPWR" "_14_/S" 909.246
+cap "_24_/VPWR" "_28_/CLK" 819.419
+cap "clkbuf_0_clk/X" "_14_/X" -16.1566
+cap "_28_/CLK" "_14_/a_505_21#" 10.4531
+cap "_14_/a_76_199#" "_14_/A1" 1.13687e-13
+cap "_14_/S" "_14_/a_505_21#" 65.473
+cap "clkbuf_0_clk/VGND" "_28_/a_891_413#" 15.9535
+cap "_24_/VPWR" "_28_/a_1059_315#" 1.61916
+cap "_14_/a_505_21#" "_28_/a_1059_315#" 5.70157
+cap "_28_/Q" "_28_/a_891_413#" 1.02141
+cap "_14_/X" "_28_/a_634_159#" 2.91879
+cap "_14_/S" "clkbuf_0_clk/X" 71.6448
+cap "clkbuf_0_clk/X" "_28_/CLK" 297.425
+cap "_19_/a_76_199#" "clkbuf_1_1__f_clk/a_110_47#" 25.2136
+cap "clkbuf_0_clk/VGND" "FILLER_8_46/VGND" -75.2
+cap "_14_/S" "_28_/a_634_159#" 3.41176
+cap "_24_/VPWR" "_19_/A1" 7.61912
+cap "_19_/X" "clkbuf_1_1__f_clk/a_110_47#" 6.7
+cap "_25_/Q" "_28_/CLK" 8.47471
+cap "_14_/S" "_25_/Q" 81.6264
+cap "_24_/VPWR" "_14_/a_505_21#" -7.95
+cap "_14_/S" "_14_/a_218_374#" 31.204
+cap "clkbuf_0_clk/VGND" "clkbuf_1_1__f_clk/a_110_47#" 294.295
+cap "_24_/VPWR" "clkbuf_0_clk/X" -524.929
+cap "_24_/VPWR" "_25_/a_891_413#" 6.9
+cap "clkbuf_0_clk/VGND" "_19_/a_76_199#" 2.392
+cap "_28_/CLK" "_14_/A1" 14.4804
+cap "clkbuf_1_1__f_clk/a_110_47#" "_28_/Q" 13.8478
+cap "_14_/S" "_14_/A1" 322.833
+cap "clkbuf_0_clk/VGND" "_28_/a_466_413#" 23.6069
+cap "_19_/A1" "_25_/Q" 17.425
+cap "_14_/a_76_199#" "_28_/a_891_413#" 16.2923
+cap "_24_/VPWR" "_25_/Q" 554.453
+cap "_14_/A1" "_28_/a_1059_315#" 3.91403
+cap "_25_/a_1059_315#" "clkbuf_1_1__f_clk/a_110_47#" 16.5476
+cap "_25_/a_891_413#" "clkbuf_0_clk/X" 0.46
+cap "_28_/a_891_413#" "FILLER_8_66/VGND" 1.17255
+cap "clkbuf_0_clk/VGND" "_28_/Q" 9.59034
+cap "_24_/VPWR" "_14_/A1" 10.9071
+cap "_14_/A1" "_14_/a_505_21#" 14.6175
+cap "clkbuf_0_clk/a_110_47#" "_14_/X" -46.0759
+cap "clkbuf_0_clk/VGND" "_28_/a_561_413#" 14.2569
+cap "_24_/VPWR" "_28_/a_381_47#" 1.76786
+cap "clkbuf_0_clk/VGND" "_25_/a_1059_315#" 3.55952
+cap "FILLER_8_46/VGND" "_28_/a_27_47#" 1.90083
+cap "_14_/S" "clkbuf_0_clk/a_110_47#" -54.7425
+cap "_24_/Q" "_28_/CLK" 1.89344
+cap "_19_/a_505_21#" "clkbuf_1_1__f_clk/a_110_47#" 3.71779
+cap "clkbuf_1_1__f_clk/a_110_47#" "_14_/a_76_199#" 39.895
+cap "_28_/CLK" "clkbuf_0_clk/a_110_47#" 134.74
+cap "_14_/S" "_24_/Q" 55.9761
+cap "_24_/VPWR" "_28_/D" 1.80628
+cap "clkbuf_0_clk/VGND" "_28_/a_193_47#" 64.2285
+cap "_14_/a_76_199#" "_28_/a_466_413#" 1.96099
+cap "_28_/Q" "_28_/a_193_47#" 8.27241
+cap "_14_/S" "_28_/a_891_413#" 30.1758
+cap "INPUT[8]" "_28_/CLK" 301.713
+cap "INPUT[8]" "_14_/S" 22.7044
+cap "_28_/CLK" "FILLER_8_46/VGND" 2.91139
+cap "_25_/Q" "_19_/a_218_374#" 15.2926
+cap "_19_/A1" "_24_/Q" 0.242647
+cap "_24_/VPWR" "_24_/Q" 0.0606618
+cap "clkbuf_0_clk/VGND" "_19_/a_505_21#" 0.728333
+cap "_24_/VPWR" "clkbuf_0_clk/a_110_47#" -73.4729
+cap "clkbuf_0_clk/VGND" "_14_/a_76_199#" 47.2058
+cap "clkbuf_1_1__f_clk/a_110_47#" "_14_/X" 6.32707
+cap "_14_/a_76_199#" "_28_/Q" 0.354492
+cap "INPUT[8]" "_19_/A1" 22.7044
+cap "_24_/VPWR" "_28_/a_891_413#" -0.255
+cap "_24_/VPWR" "INPUT[8]" 23.3696
+cap "_14_/X" "_28_/a_466_413#" 5.90388
+cap "_14_/a_505_21#" "_28_/a_891_413#" 1.42121
+cap "_24_/a_1059_315#" "FILLER_8_46/VGND" 0.847025
+cap "_19_/a_76_199#" "_28_/CLK" 28.7362
+cap "_14_/S" "clkbuf_1_1__f_clk/a_110_47#" 79.7574
+cap "clkbuf_1_1__f_clk/a_110_47#" "_28_/CLK" 327.818
+cap "clkbuf_0_clk/X" "clkbuf_0_clk/a_110_47#" 6.57143
+cap "_19_/a_76_199#" "_14_/S" 17.6067
+cap "clkbuf_0_clk/VGND" "_28_/a_27_47#" 36.2553
+cap "_24_/VPWR" "FILLER_8_46/VGND" -174.35
+cap "_14_/a_76_199#" "_28_/a_193_47#" 4
+cap "_28_/Q" "_28_/a_27_47#" 1.06154
+cap "_19_/X" "_28_/CLK" 17.9069
+cap "_24_/Q" "_25_/Q" 17.425
+cap "clkbuf_0_clk/VGND" "_14_/X" 410.286
+cap "_28_/Q" "_14_/X" 0.00939935
+cap "_14_/S" "_14_/a_535_374#" 9.3069
+cap "_14_/a_505_21#" "FILLER_9_66/VPWR" 1.75806
+cap "_19_/A1" "clkbuf_1_1__f_clk/a_110_47#" 5.55275
+cap "clkbuf_0_clk/VGND" "_28_/CLK" 435.717
+cap "_24_/VPWR" "clkbuf_1_1__f_clk/a_110_47#" 546.958
+cap "clkbuf_0_clk/VGND" "_14_/S" 204.648
+cap "_24_/VPWR" "_19_/a_76_199#" 34.0869
+cap "_28_/CLK" "_28_/Q" 19.4326
+cap "clkbuf_1_1__f_clk/a_110_47#" "_14_/a_505_21#" 16.9634
+cap "_14_/S" "_28_/Q" 9.63278
+cap "clkbuf_0_clk/VGND" "_28_/a_1059_315#" 30.6677
+cap "_24_/VPWR" "_19_/X" 227.31
+cap "_28_/Q" "_28_/a_1059_315#" 3.09033
+cap "_14_/A1" "_28_/a_891_413#" 6.61597
+cap "_25_/a_1059_315#" "_28_/CLK" 2.59215
+cap "_25_/a_891_413#" "clkbuf_1_1__f_clk/a_110_47#" 9.07405
+cap "clkbuf_0_clk/X" "clkbuf_1_1__f_clk/a_110_47#" 24.6553
+cap "_14_/S" "_28_/a_193_47#" 64.686
+cap "clkbuf_0_clk/VGND" "_19_/A1" 0.587366
+cap "_25_/Q" "clkbuf_1_1__f_clk/a_110_47#" 6.42478
+cap "clkbuf_0_clk/VGND" "_24_/VPWR" 598.125
+cap "_19_/a_76_199#" "_25_/Q" 86.8236
+cap "_24_/VPWR" "_28_/Q" 0.121324
+cap "clkbuf_0_clk/VGND" "_14_/a_505_21#" 6.6634
+cap "_14_/S" "_14_/a_439_47#" 17.2366
+cap "_14_/a_76_199#" "_14_/X" -2.84217e-14
+cap "_28_/Q" "_14_/a_505_21#" 19.805
+cap "_25_/Q" "_19_/X" 75.9966
+cap "clkbuf_0_clk/VGND" "clkbuf_0_clk/X" -10.4235
+cap "clkbuf_0_clk/VGND" "_25_/a_891_413#" 2.37302
+cap "_24_/VPWR" "_25_/a_1059_315#" 35.6884
+cap "_28_/CLK" "_14_/a_76_199#" 50.9006
+cap "clkbuf_1_1__f_clk/a_110_47#" "_14_/A1" 16.4032
+cap "_19_/a_505_21#" "_28_/CLK" 2.06789
+cap "_14_/S" "_19_/a_505_21#" 11.3472
+cap "_14_/S" "_14_/a_76_199#" 128.721
+cap "clkbuf_0_clk/VGND" "_28_/a_634_159#" 29.1218
+cap "_24_/VPWR" "_28_/a_193_47#" 5.37581
+cap "_14_/a_76_199#" "_28_/a_1059_315#" 1.6383
+cap "clkbuf_0_clk/VGND" "_25_/Q" 98.7
+subcap "li_6745_7361#" -922.666
+subcap "li_6837_7497#" -1506.61
+subcap "li_7573_8789#" -408.062
+cap "_28_/VPWR" "_14_/A1" 398.129
+cap "_14_/VGND" "PHY_17/VGND" 22.4524
+cap "FILLER_8_66/VGND" "VGND" 189.2
+cap "PHY_17/VPB" "VGND" 0.0126
+cap "input9/VPB" "_14_/A1" 1.24725
+cap "_20_/a_76_199#" "_28_/VPWR" 1.7875
+cap "_14_/VGND" "_14_/S" 11.049
+cap "input9/a_75_212#" "input9/A" 78.4336
+cap "_14_/VGND" "clkbuf_1_1__f_clk/X" 96.2072
+cap "_19_/a_76_199#" "_14_/S" -0.863636
+cap "_28_/a_1059_315#" "FILLER_8_66/VGND" 3.55952
+cap "_28_/VPWR" "_14_/VGND" 1072.03
+cap "_28_/VPWR" "_19_/a_76_199#" 1.53699
+cap "input9/VPB" "_14_/VGND" 6.93889e-17
+cap "input3/A" "_19_/VGND" 9.72194
+cap "_28_/Q" "_14_/S" 118.581
+cap "_14_/A1" "_14_/a_505_21#" 64.013
+cap "_14_/VGND" "input9/a_75_212#" 151.482
+cap "_28_/VPWR" "_28_/Q" 62.7951
+cap "_19_/VGND" "_14_/S" 2.14216
+cap "_28_/VPWR" "input3/A" 6.9
+cap "_28_/VPWR" "_19_/VGND" 260.534
+cap "_28_/VPWR" "PHY_17/VGND" -3.58093
+cap "_14_/VGND" "_14_/a_505_21#" 141.798
+cap "input9/A" "input9/X" 32.5732
+cap "_28_/Q" "VGND" 23.8564
+cap "_14_/A1" "input9/X" 297.482
+cap "clkbuf_1_1__f_clk/a_110_47#" "_14_/VGND" 13.4521
+cap "_19_/a_505_21#" "li_5825_8313#" 84.6414
+cap "_28_/VPWR" "_14_/S" 36.4974
+cap "_28_/VPWR" "clkbuf_1_1__f_clk/X" -292.324
+cap "_28_/Q" "_28_/a_1059_315#" 1.8534
+cap "input3/a_75_212#" "input9/A" 3.46296
+cap "input3/A" "input9/a_75_212#" 1.73148
+cap "_14_/S" "_28_/a_891_413#" 0.309417
+cap "_14_/a_76_199#" "_14_/S" -1.54545
+cap "PHY_17/VGND" "VGND" 8.2
+cap "_28_/Q" "_14_/a_505_21#" 85.5914
+cap "_20_/A1" "_19_/VGND" 1.06154
+cap "input9/VPB" "_28_/VPWR" -73.7353
+cap "_14_/VGND" "input9/X" 159.194
+cap "_28_/VPWR" "_28_/a_891_413#" -96.53
+cap "_28_/VPWR" "_14_/a_76_199#" 1.53699
+cap "_28_/a_1059_315#" "_14_/S" 0.135693
+cap "_19_/VGND" "FILLER_12_74/VPWR" 4.45846
+cap "_28_/VPWR" "input9/a_75_212#" 315.328
+cap "_28_/VPWR" "VGND" 288.939
+cap "_14_/a_505_21#" "_14_/S" 2.84217e-14
+cap "_14_/VGND" "FILLER_8_66/VGND" 518.048
+cap "_28_/a_891_413#" "VGND" -79.5989
+cap "clkbuf_1_1__f_clk/X" "_14_/a_505_21#" 4.96012
+cap "_28_/VPWR" "_28_/a_1059_315#" 1.61916
+cap "_14_/VGND" "_19_/a_505_21#" 5.3764
+cap "_14_/VGND" "input9/A" 338.245
+cap "_28_/VPWR" "_14_/a_505_21#" 216.092
+cap "_14_/A1" "_14_/VGND" 511.319
+cap "PHY_17/VPB" "_28_/Q" 0.5983
+cap "input3/a_75_212#" "_20_/a_505_21#" 2.21507
+cap "_28_/VPWR" "clkbuf_1_1__f_clk/a_110_47#" 9.50008
+cap "_28_/a_1059_315#" "VGND" 6.00595
+cap "_19_/VGND" "li_5825_8313#" 98.7
+cap "input3/a_75_212#" "_19_/VGND" 8.34732
+cap "_19_/A1" "_19_/VGND" 0.587366
+cap "_14_/S" "li_5825_8313#" 17.425
+cap "FILLER_8_66/VGND" "PHY_17/VGND" 3.78481
+cap "_19_/A1" "_14_/S" -3.53122
+cap "_19_/VGND" "_19_/a_505_21#" 0.728333
+cap "input3/A" "input9/A" 16.9806
+cap "_28_/VPWR" "input9/X" 564.489
+cap "_14_/a_505_21#" "_28_/a_1059_315#" 1.57787
+cap "input9/VPB" "input9/X" 5.7728
+cap "_14_/A1" "_19_/VGND" 8.88178e-16
+cap "_28_/VPWR" "li_5825_8313#" 202.533
+cap "_28_/VPWR" "input3/a_75_212#" 145.745
+cap "_28_/VPWR" "_19_/A1" 2.475
+cap "input9/VPB" "li_5825_8313#" 1.2753
+cap "PHY_17/VPB" "_28_/VPWR" -80.0042
+cap "_28_/VPWR" "FILLER_8_66/VGND" 202.347
+cap "input9/A" "clkbuf_1_1__f_clk/X" 5.5202
+cap "_14_/VGND" "_28_/Q" 9.42857
+cap "_14_/A1" "_14_/S" 8.72598
+cap "_28_/a_891_413#" "FILLER_8_66/VGND" 2.37302
+cap "_28_/VPWR" "_19_/a_505_21#" 183.091
+cap "_19_/VGND" "PHY_25/VPWR" 1.45077
+cap "input3/a_75_212#" "input9/a_75_212#" 27.4286
+cap "_28_/VPWR" "input9/A" 363.445
+cap "_19_/VGND" "_14_/VGND" 254.887
+cap "PHY_19/VGND" "PHY_21/VPWR" -249.85
+cap "VPWR" "PHY_21/VPB" 1.02225
+cap "PHY_17/VPWR" "PHY_17/VGND" -127.434
+cap "FILLER_10_74/VGND" "PHY_19/VGND" 5.29492
+cap "PHY_17/VPWR" "VGND" -43.4344
+cap "PHY_19/VGND" "VPWR" -193.295
+cap "PHY_17/VPWR" "PHY_21/VPWR" 42.1667
+cap "PHY_17/VPB" "VGND" 0.0051
+cap "PHY_23/VGND" "PHY_21/VPWR" -127.434
+cap "PHY_17/VGND" "PHY_19/VGND" 42.1667
+cap "PHY_17/VPWR" "PHY_17/VPB" -9.165
+cap "PHY_21/VPWR" "PHY_21/VPB" -9.165
+cap "PHY_23/VGND" "FILLER_11_74/VGND" 2.6005
+cap "FILLER_8_66/VGND" "PHY_17/VGND" 1.50251
+cap "PHY_23/VGND" "PHY_25/VPWR" 1.38
+cap "PHY_17/VGND" "VGND" -64.8
+cap "PHY_23/VGND" "VPWR" 17.71
+cap "VPWR" "PHY_21/VPWR" -822.499
+cap "FILLER_9_66/VGND" "PHY_19/VGND" 3.00503
+cap "PHY_17/VPWR" "PHY_19/VGND" -252.412
+cap "PHY_23/VGND" "PHY_19/VGND" 42.1667
+subcap "li_1777_8517#" -1141.86
+cap "PHY_20/VPWR" "output12/X" 57.0478
+cap "input4/VPB" "input4/VPWR" 3.55271e-15
+cap "output12/VGND" "output12/a_27_47#" 0.134503
+cap "output12/VGND" "input4/A" 1.96748
+cap "PHY_20/VPWR" "output12/VGND" 9.41272
+cap "PHY_20/VPWR" "output12/a_27_47#" 9.44618
+cap "PHY_20/VPWR" "PHY_20/VGND" 3.8001
+cap "output12/VGND" "input4/a_75_212#" 3.27415
+cap "output12/VGND" "input4/VPWR" 89.5812
+cap "PHY_20/VPWR" "input4/VPWR" 66.3596
+cap "output12/X" "output12/VGND" 181.665
+cap "input4/a_75_212#" "input4/VPWR" 4.99739
+subcap "li_2329_8585#" -583.177
+subcap "li_1961_8789#" -1577.13
+subcap "li_1777_8517#" -1181.01
+subcap "li_2513_9061#" -755.83
+cap "input4/A" "_31_/VPWR" 142.258
+cap "output12/a_27_47#" "output12/X" -5.68434e-14
+cap "input4/X" "PHY_20/VPB" 0.3458
+cap "_27_/a_891_413#" "output12/VGND" 4.3939
+cap "_31_/Q" "_31_/VPWR" 108.899
+cap "_11_/X" "_31_/VPWR" 246.169
+cap "_11_/X" "_27_/a_1059_315#" 18.2921
+cap "input4/A" "input4/a_75_212#" 88.3157
+cap "output12/VGND" "_11_/a_76_199#" 28.9391
+cap "PHY_20/VPB" "_31_/VPWR" 0.886
+cap "_27_/a_891_413#" "_31_/a_466_413#" 4.04274
+cap "output12/X" "output12/VGND" 40.7664
+cap "output12/a_27_47#" "output12/VGND" 241.052
+cap "_11_/X" "_11_/a_218_374#" 15.2926
+cap "_11_/X" "_27_/Q" 13.3077
+cap "_31_/VPWR" "input4/VPB" 6.2246
+cap "_31_/Q" "input4/a_75_212#" 144.225
+cap "_27_/a_891_413#" "_31_/VPWR" 39.8353
+cap "_31_/Q" "input4/A" 100.657
+cap "_27_/a_193_47#" "_11_/a_76_199#" 3.78125
+cap "_11_/S" "output12/VGND" 1.66574
+cap "PHY_20/VPB" "input4/A" 0.7315
+cap "_27_/a_891_413#" "_31_/a_466_413#" 1.15
+cap "_11_/X" "_31_/Q" 51.9283
+cap "_31_/a_1059_315#" "output12/VGND" 3.19687
+cap "_27_/Q" "_27_/a_891_413#" 79.6943
+cap "_11_/a_76_199#" "_31_/VPWR" 41.6076
+cap "output12/X" "_31_/VPWR" 22.3008
+cap "input4/A" "input4/VPB" 0.01935
+cap "output12/a_27_47#" "_31_/VPWR" 61.492
+cap "_31_/Q" "PHY_20/VPB" 0.3078
+cap "input4/X" "output12/VGND" 474.21
+cap "_27_/a_1059_315#" "_31_/a_891_413#" 1.94663
+cap "_31_/a_891_413#" "_31_/VPWR" 0.903141
+cap "_11_/X" "input4/VPB" 0.5941
+cap "_27_/Q" "_11_/a_76_199#" -7.67267
+cap "_11_/S" "_31_/VPWR" 41.2223
+cap "_27_/a_1059_315#" "_31_/a_27_47#" 0.306667
+cap "_11_/S" "_27_/a_1059_315#" 11.5224
+cap "output12/a_27_47#" "input4/a_75_212#" 14.5976
+cap "output12/VGND" "_31_/VPWR" 391.553
+cap "output12/a_27_47#" "input4/A" 5.513
+cap "_27_/a_1059_315#" "output12/VGND" 33.8453
+cap "_27_/a_27_47#" "_31_/a_27_47#" 1.04545
+cap "_31_/a_1059_315#" "_31_/VPWR" 1.1129
+cap "_31_/Q" "_11_/a_76_199#" 136.529
+cap "_31_/Q" "output12/X" -7.48
+cap "_11_/X" "_11_/a_76_199#" 47.4292
+cap "input4/X" "_31_/VPWR" 238.211
+cap "output12/a_27_47#" "_31_/Q" 190.198
+cap "_27_/Q" "output12/VGND" 217.831
+cap "output12/VGND" "input4/a_75_212#" 169.887
+cap "output12/VGND" "input4/A" 152.757
+cap "_11_/S" "_31_/Q" 19.5012
+cap "_11_/X" "_11_/S" 49.0532
+cap "_27_/Q" "_27_/a_27_47#" 15.0609
+cap "input4/X" "input4/a_75_212#" 15.0225
+cap "_27_/Q" "_27_/a_193_47#" 5.65868
+cap "_31_/a_1059_315#" "output12/VGND" 0.251825
+cap "_27_/a_891_413#" "_11_/a_76_199#" 39.2045
+cap "_27_/a_1059_315#" "_31_/VPWR" 163.454
+cap "_31_/Q" "output12/VGND" 409.525
+cap "input4/X" "input4/A" 2.84217e-14
+cap "_11_/X" "output12/VGND" 42.2165
+cap "_27_/a_1059_315#" "_31_/a_634_159#" 1.25
+cap "input4/X" "_31_/Q" 32.5732
+cap "_27_/Q" "_31_/VPWR" 131.627
+cap "_27_/Q" "_27_/a_1017_47#" 27.0783
+cap "_27_/a_27_47#" "_31_/Q" 10.4169
+cap "_11_/S" "clk" -30.47
+cap "input4/a_75_212#" "_31_/VPWR" 210.418
+cap "_27_/Q" "_27_/a_1059_315#" 105.228
+cap "_11_/S" "_27_/a_891_413#" 3.23367
+cap "_31_/Q" "_27_/a_193_47#" 1.00877
+subcap "li_3453_8449#" -426.049
+subcap "li_2513_9061#" -1158.39
+cap "_27_/VNB" "_26_/a_1059_315#" 10.4574
+cap "_21_/X" "_27_/a_381_47#" 2.84217e-14
+cap "_27_/a_466_413#" "_21_/X" 3.55271e-15
+cap "_27_/a_193_47#" "_27_/CLK" 11.7743
+cap "_21_/X" "_27_/VNB" 169.854
+cap "_11_/A0" "_27_/a_27_47#" 12.6083
+cap "_21_/A0" "_31_/VPB" 0.790831
+cap "_27_/a_27_47#" "_31_/VPB" 26.8213
+cap "_27_/a_891_413#" "_11_/a_76_199#" 11.7097
+cap "_27_/a_27_47#" "_27_/VNB" 179.814
+cap "_27_/a_634_159#" "_11_/a_505_21#" 11.565
+cap "_11_/A0" "_27_/VNB" 41.3846
+cap "_27_/a_381_47#" "_31_/VPB" 5.78796
+cap "_27_/a_466_413#" "_31_/VPB" -3.55271e-15
+cap "_27_/a_193_47#" "_11_/a_76_199#" 7.5625
+cap "_27_/VNB" "_31_/VPB" 407.996
+cap "_27_/a_381_47#" "_27_/VNB" 17.3454
+cap "_21_/a_76_199#" "_27_/VNB" 0.170103
+cap "_11_/A0" "_11_/A1" 73.577
+cap "_11_/S" "_11_/a_505_21#" 55.3464
+cap "_27_/a_466_413#" "_31_/a_27_47#" 1.90704
+cap "_27_/a_634_159#" "_31_/a_193_47#" 1.62229
+cap "_11_/X" "_11_/A0" 1.5777
+cap "_11_/A1" "_31_/VPB" 4.95
+cap "_11_/X" "_31_/VPB" 1.78555
+cap "_27_/a_466_413#" "_11_/A1" 2.09091
+cap "_11_/A1" "_27_/VNB" 26.1772
+cap "_11_/S" "_27_/a_193_47#" 3.83333
+cap "_11_/X" "_27_/a_466_413#" 69.7228
+cap "_27_/a_634_159#" "clk" 94.491
+cap "_11_/X" "_27_/VNB" 48.5755
+cap "_21_/X" "_27_/CLK" 86.826
+cap "_11_/X" "_11_/A1" 240.627
+cap "_27_/CLK" "_27_/a_27_47#" -14.4638
+cap "_11_/a_505_21#" "clk" 113.725
+cap "_11_/S" "clk" 82.8586
+cap "_31_/a_193_47#" "_27_/a_193_47#" 0.963687
+cap "_27_/CLK" "_31_/VPB" 19.2934
+cap "_27_/a_193_47#" "clk" 22.6056
+cap "_21_/S" "_27_/VNB" 3.7125
+cap "_27_/CLK" "_27_/VNB" 165.601
+cap "_11_/A0" "_11_/a_76_199#" 84.4162
+cap "_27_/a_193_47#" "_31_/CLK" 1.15772
+cap "_11_/A0" "_27_/a_634_159#" 103.021
+cap "_31_/VPB" "_11_/a_76_199#" 3.07397
+cap "_27_/VNB" "_11_/a_76_199#" -17.425
+cap "_11_/a_505_21#" "_27_/a_27_47#" 9.54284
+cap "_27_/a_193_47#" "_21_/X" 227.72
+cap "_11_/A0" "_27_/a_891_413#" -228.971
+cap "_11_/S" "_27_/a_27_47#" 0.239583
+cap "_11_/X" "_11_/a_535_374#" 5.9957
+cap "_11_/A0" "_11_/a_505_21#" -2.84217e-14
+cap "_11_/S" "_11_/A0" 0.0970588
+cap "_11_/A1" "_11_/a_76_199#" 5.68434e-14
+cap "_11_/a_505_21#" "_31_/VPB" 162.906
+cap "_11_/S" "_31_/VPB" 471.023
+cap "_11_/X" "_11_/a_76_199#" 66.1137
+cap "_27_/a_466_413#" "_11_/a_505_21#" 27.8577
+cap "_27_/a_634_159#" "_11_/A1" 13.1284
+cap "_11_/X" "_27_/a_634_159#" 93.7423
+cap "_11_/S" "_27_/a_466_413#" 3.38227
+cap "_11_/A0" "_27_/a_193_47#" 103.763
+cap "_11_/a_505_21#" "_27_/VNB" 146.768
+cap "_11_/S" "_27_/VNB" 241.624
+cap "_27_/a_193_47#" "_31_/VPB" 4.4562
+cap "_31_/a_193_47#" "_27_/a_27_47#" 1.2294
+cap "_11_/A1" "_27_/a_891_413#" 6.9209
+cap "_21_/a_76_199#" "_31_/VPB" 0.903141
+cap "_11_/A1" "_11_/a_505_21#" 24.1675
+cap "_27_/a_193_47#" "_27_/VNB" 94.7542
+cap "_11_/A0" "_11_/a_439_47#" 26.24
+cap "_11_/S" "_11_/A1" 5.68434e-14
+cap "_11_/X" "_11_/a_505_21#" 43.337
+cap "_27_/a_193_47#" "_31_/a_27_47#" 20.588
+cap "_27_/a_466_413#" "_31_/a_193_47#" 0.680412
+cap "_26_/a_891_413#" "_31_/VPB" 3.82042
+cap "_31_/VPB" "clk" 39.9737
+cap "_27_/a_193_47#" "_11_/A1" 5.50658
+cap "_25_/CLK" "_31_/VPB" 8.50343
+cap "_11_/X" "_27_/a_193_47#" 22.6056
+cap "_27_/a_466_413#" "clk" 24.4714
+cap "_27_/VNB" "clk" 160.435
+cap "_26_/a_891_413#" "_27_/VNB" 1.00673
+cap "_25_/a_27_47#" "_31_/VPB" 5.96936
+cap "_25_/CLK" "_27_/VNB" 0.307252
+cap "_25_/a_27_47#" "_27_/VNB" 4.51332
+cap "_11_/X" "_11_/a_439_47#" 17.2366
+cap "_26_/Q" "_31_/VPB" 242.608
+cap "_21_/X" "_27_/a_27_47#" 128.94
+cap "_26_/Q" "_27_/VNB" 180.134
+cap "_31_/VPB" "_26_/a_1059_315#" 14.1644
+cap "_21_/X" "_31_/VPB" 22.3968
+subcap "li_4712_8517#" -628.15
+subcap "li_5825_8313#" -831.218
+subcap "li_5488_8857#" -436.86
+cap "_21_/VPWR" "_26_/a_891_413#" 122.352
+cap "_26_/D" "_26_/a_193_47#" 90.5296
+cap "_25_/D" "_25_/a_466_413#" 48.2032
+cap "_26_/a_193_47#" "_25_/VGND" 15.45
+cap "_25_/CLK" "_25_/a_891_413#" 128.648
+cap "_25_/a_381_47#" "_26_/a_193_47#" 8.63551
+cap "_25_/CLK" "_21_/S" 0.576696
+cap "clkbuf_1_1__f_clk/A" "_25_/a_891_413#" 0.69
+cap "_25_/a_891_413#" "_26_/a_27_47#" 4.8
+cap "_25_/a_466_413#" "_26_/a_634_159#" 23.188
+cap "_25_/a_891_413#" "_26_/D" 6.07895
+cap "_21_/VPB" "li_1777_5117#" 1.1438
+cap "_25_/a_891_413#" "_25_/VGND" 4.16596
+cap "_25_/a_27_47#" "FILLER_10_38/VGND" 2.08516
+cap "_26_/a_381_47#" "_21_/VPWR" 7.86521
+cap "_25_/CLK" "_26_/D" -3.55271e-15
+cap "_25_/CLK" "_25_/VGND" 268.697
+cap "_25_/a_466_413#" "_26_/a_193_47#" 12.0476
+cap "_26_/D" "_26_/a_27_47#" 32.5037
+cap "clkbuf_1_1__f_clk/a_110_47#" "_25_/a_891_413#" 2.49245
+cap "_25_/CLK" "_25_/a_381_47#" 84.0654
+cap "_25_/VGND" "_26_/a_27_47#" -2.84217e-14
+cap "_26_/D" "_25_/VGND" 10.6902
+cap "li_1777_5117#" "_26_/Q" 230.471
+cap "_25_/D" "_25_/a_193_47#" 429.059
+cap "_25_/CLK" "_25_/a_466_413#" 128.621
+cap "_25_/a_634_159#" "_26_/a_466_413#" 23.188
+cap "_25_/a_466_413#" "_26_/a_27_47#" 5.40036
+cap "_26_/VPB" "INPUT[7]" 0.7874
+cap "_26_/a_975_413#" "_21_/VPWR" 17.9192
+cap "_25_/a_193_47#" "_26_/a_193_47#" 17.7756
+cap "INPUT[7]" "_21_/VPWR" 21.8
+cap "li_1777_5117#" "_25_/VGND" -85.745
+cap "_25_/a_27_47#" "_25_/D" 216.209
+cap "_21_/VPB" "_21_/VPWR" 0.498
+cap "_25_/a_27_47#" "_26_/a_634_159#" 5.85
+cap "_25_/CLK" "_25_/a_193_47#" 292.338
+cap "_25_/D" "_21_/VPWR" 38.2304
+cap "_25_/a_193_47#" "_26_/a_27_47#" 20.5384
+cap "_25_/D" "_26_/a_1059_315#" 0.958333
+cap "_25_/a_193_47#" "_26_/D" 0.369883
+cap "clkbuf_1_1__f_clk/A" "_25_/a_193_47#" 0.963687
+cap "_21_/VPWR" "_26_/a_634_159#" 154.176
+cap "_25_/a_193_47#" "_25_/VGND" 10.7885
+cap "_25_/D" "_26_/a_891_413#" 6.07895
+cap "_25_/a_27_47#" "_26_/a_193_47#" 20.5384
+cap "_21_/VPWR" "_26_/Q" 146.539
+cap "_26_/Q" "_26_/a_891_413#" -1.42109e-14
+cap "_25_/D" "_25_/a_1059_315#" 19.805
+cap "_21_/VPWR" "_26_/a_193_47#" 140.075
+cap "_25_/CLK" "_25_/a_27_47#" 197.466
+cap "_21_/VPB" "li_5273_6613#" 1.1514
+cap "_25_/a_27_47#" "_26_/a_27_47#" 15.6263
+cap "_25_/a_27_47#" "clkbuf_1_1__f_clk/A" 1.20629
+cap "_25_/a_27_47#" "_26_/D" 9.85714
+cap "_25_/a_27_47#" "_25_/VGND" 22.9939
+cap "_25_/CLK" "_21_/VPWR" 39.2416
+cap "_25_/CLK" "_26_/a_1059_315#" 6.87005
+cap "_25_/a_1059_315#" "_26_/a_193_47#" 1.628
+cap "_21_/VPWR" "_26_/a_27_47#" 100.525
+cap "_26_/D" "_26_/a_466_413#" -7.10543e-15
+cap "_25_/CLK" "_25_/a_592_47#" 29.109
+cap "_26_/D" "_21_/VPWR" 1.36082
+cap "_21_/VPWR" "_25_/VGND" -267.215
+cap "_25_/VGND" "_26_/a_1059_315#" 25.9087
+cap "_25_/CLK" "_26_/a_891_413#" 17.4463
+cap "_25_/a_381_47#" "_21_/VPWR" 31.6386
+cap "_25_/D" "_25_/a_634_159#" 165.296
+cap "_26_/a_891_413#" "_25_/VGND" 2.37302
+cap "_25_/CLK" "_25_/a_1059_315#" 15.045
+cap "_26_/a_381_47#" "_25_/a_891_413#" 16.889
+cap "_25_/a_381_47#" "_26_/a_891_413#" 16.889
+cap "_25_/a_634_159#" "_26_/a_634_159#" 12.3416
+cap "_25_/a_466_413#" "_21_/VPWR" 18.6049
+cap "_25_/a_1059_315#" "_26_/D" 0.958333
+cap "_26_/VPB" "li_1777_5117#" 1.3319
+cap "_25_/a_1059_315#" "_25_/VGND" 1.99213
+cap "_26_/a_1017_47#" "_21_/VPWR" 0.5834
+cap "li_5273_6613#" "_25_/a_891_413#" 141.145
+cap "_26_/a_381_47#" "_26_/D" -5.68434e-14
+cap "_26_/a_381_47#" "_25_/VGND" 8.67269
+cap "li_1777_5117#" "_21_/VPWR" -253.821
+cap "_25_/CLK" "_21_/a_505_21#" 1.21101
+cap "_25_/CLK" "_25_/a_634_159#" 101.474
+cap "INPUT[7]" "_26_/a_193_47#" 178.335
+cap "_25_/a_634_159#" "_26_/a_27_47#" 5.85
+cap "_25_/a_193_47#" "_26_/a_466_413#" 12.0476
+cap "_25_/a_193_47#" "_21_/VPWR" 140.655
+cap "_25_/a_193_47#" "_26_/a_1059_315#" 3.256
+cap "_25_/D" "_26_/a_193_47#" 0.739766
+cap "_25_/a_193_47#" "_26_/a_891_413#" 9.31772
+cap "INPUT[7]" "_26_/a_27_47#" 105.107
+cap "_25_/D" "_25_/a_891_413#" 32.5732
+cap "_25_/CLK" "_25_/D" 14.856
+cap "_26_/VPB" "_21_/VPWR" 2.4512
+cap "_25_/D" "_26_/a_27_47#" 9.85714
+cap "_25_/a_27_47#" "_26_/a_466_413#" 4.64739
+cap "_26_/a_381_47#" "_25_/a_193_47#" 8.63551
+cap "_25_/a_27_47#" "clkbuf_1_1__f_clk/A" 0.924825
+cap "_25_/a_27_47#" "_21_/VPWR" 62.864
+cap "_25_/a_27_47#" "_26_/a_1059_315#" 19.0989
+cap "_25_/D" "_25_/VGND" 12.6625
+cap "_25_/a_891_413#" "_26_/a_193_47#" 9.31772
+cap "_25_/a_381_47#" "_25_/D" 37.8999
+cap "_21_/VPWR" "_26_/a_466_413#" 40.205
+cap "FILLER_10_38/VGND" "_25_/a_193_47#" 5.60128
+cap "_25_/CLK" "_25_/a_1017_47#" 27.0783
+cap "_25_/a_27_47#" "_26_/a_891_413#" 7.93636
+cap "_21_/VPWR" "_26_/a_1059_315#" 149.15
+cap "_26_/Q" "_25_/VGND" -390.869
+cap "_25_/CLK" "_26_/a_193_47#" 94.8728
+subcap "li_5825_8313#" -1060.97
+subcap "li_6653_8789#" -136.613
+subcap "li_5488_8857#" -971.298
+cap "_19_/A0" "_19_/X" 32.5826
+cap "_25_/VGND" "_26_/a_27_47#" 100.624
+cap "_26_/CLK" "_25_/a_1059_315#" 170.677
+cap "_25_/VGND" "_19_/A0" 174.237
+cap "_19_/a_76_199#" "INPUT[8]" 17.2315
+cap "_19_/A0" "clkbuf_1_1__f_clk/X" 1.89344
+cap "clkbuf_1_1__f_clk/VPB" "_26_/a_27_47#" 118.621
+cap "_19_/S" "clkbuf_1_1__f_clk/a_110_47#" 0.345
+cap "clkbuf_1_1__f_clk/VPB" "_19_/A0" 188.872
+cap "_25_/VGND" "clkbuf_1_1__f_clk/a_110_47#" 1.25912
+cap "_19_/S" "_19_/A0" 83.1966
+cap "input8/a_75_212#" "_25_/VGND" 114.561
+cap "_25_/Q" "_19_/X" 64.5249
+cap "_26_/CLK" "_26_/a_193_47#" 0.363881
+cap "input8/a_75_212#" "clkbuf_1_1__f_clk/VPB" 121.52
+cap "input8/A" "_26_/a_27_47#" 180.27
+cap "_25_/VGND" "_25_/Q" 188.515
+cap "input8/a_75_212#" "_19_/S" 3.94785
+cap "clkbuf_1_1__f_clk/VPB" "_25_/Q" 19.2673
+cap "_25_/VGND" "_19_/a_76_199#" 44.8138
+cap "_26_/a_27_47#" "_25_/a_891_413#" 3.13636
+cap "clkbuf_1_1__f_clk/VPB" "_19_/a_76_199#" 31.8511
+cap "_19_/a_76_199#" "clkbuf_1_1__f_clk/a_110_47#" 0.536667
+cap "_19_/a_76_199#" "_19_/S" 58.9953
+cap "_25_/a_891_413#" "_19_/A0" 46.6422
+cap "input8/A" "input8/a_75_212#" 142.735
+cap "_25_/a_1059_315#" "clkbuf_1_1__f_clk/X" 2.59215
+cap "_20_/A1" "clkbuf_1_1__f_clk/VPB" 2.3125
+cap "_19_/A1" "clkbuf_1_1__f_clk/a_110_47#" 0.547619
+cap "_19_/A1" "_26_/D" 32.5732
+cap "_26_/CLK" "_25_/VGND" 294.61
+cap "_26_/CLK" "clkbuf_1_1__f_clk/VPB" 50.2782
+cap "input8/A" "_19_/a_76_199#" 7.27592
+cap "_26_/a_27_47#" "_26_/D" 124.153
+cap "_25_/VGND" "clkbuf_1_1__f_clk/X" 0.565421
+cap "_25_/a_1059_315#" "_19_/X" 76.4535
+cap "_25_/VGND" "_25_/a_1059_315#" 62.365
+cap "clkbuf_1_1__f_clk/VPB" "clkbuf_1_1__f_clk/a_110_47#" 1.1129
+cap "clkbuf_1_1__f_clk/VPB" "_25_/a_1059_315#" 20.4508
+cap "_26_/CLK" "input8/A" 14.856
+cap "_20_/S" "_25_/VGND" 6.52441
+cap "_20_/S" "clkbuf_1_1__f_clk/VPB" 15.2178
+cap "input8/a_75_212#" "_26_/D" 100.287
+cap "_19_/A1" "_19_/A0" 94.8339
+cap "_25_/VGND" "INPUT[8]" 220.537
+cap "_25_/VGND" "_26_/a_193_47#" 15.45
+cap "_26_/CLK" "_25_/a_891_413#" 33.32
+cap "_25_/VGND" "_19_/a_505_21#" 9.26164
+cap "clkbuf_1_1__f_clk/VPB" "INPUT[8]" 198.205
+cap "clkbuf_1_1__f_clk/VPB" "_26_/a_193_47#" 13.8
+cap "clkbuf_1_1__f_clk/VPB" "_19_/a_505_21#" 27.5826
+cap "_19_/S" "_19_/a_505_21#" 7.14875
+cap "input8/a_75_212#" "_19_/A1" 3.13295
+cap "clkbuf_1_1__f_clk/VPB" "clkbuf_1_1__f_clk/a_110_47#" 0.903141
+cap "_20_/a_76_199#" "_25_/VGND" 16.1483
+cap "input8/A" "_26_/a_193_47#" 2.64824
+cap "_26_/CLK" "_26_/D" 30.7531
+cap "_20_/a_76_199#" "clkbuf_1_1__f_clk/VPB" 14.8895
+cap "_25_/a_891_413#" "clkbuf_1_1__f_clk/A" 0.46
+cap "_25_/VGND" "_19_/X" 422.093
+cap "_19_/A1" "_19_/a_76_199#" 18.6417
+cap "_19_/a_505_21#" "clkbuf_1_1__f_clk/a_110_47#" 0.942623
+cap "clkbuf_1_1__f_clk/VPB" "_19_/X" 121.284
+cap "_19_/A0" "_25_/Q" 32.5732
+cap "_25_/VGND" "clkbuf_1_1__f_clk/VPB" 486.736
+cap "_25_/VGND" "_19_/S" 105.869
+cap "clkbuf_1_1__f_clk/VPB" "_19_/S" 147.48
+cap "_19_/a_76_199#" "_19_/A0" 107.221
+cap "input8/A" "_25_/VGND" 123.782
+cap "_26_/CLK" "_26_/a_27_47#" 74.9788
+cap "input8/A" "clkbuf_1_1__f_clk/VPB" 447.543
+cap "input8/a_75_212#" "_19_/a_76_199#" 22.0585
+cap "input8/A" "_19_/S" 9.22168
+cap "_26_/a_193_47#" "_26_/D" 1.36364
+cap "_19_/A0" "clkbuf_1_1__f_clk/a_110_47#" 0.821429
+cap "_19_/a_505_21#" "FILLER_11_66/VPWR" 1.75806
+cap "_25_/a_891_413#" "_19_/X" 16.046
+cap "_25_/VGND" "_25_/a_891_413#" 16.0371
+cap "_19_/a_76_199#" "clkbuf_1_1__f_clk/X" 0.149547
+cap "_26_/a_27_47#" "_25_/a_1059_315#" 19.0989
+cap "clkbuf_1_1__f_clk/VPB" "_25_/a_891_413#" 7.34826
+cap "_25_/a_1059_315#" "_19_/A0" 140.725
+cap "_19_/A1" "_19_/a_439_47#" 52.5249
+cap "_19_/A1" "clkbuf_1_1__f_clk/a_110_47#" 0.376488
+cap "_19_/A1" "_19_/a_505_21#" 48.3424
+cap "_26_/a_381_47#" "_25_/VGND" 8.67269
+cap "_25_/VGND" "_26_/D" 462.422
+cap "_26_/a_381_47#" "clkbuf_1_1__f_clk/VPB" 7.86521
+cap "_19_/a_505_21#" "clkbuf_1_1__f_clk/X" 2.06789
+cap "clkbuf_1_1__f_clk/VPB" "_26_/D" 197.719
+cap "_19_/A0" "INPUT[8]" 166.169
+cap "_25_/VGND" "clkbuf_1_1__f_clk/X" 0.976636
+cap "_19_/A0" "_19_/a_505_21#" 1.42109e-14
+cap "clkbuf_1_1__f_clk/VPB" "clkbuf_1_1__f_clk/a_110_47#" 1.1129
+cap "_19_/A1" "_19_/X" 3.55271e-15
+cap "_19_/A1" "_25_/VGND" 500.135
+cap "_25_/a_891_413#" "clkbuf_1_1__f_clk/a_110_47#" 0.651667
+cap "_25_/a_1059_315#" "clkbuf_1_1__f_clk/a_110_47#" 0.383333
+cap "input8/A" "_26_/D" 21.6777
+cap "_19_/A1" "clkbuf_1_1__f_clk/VPB" 350.165
+cap "_19_/A1" "_19_/S" 432.661
+cap "_19_/a_505_21#" "clkbuf_1_1__f_clk/a_110_47#" 0.739766
+subcap "li_7573_8789#" -226.722
+subcap "li_6653_8789#" -783.011
+cap "FILLER_12_61/VPB" "_19_/S" 4.88215
+cap "input8/a_75_212#" "clkbuf_1_1__f_clk/VPWR" 9.8412
+cap "clkbuf_1_1__f_clk/VPWR" "_20_/a_218_47#" 0.6156
+cap "_19_/S" "_19_/A1" -2.7878
+cap "_20_/A0" "_20_/a_505_21#" -2.84217e-14
+cap "input9/A" "input3/A" 0.184
+cap "_19_/a_505_21#" "_19_/VGND" 141.676
+cap "_19_/S" "input3/a_75_212#" 1.71899
+cap "_20_/a_505_21#" "_19_/VGND" 146.768
+cap "input9/X" "_20_/X" 8.88178e-16
+cap "_20_/a_505_21#" "clkbuf_1_1__f_clk/VPWR" 162.906
+cap "input3/A" "_20_/a_505_21#" 6.41724
+cap "_19_/S" "input3/X" 5.06195
+cap "_19_/a_505_21#" "clkbuf_1_1__f_clk/VPWR" 54.6641
+cap "FILLER_10_65/VGND" "_19_/VGND" 2.43431
+cap "FILLER_10_65/VGND" "clkbuf_1_1__f_clk/VPWR" 9.06094
+cap "_19_/S" "input9/X" 98.4696
+cap "_20_/A0" "_19_/VGND" 160.6
+cap "_19_/S" "_20_/a_76_199#" 48.3264
+cap "_19_/S" "_20_/X" 60.7533
+cap "input3/a_75_212#" "_20_/a_505_21#" 23.4087
+cap "_20_/A0" "clkbuf_1_1__f_clk/VPWR" 112.545
+cap "_19_/VGND" "clkbuf_1_1__f_clk/VPWR" -127.668
+cap "clkbuf_1_1__f_clk/VPWR" "_20_/a_218_374#" 0.8156
+cap "input9/a_75_212#" "input3/A" 1.73148
+cap "input3/X" "_20_/a_505_21#" 7.46087
+cap "input3/A" "_19_/VGND" 508.862
+cap "_20_/A0" "_20_/a_439_47#" 26.24
+cap "input3/A" "clkbuf_1_1__f_clk/VPWR" 656.844
+cap "input9/X" "_20_/a_505_21#" 48.3424
+cap "FILLER_12_61/VPB" "clkbuf_1_1__f_clk/VPWR" 2.426
+cap "FILLER_10_74/VGND" "clkbuf_1_1__f_clk/VPWR" 6.90932
+cap "_20_/a_505_21#" "_20_/a_76_199#" -3.55271e-15
+cap "input9/VPB" "clkbuf_1_1__f_clk/VPWR" 0.7288
+cap "_19_/VGND" "_19_/A1" 17.2155
+cap "input3/a_75_212#" "_19_/VGND" 129.994
+cap "_19_/a_505_21#" "_20_/X" 7.63594
+cap "clkbuf_1_1__f_clk/VPWR" "_19_/A1" 12.0598
+cap "input3/a_75_212#" "clkbuf_1_1__f_clk/VPWR" 48.8138
+cap "input3/A" "input9/VPB" 0.00585
+cap "input3/X" "_19_/VGND" 74.1517
+cap "_20_/A0" "input9/X" -19.1831
+cap "_19_/S" "_20_/a_505_21#" 22.136
+cap "input3/X" "clkbuf_1_1__f_clk/VPWR" 25.9286
+cap "input9/X" "_19_/VGND" 103.2
+cap "_19_/A0" "_19_/VGND" 9.54774
+cap "input9/X" "clkbuf_1_1__f_clk/VPWR" 99.1388
+cap "_20_/A0" "_20_/a_76_199#" 84.4162
+cap "_20_/A0" "_20_/X" -3.34888
+cap "_19_/VGND" "_20_/a_76_199#" 33.5014
+cap "_19_/VGND" "_20_/X" 3.59773
+cap "_20_/a_76_199#" "clkbuf_1_1__f_clk/VPWR" 250.535
+cap "_19_/S" "_19_/a_76_199#" -0.681818
+cap "input9/X" "_20_/a_439_47#" 43.5327
+cap "clkbuf_1_1__f_clk/VPWR" "_20_/X" 81.4361
+cap "input9/VPB" "input9/X" 1.1438
+cap "_19_/S" "_20_/A0" 19.9021
+cap "_19_/S" "_19_/VGND" 22.4678
+cap "_19_/S" "clkbuf_1_1__f_clk/VPWR" 238.924
+cap "PHY_21/VGND" "clkbuf_1_1__f_clk/VPWR" 1.48203
+cap "input8/a_75_212#" "_19_/VGND" 3.49942
+subcap "INPUT[8]" -2426.64
+cap "PHY_21/VPWR" "PHY_23/VGND" -120.098
+cap "PHY_25/VPWR" "PHY_21/VPWR" 42.1667
+cap "FILLER_12_74/VGND" "PHY_23/VGND" 5.29492
+cap "FILLER_11_74/VGND" "PHY_23/VGND" 2.69441
+cap "PHY_21/VGND" "PHY_21/VPWR" 2.31806
+cap "PHY_25/VPWR" "PHY_23/VGND" -252.168
+subcap "OUTPUT" -1611.34
+subcap "clk" -2655.31
+subcap "clk" -1798.09
+subcap "INPUT[7]" -1126.8
+subcap "INPUT[2]" -1086.29
+subcap "INPUT[8]" -1934.35
+subcap "OUTPUT" -1903.15
+subcap "clk" -2416.42
+subcap "clk" -2410.49
+subcap "INPUT[7]" -1418.61
+subcap "INPUT[2]" -1378.1
+merge "FILLER_12_74/VGND" "FILLER_12_74/VNB" -82228.3 0 0 -189153 -3236 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -4862071 -100712 -1735887 -223480 0 0 0 0 0 0 -1678032 -14290 0 0
+merge "FILLER_12_74/VNB" "PHY_25/VGND"
+merge "PHY_25/VGND" "PHY_25/VNB"
+merge "PHY_25/VNB" "FILLER_11_70/VNB"
+merge "FILLER_11_70/VNB" "FILLER_11_70/VGND"
+merge "FILLER_11_70/VGND" "FILLER_11_74/VNB"
+merge "FILLER_11_74/VNB" "FILLER_11_74/VGND"
+merge "FILLER_11_74/VGND" "PHY_23/VNB"
+merge "PHY_23/VNB" "PHY_23/VGND"
+merge "PHY_23/VGND" "input3/VNB"
+merge "input3/VNB" "input3/VGND"
+merge "input3/VGND" "FILLER_10_74/VNB"
+merge "FILLER_10_74/VNB" "FILLER_10_74/VGND"
+merge "FILLER_10_74/VGND" "PHY_21/VGND"
+merge "PHY_21/VGND" "PHY_21/VNB"
+merge "PHY_21/VNB" "input9/VNB"
+merge "input9/VNB" "input9/VGND"
+merge "input9/VGND" "PHY_19/VGND"
+merge "PHY_19/VGND" "_20_/VNB"
+merge "_20_/VNB" "_20_/VGND"
+merge "_20_/VGND" "FILLER_12_55/VNB"
+merge "FILLER_12_55/VNB" "FILLER_12_55/VGND"
+merge "FILLER_12_55/VGND" "FILLER_12_57/VNB"
+merge "FILLER_12_57/VNB" "FILLER_12_57/VGND"
+merge "FILLER_12_57/VGND" "FILLER_12_61/VNB"
+merge "FILLER_12_61/VNB" "FILLER_12_61/VGND"
+merge "FILLER_12_61/VGND" "TAP_40/VGND"
+merge "TAP_40/VGND" "input8/VNB"
+merge "input8/VNB" "input8/VGND"
+merge "input8/VGND" "FILLER_11_66/VNB"
+merge "FILLER_11_66/VNB" "FILLER_11_66/VGND"
+merge "FILLER_11_66/VGND" "TAP_38/VGND"
+merge "TAP_38/VGND" "_19_/VNB"
+merge "_19_/VNB" "_19_/VGND"
+merge "_19_/VGND" "FILLER_10_65/VNB"
+merge "FILLER_10_65/VNB" "FILLER_10_65/VGND"
+merge "FILLER_10_65/VGND" "FILLER_9_66/VGND"
+merge "FILLER_9_66/VGND" "_14_/VGND"
+merge "_14_/VGND" "FILLER_12_51/VNB"
+merge "FILLER_12_51/VNB" "FILLER_12_51/VGND"
+merge "FILLER_12_51/VGND" "FILLER_11_52/VNB"
+merge "FILLER_11_52/VNB" "FILLER_11_52/VGND"
+merge "FILLER_11_52/VGND" "FILLER_10_44/VNB"
+merge "FILLER_10_44/VNB" "FILLER_10_44/VGND"
+merge "FILLER_10_44/VGND" "clkbuf_1_1__f_clk/VNB"
+merge "clkbuf_1_1__f_clk/VNB" "clkbuf_1_1__f_clk/VGND"
+merge "clkbuf_1_1__f_clk/VGND" "FILLER_9_52/VGND"
+merge "FILLER_9_52/VGND" "FILLER_12_24/VNB"
+merge "FILLER_12_24/VNB" "FILLER_12_24/VGND"
+merge "FILLER_12_24/VGND" "FILLER_12_29/VGND"
+merge "FILLER_12_29/VGND" "FILLER_12_29/VNB"
+merge "FILLER_12_29/VNB" "TAP_39/VGND"
+merge "TAP_39/VGND" "_26_/VNB"
+merge "_26_/VNB" "_26_/VGND"
+merge "_26_/VGND" "FILLER_11_29/VNB"
+merge "FILLER_11_29/VNB" "FILLER_11_29/VGND"
+merge "FILLER_11_29/VGND" "FILLER_11_35/VNB"
+merge "FILLER_11_35/VNB" "FILLER_11_35/VGND"
+merge "FILLER_11_35/VGND" "_25_/VNB"
+merge "_25_/VNB" "_25_/VGND"
+merge "_25_/VGND" "FILLER_10_24/VNB"
+merge "FILLER_10_24/VNB" "FILLER_10_24/VGND"
+merge "FILLER_10_24/VGND" "FILLER_10_38/VNB"
+merge "FILLER_10_38/VNB" "FILLER_10_38/VGND"
+merge "FILLER_10_38/VGND" "TAP_37/VGND"
+merge "TAP_37/VGND" "_21_/VNB"
+merge "_21_/VNB" "_21_/VGND"
+merge "_21_/VGND" "FILLER_9_26/VGND"
+merge "FILLER_9_26/VGND" "clkbuf_0_clk/VGND"
+merge "clkbuf_0_clk/VGND" "FILLER_12_10/VNB"
+merge "FILLER_12_10/VNB" "FILLER_12_10/VGND"
+merge "FILLER_12_10/VGND" "FILLER_12_14/VNB"
+merge "FILLER_12_14/VNB" "FILLER_12_14/VGND"
+merge "FILLER_12_14/VGND" "_11_/VNB"
+merge "_11_/VNB" "_11_/VGND"
+merge "_11_/VGND" "FILLER_11_9/VNB"
+merge "FILLER_11_9/VNB" "FILLER_11_9/VGND"
+merge "FILLER_11_9/VGND" "_27_/VNB"
+merge "_27_/VNB" "_27_/VGND"
+merge "_27_/VGND" "_31_/VNB"
+merge "_31_/VNB" "_31_/VGND"
+merge "_31_/VGND" "FILLER_9_9/VGND"
+merge "FILLER_9_9/VGND" "_29_/VGND"
+merge "_29_/VGND" "FILLER_12_3/VGND"
+merge "FILLER_12_3/VGND" "FILLER_12_3/VNB"
+merge "FILLER_12_3/VNB" "PHY_24/VGND"
+merge "PHY_24/VGND" "PHY_24/VNB"
+merge "PHY_24/VNB" "input4/VNB"
+merge "input4/VNB" "input4/VGND"
+merge "input4/VGND" "FILLER_11_3/VNB"
+merge "FILLER_11_3/VNB" "FILLER_11_3/VGND"
+merge "FILLER_11_3/VGND" "PHY_22/VNB"
+merge "PHY_22/VNB" "PHY_22/VGND"
+merge "PHY_22/VGND" "output12/VNB"
+merge "output12/VNB" "output12/VGND"
+merge "output12/VGND" "FILLER_10_3/VGND"
+merge "FILLER_10_3/VGND" "FILLER_10_3/VNB"
+merge "FILLER_10_3/VNB" "FILLER_10_7/VNB"
+merge "FILLER_10_7/VNB" "FILLER_10_7/VGND"
+merge "FILLER_10_7/VGND" "PHY_20/VGND"
+merge "PHY_20/VGND" "PHY_20/VNB"
+merge "PHY_20/VNB" "FILLER_9_3/VGND"
+merge "FILLER_9_3/VGND" "PHY_18/VGND"
+merge "PHY_18/VGND" "PHY_19/VNB"
+merge "PHY_19/VNB" "PHY_17/VGND"
+merge "PHY_17/VGND" "PHY_17/VNB"
+merge "PHY_17/VNB" "FILLER_7_70/VGND"
+merge "FILLER_7_70/VGND" "FILLER_7_74/VGND"
+merge "FILLER_7_74/VGND" "PHY_15/VGND"
+merge "PHY_15/VGND" "input1/VGND"
+merge "input1/VGND" "FILLER_9_66/VNB"
+merge "FILLER_9_66/VNB" "TAP_36/VGND"
+merge "TAP_36/VGND" "_14_/VNB"
+merge "_14_/VNB" "FILLER_8_66/VGND"
+merge "FILLER_8_66/VGND" "FILLER_8_66/VNB"
+merge "FILLER_8_66/VNB" "FILLER_7_66/VGND"
+merge "FILLER_7_66/VGND" "_18_/VGND"
+merge "_18_/VGND" "FILLER_9_52/VNB"
+merge "FILLER_9_52/VNB" "FILLER_8_46/VNB"
+merge "FILLER_8_46/VNB" "FILLER_8_46/VGND"
+merge "FILLER_8_46/VGND" "_28_/VNB"
+merge "_28_/VNB" "_28_/VGND"
+merge "_28_/VGND" "FILLER_7_52/VGND"
+merge "FILLER_7_52/VGND" "FILLER_9_26/VNB"
+merge "FILLER_9_26/VNB" "clkbuf_0_clk/VNB"
+merge "clkbuf_0_clk/VNB" "FILLER_8_24/VNB"
+merge "FILLER_8_24/VNB" "FILLER_8_24/VGND"
+merge "FILLER_8_24/VGND" "FILLER_8_29/VNB"
+merge "FILLER_8_29/VNB" "FILLER_8_29/VGND"
+merge "FILLER_8_29/VGND" "TAP_35/VGND"
+merge "TAP_35/VGND" "_24_/VNB"
+merge "_24_/VNB" "_24_/VGND"
+merge "_24_/VGND" "FILLER_7_28/VGND"
+merge "FILLER_7_28/VGND" "_32_/VGND"
+merge "_32_/VGND" "FILLER_9_9/VNB"
+merge "FILLER_9_9/VNB" "_29_/VNB"
+merge "_29_/VNB" "_30_/VNB"
+merge "_30_/VNB" "_30_/VGND"
+merge "_30_/VGND" "FILLER_7_15/VGND"
+merge "FILLER_7_15/VGND" "_15_/VGND"
+merge "_15_/VGND" "FILLER_9_3/VNB"
+merge "FILLER_9_3/VNB" "PHY_18/VNB"
+merge "PHY_18/VNB" "FILLER_8_3/VGND"
+merge "FILLER_8_3/VGND" "FILLER_8_3/VNB"
+merge "FILLER_8_3/VNB" "FILLER_8_7/VNB"
+merge "FILLER_8_7/VNB" "FILLER_8_7/VGND"
+merge "FILLER_8_7/VGND" "PHY_16/VGND"
+merge "PHY_16/VGND" "PHY_16/VNB"
+merge "PHY_16/VNB" "FILLER_7_3/VGND"
+merge "FILLER_7_3/VGND" "PHY_14/VGND"
+merge "PHY_14/VGND" "FILLER_6_70/VNB"
+merge "FILLER_6_70/VNB" "FILLER_6_70/VGND"
+merge "FILLER_6_70/VGND" "FILLER_7_70/VNB"
+merge "FILLER_7_70/VNB" "FILLER_7_74/VNB"
+merge "FILLER_7_74/VNB" "PHY_13/VGND"
+merge "PHY_13/VGND" "PHY_13/VNB"
+merge "PHY_13/VNB" "PHY_15/VNB"
+merge "PHY_15/VNB" "input1/VNB"
+merge "input1/VNB" "FILLER_5_69/VNB"
+merge "FILLER_5_69/VNB" "FILLER_5_69/VGND"
+merge "FILLER_5_69/VGND" "FILLER_5_77/VNB"
+merge "FILLER_5_77/VNB" "FILLER_5_77/VGND"
+merge "FILLER_5_77/VGND" "PHY_11/VNB"
+merge "PHY_11/VNB" "PHY_11/VGND"
+merge "PHY_11/VGND" "FILLER_7_66/VNB"
+merge "FILLER_7_66/VNB" "FILLER_6_58/VNB"
+merge "FILLER_6_58/VNB" "FILLER_6_58/VGND"
+merge "FILLER_6_58/VGND" "TAP_34/VGND"
+merge "TAP_34/VGND" "_18_/VNB"
+merge "_18_/VNB" "FILLER_5_57/VNB"
+merge "FILLER_5_57/VNB" "FILLER_5_57/VGND"
+merge "FILLER_5_57/VGND" "TAP_32/VGND"
+merge "TAP_32/VGND" "FILLER_6_45/VNB"
+merge "FILLER_6_45/VNB" "FILLER_6_45/VGND"
+merge "FILLER_6_45/VGND" "FILLER_7_52/VNB"
+merge "FILLER_7_52/VNB" "_13_/VNB"
+merge "_13_/VNB" "_13_/VGND"
+merge "_13_/VGND" "FILLER_5_48/VNB"
+merge "FILLER_5_48/VNB" "FILLER_5_48/VGND"
+merge "FILLER_5_48/VGND" "_17_/VNB"
+merge "_17_/VNB" "_17_/VGND"
+merge "_17_/VGND" "FILLER_6_24/VNB"
+merge "FILLER_6_24/VNB" "FILLER_6_24/VGND"
+merge "FILLER_6_24/VGND" "FILLER_7_28/VNB"
+merge "FILLER_7_28/VNB" "TAP_33/VGND"
+merge "TAP_33/VGND" "_23_/VNB"
+merge "_23_/VNB" "_23_/VGND"
+merge "_23_/VGND" "_32_/VNB"
+merge "_32_/VNB" "FILLER_5_35/VNB"
+merge "FILLER_5_35/VNB" "FILLER_5_35/VGND"
+merge "FILLER_5_35/VGND" "FILLER_7_15/VNB"
+merge "FILLER_7_15/VNB" "_15_/VNB"
+merge "_15_/VNB" "FILLER_5_15/VNB"
+merge "FILLER_5_15/VNB" "FILLER_5_15/VGND"
+merge "FILLER_5_15/VGND" "_22_/VNB"
+merge "_22_/VNB" "_22_/VGND"
+merge "_22_/VGND" "FILLER_6_3/VGND"
+merge "FILLER_6_3/VGND" "FILLER_6_3/VNB"
+merge "FILLER_6_3/VNB" "FILLER_7_3/VNB"
+merge "FILLER_7_3/VNB" "PHY_12/VGND"
+merge "PHY_12/VGND" "PHY_12/VNB"
+merge "PHY_12/VNB" "PHY_14/VNB"
+merge "PHY_14/VNB" "clkbuf_1_0__f_clk/VNB"
+merge "clkbuf_1_0__f_clk/VNB" "clkbuf_1_0__f_clk/VGND"
+merge "clkbuf_1_0__f_clk/VGND" "FILLER_5_3/VNB"
+merge "FILLER_5_3/VNB" "FILLER_5_3/VGND"
+merge "FILLER_5_3/VGND" "PHY_10/VNB"
+merge "PHY_10/VNB" "PHY_10/VGND"
+merge "PHY_10/VGND" "_16_/VNB"
+merge "_16_/VNB" "_16_/VGND"
+merge "_16_/VGND" "FILLER_4_71/VNB"
+merge "FILLER_4_71/VNB" "FILLER_4_71/VGND"
+merge "FILLER_4_71/VGND" "FILLER_4_77/VGND"
+merge "FILLER_4_77/VGND" "FILLER_4_77/VNB"
+merge "FILLER_4_77/VNB" "PHY_9/VGND"
+merge "PHY_9/VGND" "PHY_9/VNB"
+merge "PHY_9/VNB" "FILLER_3_69/VNB"
+merge "FILLER_3_69/VNB" "FILLER_3_69/VGND"
+merge "FILLER_3_69/VGND" "FILLER_3_77/VNB"
+merge "FILLER_3_77/VNB" "FILLER_3_77/VGND"
+merge "FILLER_3_77/VGND" "PHY_7/VNB"
+merge "PHY_7/VNB" "PHY_7/VGND"
+merge "PHY_7/VGND" "FILLER_2_77/VNB"
+merge "FILLER_2_77/VNB" "FILLER_2_77/VGND"
+merge "FILLER_2_77/VGND" "PHY_5/VGND"
+merge "PHY_5/VGND" "PHY_5/VNB"
+merge "PHY_5/VNB" "FILLER_1_69/VGND"
+merge "FILLER_1_69/VGND" "FILLER_1_74/VGND"
+merge "FILLER_1_74/VGND" "PHY_3/VGND"
+merge "PHY_3/VGND" "input6/VGND"
+merge "input6/VGND" "FILLER_4_59/VNB"
+merge "FILLER_4_59/VNB" "FILLER_4_59/VGND"
+merge "FILLER_4_59/VGND" "FILLER_3_54/VNB"
+merge "FILLER_3_54/VNB" "FILLER_3_54/VGND"
+merge "FILLER_3_54/VGND" "FILLER_3_57/VNB"
+merge "FILLER_3_57/VNB" "FILLER_3_57/VGND"
+merge "FILLER_3_57/VGND" "TAP_30/VGND"
+merge "TAP_30/VGND" "FILLER_2_65/VNB"
+merge "FILLER_2_65/VNB" "FILLER_2_65/VGND"
+merge "FILLER_2_65/VGND" "FILLER_1_55/VGND"
+merge "FILLER_1_55/VGND" "FILLER_1_57/VGND"
+merge "FILLER_1_57/VGND" "FILLER_4_47/VNB"
+merge "FILLER_4_47/VNB" "FILLER_4_47/VGND"
+merge "FILLER_4_47/VGND" "_12_/VGND"
+merge "_12_/VGND" "_12_/VNB"
+merge "_12_/VNB" "FILLER_4_41/VNB"
+merge "FILLER_4_41/VNB" "FILLER_4_41/VGND"
+merge "FILLER_4_41/VGND" "FILLER_3_46/VNB"
+merge "FILLER_3_46/VNB" "FILLER_3_46/VGND"
+merge "FILLER_3_46/VGND" "FILLER_2_53/VNB"
+merge "FILLER_2_53/VNB" "FILLER_2_53/VGND"
+merge "FILLER_2_53/VGND" "FILLER_2_41/VNB"
+merge "FILLER_2_41/VNB" "FILLER_2_41/VGND"
+merge "FILLER_2_41/VGND" "FILLER_1_51/VGND"
+merge "FILLER_1_51/VGND" "FILLER_1_39/VGND"
+merge "FILLER_1_39/VGND" "FILLER_4_27/VNB"
+merge "FILLER_4_27/VNB" "FILLER_4_27/VGND"
+merge "FILLER_4_27/VGND" "FILLER_4_29/VNB"
+merge "FILLER_4_29/VNB" "FILLER_4_29/VGND"
+merge "FILLER_4_29/VGND" "TAP_31/VGND"
+merge "TAP_31/VGND" "FILLER_3_34/VNB"
+merge "FILLER_3_34/VNB" "FILLER_3_34/VGND"
+merge "FILLER_3_34/VGND" "FILLER_2_27/VGND"
+merge "FILLER_2_27/VGND" "FILLER_2_27/VNB"
+merge "FILLER_2_27/VNB" "FILLER_2_29/VNB"
+merge "FILLER_2_29/VNB" "FILLER_2_29/VGND"
+merge "FILLER_2_29/VGND" "TAP_29/VGND"
+merge "TAP_29/VGND" "FILLER_1_27/VGND"
+merge "FILLER_1_27/VGND" "FILLER_4_15/VNB"
+merge "FILLER_4_15/VNB" "FILLER_4_15/VGND"
+merge "FILLER_4_15/VGND" "FILLER_3_22/VNB"
+merge "FILLER_3_22/VNB" "FILLER_3_22/VGND"
+merge "FILLER_3_22/VGND" "FILLER_3_10/VNB"
+merge "FILLER_3_10/VNB" "FILLER_3_10/VGND"
+merge "FILLER_3_10/VGND" "FILLER_2_15/VGND"
+merge "FILLER_2_15/VGND" "FILLER_2_15/VNB"
+merge "FILLER_2_15/VNB" "FILLER_1_15/VGND"
+merge "FILLER_1_15/VGND" "FILLER_4_3/VGND"
+merge "FILLER_4_3/VGND" "FILLER_4_3/VNB"
+merge "FILLER_4_3/VNB" "PHY_8/VGND"
+merge "PHY_8/VGND" "PHY_8/VNB"
+merge "PHY_8/VNB" "FILLER_3_3/VNB"
+merge "FILLER_3_3/VNB" "FILLER_3_3/VGND"
+merge "FILLER_3_3/VGND" "PHY_6/VNB"
+merge "PHY_6/VNB" "PHY_6/VGND"
+merge "PHY_6/VGND" "input7/VNB"
+merge "input7/VNB" "input7/VGND"
+merge "input7/VGND" "FILLER_2_3/VGND"
+merge "FILLER_2_3/VGND" "FILLER_2_3/VNB"
+merge "FILLER_2_3/VNB" "PHY_4/VGND"
+merge "PHY_4/VGND" "PHY_4/VNB"
+merge "PHY_4/VNB" "FILLER_1_3/VGND"
+merge "FILLER_1_3/VGND" "PHY_2/VGND"
+merge "PHY_2/VGND" "FILLER_0_74/VNB"
+merge "FILLER_0_74/VNB" "FILLER_0_74/VGND"
+merge "FILLER_0_74/VGND" "FILLER_1_69/VNB"
+merge "FILLER_1_69/VNB" "FILLER_1_74/VNB"
+merge "FILLER_1_74/VNB" "PHY_1/VNB"
+merge "PHY_1/VNB" "PHY_1/VGND"
+merge "PHY_1/VGND" "PHY_3/VNB"
+merge "PHY_3/VNB" "input6/VNB"
+merge "input6/VNB" "FILLER_0_65/VNB"
+merge "FILLER_0_65/VNB" "FILLER_0_65/VGND"
+merge "FILLER_0_65/VGND" "input11/VNB"
+merge "input11/VNB" "input11/VGND"
+merge "input11/VGND" "FILLER_0_57/VNB"
+merge "FILLER_0_57/VNB" "FILLER_0_57/VGND"
+merge "FILLER_0_57/VGND" "FILLER_1_55/VNB"
+merge "FILLER_1_55/VNB" "FILLER_1_57/VNB"
+merge "FILLER_1_57/VNB" "TAP_27/VGND"
+merge "TAP_27/VGND" "TAP_28/VGND"
+merge "TAP_28/VGND" "FILLER_0_50/VNB"
+merge "FILLER_0_50/VNB" "FILLER_0_50/VGND"
+merge "FILLER_0_50/VGND" "FILLER_1_51/VNB"
+merge "FILLER_1_51/VNB" "input2/VNB"
+merge "input2/VNB" "input2/VGND"
+merge "input2/VGND" "FILLER_0_41/VNB"
+merge "FILLER_0_41/VNB" "FILLER_0_41/VGND"
+merge "FILLER_0_41/VGND" "FILLER_1_39/VNB"
+merge "FILLER_1_39/VNB" "FILLER_0_29/VNB"
+merge "FILLER_0_29/VNB" "FILLER_0_29/VGND"
+merge "FILLER_0_29/VGND" "FILLER_1_27/VNB"
+merge "FILLER_1_27/VNB" "TAP_26/VGND"
+merge "TAP_26/VGND" "input10/VGND"
+merge "input10/VGND" "FILLER_0_20/VGND"
+merge "FILLER_0_20/VGND" "FILLER_0_16/VGND"
+merge "FILLER_0_16/VGND" "FILLER_0_10/VGND"
+merge "FILLER_0_10/VGND" "input5/VGND"
+merge "input5/VGND" "PHY_0/VGND"
+merge "PHY_0/VGND" "FILLER_0_3/VGND"
+merge "FILLER_0_3/VGND" "VGND"
+merge "VGND" "FILLER_1_15/VNB"
+merge "FILLER_1_15/VNB" "input10/VNB"
+merge "input10/VNB" "FILLER_0_20/VNB"
+merge "FILLER_0_20/VNB" "FILLER_0_16/VNB"
+merge "FILLER_0_16/VNB" "FILLER_0_10/VNB"
+merge "FILLER_0_10/VNB" "FILLER_1_3/VNB"
+merge "FILLER_1_3/VNB" "input5/VNB"
+merge "input5/VNB" "PHY_2/VNB"
+merge "PHY_2/VNB" "PHY_0/VNB"
+merge "PHY_0/VNB" "FILLER_0_3/VNB"
+merge "FILLER_0_3/VNB" "VSUBS"
+merge "_16_/X" "_22_/D" 275.236 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 627674 -272 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_22_/D" "li_2421_5321#"
+merge "FILLER_12_74/VPWR" "FILLER_12_74/VPB" -80188.9 0 0 0 0 4268596 -185174 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -11748813 -101052 -1386045 -227928 0 0 0 0 0 0 -178540 -4632 0 0
+merge "FILLER_12_74/VPB" "PHY_25/VPB"
+merge "PHY_25/VPB" "PHY_25/VPWR"
+merge "PHY_25/VPWR" "_20_/VPWR"
+merge "_20_/VPWR" "_20_/VPB"
+merge "_20_/VPB" "FILLER_12_55/VPWR"
+merge "FILLER_12_55/VPWR" "FILLER_12_55/VPB"
+merge "FILLER_12_55/VPB" "FILLER_12_57/VPWR"
+merge "FILLER_12_57/VPWR" "FILLER_12_57/VPB"
+merge "FILLER_12_57/VPB" "FILLER_12_61/VPB"
+merge "FILLER_12_61/VPB" "input8/VPB"
+merge "input8/VPB" "FILLER_12_61/VPWR"
+merge "FILLER_12_61/VPWR" "TAP_40/VPWR"
+merge "TAP_40/VPWR" "input8/VPWR"
+merge "input8/VPWR" "FILLER_12_51/VPWR"
+merge "FILLER_12_51/VPWR" "FILLER_12_51/VPB"
+merge "FILLER_12_51/VPB" "FILLER_12_24/VPWR"
+merge "FILLER_12_24/VPWR" "FILLER_12_24/VPB"
+merge "FILLER_12_24/VPB" "FILLER_12_10/VPB"
+merge "FILLER_12_10/VPB" "FILLER_12_14/VPB"
+merge "FILLER_12_14/VPB" "_11_/VPB"
+merge "_11_/VPB" "FILLER_12_3/VPB"
+merge "FILLER_12_3/VPB" "input4/VPB"
+merge "input4/VPB" "PHY_24/VPB"
+merge "PHY_24/VPB" "FILLER_12_29/VPWR"
+merge "FILLER_12_29/VPWR" "FILLER_12_29/VPB"
+merge "FILLER_12_29/VPB" "_26_/VPB"
+merge "_26_/VPB" "TAP_39/VPWR"
+merge "TAP_39/VPWR" "_26_/VPWR"
+merge "_26_/VPWR" "FILLER_12_10/VPWR"
+merge "FILLER_12_10/VPWR" "FILLER_12_14/VPWR"
+merge "FILLER_12_14/VPWR" "_11_/VPWR"
+merge "_11_/VPWR" "FILLER_12_3/VPWR"
+merge "FILLER_12_3/VPWR" "PHY_24/VPWR"
+merge "PHY_24/VPWR" "input4/VPWR"
+merge "input4/VPWR" "FILLER_11_70/VPWR"
+merge "FILLER_11_70/VPWR" "FILLER_11_70/VPB"
+merge "FILLER_11_70/VPB" "FILLER_11_74/VPWR"
+merge "FILLER_11_74/VPWR" "FILLER_11_74/VPB"
+merge "FILLER_11_74/VPB" "PHY_23/VPWR"
+merge "PHY_23/VPWR" "PHY_23/VPB"
+merge "PHY_23/VPB" "input3/VPWR"
+merge "input3/VPWR" "input3/VPB"
+merge "input3/VPB" "FILLER_10_74/VPWR"
+merge "FILLER_10_74/VPWR" "FILLER_10_74/VPB"
+merge "FILLER_10_74/VPB" "PHY_21/VPB"
+merge "PHY_21/VPB" "input9/VPB"
+merge "input9/VPB" "PHY_21/VPWR"
+merge "PHY_21/VPWR" "input9/VPWR"
+merge "input9/VPWR" "FILLER_11_66/VPWR"
+merge "FILLER_11_66/VPWR" "FILLER_11_66/VPB"
+merge "FILLER_11_66/VPB" "TAP_38/VPWR"
+merge "TAP_38/VPWR" "_19_/VPWR"
+merge "_19_/VPWR" "_19_/VPB"
+merge "_19_/VPB" "FILLER_10_65/VPWR"
+merge "FILLER_10_65/VPWR" "FILLER_10_65/VPB"
+merge "FILLER_10_65/VPB" "FILLER_11_52/VPWR"
+merge "FILLER_11_52/VPWR" "FILLER_11_52/VPB"
+merge "FILLER_11_52/VPB" "FILLER_10_44/VPWR"
+merge "FILLER_10_44/VPWR" "FILLER_10_44/VPB"
+merge "FILLER_10_44/VPB" "clkbuf_1_1__f_clk/VPB"
+merge "clkbuf_1_1__f_clk/VPB" "clkbuf_1_1__f_clk/VPWR"
+merge "clkbuf_1_1__f_clk/VPWR" "FILLER_11_29/VPWR"
+merge "FILLER_11_29/VPWR" "FILLER_11_29/VPB"
+merge "FILLER_11_29/VPB" "FILLER_11_35/VPWR"
+merge "FILLER_11_35/VPWR" "FILLER_11_35/VPB"
+merge "FILLER_11_35/VPB" "_25_/VPWR"
+merge "_25_/VPWR" "_25_/VPB"
+merge "_25_/VPB" "FILLER_10_24/VPWR"
+merge "FILLER_10_24/VPWR" "FILLER_10_24/VPB"
+merge "FILLER_10_24/VPB" "FILLER_11_9/VPB"
+merge "FILLER_11_9/VPB" "_27_/VPB"
+merge "_27_/VPB" "FILLER_11_3/VPB"
+merge "FILLER_11_3/VPB" "_31_/VPB"
+merge "_31_/VPB" "PHY_22/VPB"
+merge "PHY_22/VPB" "output12/VPB"
+merge "output12/VPB" "FILLER_10_3/VPB"
+merge "FILLER_10_3/VPB" "FILLER_10_7/VPB"
+merge "FILLER_10_7/VPB" "PHY_20/VPB"
+merge "PHY_20/VPB" "FILLER_10_38/VPWR"
+merge "FILLER_10_38/VPWR" "FILLER_10_38/VPB"
+merge "FILLER_10_38/VPB" "TAP_37/VPWR"
+merge "TAP_37/VPWR" "_21_/VPB"
+merge "_21_/VPB" "_21_/VPWR"
+merge "_21_/VPWR" "FILLER_11_9/VPWR"
+merge "FILLER_11_9/VPWR" "_27_/VPWR"
+merge "_27_/VPWR" "_31_/VPWR"
+merge "_31_/VPWR" "FILLER_11_3/VPWR"
+merge "FILLER_11_3/VPWR" "PHY_22/VPWR"
+merge "PHY_22/VPWR" "output12/VPWR"
+merge "output12/VPWR" "FILLER_10_3/VPWR"
+merge "FILLER_10_3/VPWR" "FILLER_10_7/VPWR"
+merge "FILLER_10_7/VPWR" "PHY_20/VPWR"
+merge "PHY_20/VPWR" "PHY_19/VPWR"
+merge "PHY_19/VPWR" "PHY_19/VPB"
+merge "PHY_19/VPB" "PHY_17/VPWR"
+merge "PHY_17/VPWR" "PHY_17/VPB"
+merge "PHY_17/VPB" "FILLER_9_66/VPWR"
+merge "FILLER_9_66/VPWR" "FILLER_9_66/VPB"
+merge "FILLER_9_66/VPB" "TAP_36/VPWR"
+merge "TAP_36/VPWR" "_14_/VPWR"
+merge "_14_/VPWR" "_14_/VPB"
+merge "_14_/VPB" "FILLER_8_66/VPWR"
+merge "FILLER_8_66/VPWR" "FILLER_8_66/VPB"
+merge "FILLER_8_66/VPB" "FILLER_9_52/VPWR"
+merge "FILLER_9_52/VPWR" "FILLER_9_52/VPB"
+merge "FILLER_9_52/VPB" "FILLER_8_46/VPWR"
+merge "FILLER_8_46/VPWR" "FILLER_8_46/VPB"
+merge "FILLER_8_46/VPB" "_28_/VPB"
+merge "_28_/VPB" "_28_/VPWR"
+merge "_28_/VPWR" "FILLER_9_26/VPWR"
+merge "FILLER_9_26/VPWR" "FILLER_9_26/VPB"
+merge "FILLER_9_26/VPB" "clkbuf_0_clk/VPWR"
+merge "clkbuf_0_clk/VPWR" "clkbuf_0_clk/VPB"
+merge "clkbuf_0_clk/VPB" "FILLER_8_24/VPWR"
+merge "FILLER_8_24/VPWR" "FILLER_8_24/VPB"
+merge "FILLER_8_24/VPB" "FILLER_9_9/VPB"
+merge "FILLER_9_9/VPB" "_29_/VPB"
+merge "_29_/VPB" "FILLER_9_3/VPB"
+merge "FILLER_9_3/VPB" "_30_/VPB"
+merge "_30_/VPB" "PHY_18/VPB"
+merge "PHY_18/VPB" "FILLER_8_3/VPB"
+merge "FILLER_8_3/VPB" "FILLER_8_7/VPB"
+merge "FILLER_8_7/VPB" "PHY_16/VPB"
+merge "PHY_16/VPB" "FILLER_8_29/VPWR"
+merge "FILLER_8_29/VPWR" "FILLER_8_29/VPB"
+merge "FILLER_8_29/VPB" "_24_/VPB"
+merge "_24_/VPB" "TAP_35/VPWR"
+merge "TAP_35/VPWR" "_24_/VPWR"
+merge "_24_/VPWR" "FILLER_9_9/VPWR"
+merge "FILLER_9_9/VPWR" "_29_/VPWR"
+merge "_29_/VPWR" "_30_/VPWR"
+merge "_30_/VPWR" "FILLER_9_3/VPWR"
+merge "FILLER_9_3/VPWR" "PHY_18/VPWR"
+merge "PHY_18/VPWR" "FILLER_8_3/VPWR"
+merge "FILLER_8_3/VPWR" "FILLER_8_7/VPWR"
+merge "FILLER_8_7/VPWR" "PHY_16/VPWR"
+merge "PHY_16/VPWR" "FILLER_6_70/VPWR"
+merge "FILLER_6_70/VPWR" "FILLER_6_70/VPB"
+merge "FILLER_6_70/VPB" "FILLER_7_70/VPWR"
+merge "FILLER_7_70/VPWR" "FILLER_7_70/VPB"
+merge "FILLER_7_70/VPB" "FILLER_7_74/VPB"
+merge "FILLER_7_74/VPB" "input1/VPB"
+merge "input1/VPB" "PHY_13/VPB"
+merge "PHY_13/VPB" "PHY_15/VPB"
+merge "PHY_15/VPB" "FILLER_7_74/VPWR"
+merge "FILLER_7_74/VPWR" "PHY_13/VPWR"
+merge "PHY_13/VPWR" "PHY_15/VPWR"
+merge "PHY_15/VPWR" "input1/VPWR"
+merge "input1/VPWR" "FILLER_5_69/VPWR"
+merge "FILLER_5_69/VPWR" "FILLER_5_69/VPB"
+merge "FILLER_5_69/VPB" "FILLER_5_77/VPWR"
+merge "FILLER_5_77/VPWR" "FILLER_5_77/VPB"
+merge "FILLER_5_77/VPB" "PHY_11/VPWR"
+merge "PHY_11/VPWR" "PHY_11/VPB"
+merge "PHY_11/VPB" "FILLER_4_71/VPWR"
+merge "FILLER_4_71/VPWR" "FILLER_4_71/VPB"
+merge "FILLER_4_71/VPB" "FILLER_4_77/VPB"
+merge "FILLER_4_77/VPB" "PHY_9/VPB"
+merge "PHY_9/VPB" "FILLER_4_77/VPWR"
+merge "FILLER_4_77/VPWR" "PHY_9/VPWR"
+merge "PHY_9/VPWR" "FILLER_7_66/VPWR"
+merge "FILLER_7_66/VPWR" "FILLER_7_66/VPB"
+merge "FILLER_7_66/VPB" "FILLER_6_58/VPWR"
+merge "FILLER_6_58/VPWR" "FILLER_6_58/VPB"
+merge "FILLER_6_58/VPB" "TAP_34/VPWR"
+merge "TAP_34/VPWR" "_18_/VPWR"
+merge "_18_/VPWR" "_18_/VPB"
+merge "_18_/VPB" "FILLER_5_57/VPWR"
+merge "FILLER_5_57/VPWR" "FILLER_5_57/VPB"
+merge "FILLER_5_57/VPB" "TAP_32/VPWR"
+merge "TAP_32/VPWR" "FILLER_4_59/VPWR"
+merge "FILLER_4_59/VPWR" "FILLER_4_59/VPB"
+merge "FILLER_4_59/VPB" "FILLER_6_45/VPWR"
+merge "FILLER_6_45/VPWR" "FILLER_6_45/VPB"
+merge "FILLER_6_45/VPB" "FILLER_7_52/VPWR"
+merge "FILLER_7_52/VPWR" "FILLER_7_52/VPB"
+merge "FILLER_7_52/VPB" "_13_/VPWR"
+merge "_13_/VPWR" "_13_/VPB"
+merge "_13_/VPB" "FILLER_5_48/VPWR"
+merge "FILLER_5_48/VPWR" "FILLER_5_48/VPB"
+merge "FILLER_5_48/VPB" "_17_/VPWR"
+merge "_17_/VPWR" "_17_/VPB"
+merge "_17_/VPB" "FILLER_4_47/VPWR"
+merge "FILLER_4_47/VPWR" "FILLER_4_47/VPB"
+merge "FILLER_4_47/VPB" "_12_/VPWR"
+merge "_12_/VPWR" "_12_/VPB"
+merge "_12_/VPB" "FILLER_4_41/VPWR"
+merge "FILLER_4_41/VPWR" "FILLER_4_41/VPB"
+merge "FILLER_4_41/VPB" "FILLER_6_24/VPWR"
+merge "FILLER_6_24/VPWR" "FILLER_6_24/VPB"
+merge "FILLER_6_24/VPB" "FILLER_7_28/VPWR"
+merge "FILLER_7_28/VPWR" "FILLER_7_28/VPB"
+merge "FILLER_7_28/VPB" "TAP_33/VPWR"
+merge "TAP_33/VPWR" "_23_/VPB"
+merge "_23_/VPB" "_32_/VPB"
+merge "_32_/VPB" "FILLER_7_15/VPB"
+merge "FILLER_7_15/VPB" "_15_/VPB"
+merge "_15_/VPB" "FILLER_6_3/VPB"
+merge "FILLER_6_3/VPB" "FILLER_7_3/VPB"
+merge "FILLER_7_3/VPB" "clkbuf_1_0__f_clk/VPB"
+merge "clkbuf_1_0__f_clk/VPB" "PHY_12/VPB"
+merge "PHY_12/VPB" "PHY_14/VPB"
+merge "PHY_14/VPB" "_23_/VPWR"
+merge "_23_/VPWR" "_32_/VPWR"
+merge "_32_/VPWR" "FILLER_5_35/VPWR"
+merge "FILLER_5_35/VPWR" "FILLER_5_35/VPB"
+merge "FILLER_5_35/VPB" "FILLER_4_27/VPWR"
+merge "FILLER_4_27/VPWR" "FILLER_4_27/VPB"
+merge "FILLER_4_27/VPB" "FILLER_5_15/VPB"
+merge "FILLER_5_15/VPB" "_22_/VPB"
+merge "_22_/VPB" "FILLER_4_15/VPB"
+merge "FILLER_4_15/VPB" "FILLER_5_3/VPB"
+merge "FILLER_5_3/VPB" "PHY_10/VPB"
+merge "PHY_10/VPB" "_16_/VPB"
+merge "_16_/VPB" "FILLER_4_3/VPB"
+merge "FILLER_4_3/VPB" "PHY_8/VPB"
+merge "PHY_8/VPB" "FILLER_4_29/VPWR"
+merge "FILLER_4_29/VPWR" "FILLER_4_29/VPB"
+merge "FILLER_4_29/VPB" "TAP_31/VPWR"
+merge "TAP_31/VPWR" "FILLER_7_15/VPWR"
+merge "FILLER_7_15/VPWR" "_15_/VPWR"
+merge "_15_/VPWR" "FILLER_5_15/VPWR"
+merge "FILLER_5_15/VPWR" "_22_/VPWR"
+merge "_22_/VPWR" "FILLER_4_15/VPWR"
+merge "FILLER_4_15/VPWR" "FILLER_6_3/VPWR"
+merge "FILLER_6_3/VPWR" "FILLER_7_3/VPWR"
+merge "FILLER_7_3/VPWR" "PHY_12/VPWR"
+merge "PHY_12/VPWR" "PHY_14/VPWR"
+merge "PHY_14/VPWR" "clkbuf_1_0__f_clk/VPWR"
+merge "clkbuf_1_0__f_clk/VPWR" "FILLER_5_3/VPWR"
+merge "FILLER_5_3/VPWR" "PHY_10/VPWR"
+merge "PHY_10/VPWR" "_16_/VPWR"
+merge "_16_/VPWR" "FILLER_4_3/VPWR"
+merge "FILLER_4_3/VPWR" "PHY_8/VPWR"
+merge "PHY_8/VPWR" "FILLER_3_69/VPWR"
+merge "FILLER_3_69/VPWR" "FILLER_3_69/VPB"
+merge "FILLER_3_69/VPB" "FILLER_3_77/VPWR"
+merge "FILLER_3_77/VPWR" "FILLER_3_77/VPB"
+merge "FILLER_3_77/VPB" "PHY_7/VPWR"
+merge "PHY_7/VPWR" "PHY_7/VPB"
+merge "PHY_7/VPB" "FILLER_2_77/VPWR"
+merge "FILLER_2_77/VPWR" "FILLER_2_77/VPB"
+merge "FILLER_2_77/VPB" "PHY_5/VPB"
+merge "PHY_5/VPB" "PHY_5/VPWR"
+merge "PHY_5/VPWR" "FILLER_3_54/VPWR"
+merge "FILLER_3_54/VPWR" "FILLER_3_54/VPB"
+merge "FILLER_3_54/VPB" "FILLER_3_57/VPWR"
+merge "FILLER_3_57/VPWR" "FILLER_3_57/VPB"
+merge "FILLER_3_57/VPB" "TAP_30/VPWR"
+merge "TAP_30/VPWR" "FILLER_2_65/VPWR"
+merge "FILLER_2_65/VPWR" "FILLER_2_65/VPB"
+merge "FILLER_2_65/VPB" "FILLER_3_46/VPWR"
+merge "FILLER_3_46/VPWR" "FILLER_3_46/VPB"
+merge "FILLER_3_46/VPB" "FILLER_2_53/VPWR"
+merge "FILLER_2_53/VPWR" "FILLER_2_53/VPB"
+merge "FILLER_2_53/VPB" "FILLER_2_41/VPWR"
+merge "FILLER_2_41/VPWR" "FILLER_2_41/VPB"
+merge "FILLER_2_41/VPB" "FILLER_3_34/VPWR"
+merge "FILLER_3_34/VPWR" "FILLER_3_34/VPB"
+merge "FILLER_3_34/VPB" "FILLER_2_27/VPWR"
+merge "FILLER_2_27/VPWR" "FILLER_2_27/VPB"
+merge "FILLER_2_27/VPB" "FILLER_3_22/VPB"
+merge "FILLER_3_22/VPB" "FILLER_3_10/VPB"
+merge "FILLER_3_10/VPB" "FILLER_2_15/VPB"
+merge "FILLER_2_15/VPB" "FILLER_3_3/VPB"
+merge "FILLER_3_3/VPB" "PHY_6/VPB"
+merge "PHY_6/VPB" "input7/VPB"
+merge "input7/VPB" "FILLER_2_3/VPB"
+merge "FILLER_2_3/VPB" "PHY_4/VPB"
+merge "PHY_4/VPB" "FILLER_2_29/VPWR"
+merge "FILLER_2_29/VPWR" "FILLER_2_29/VPB"
+merge "FILLER_2_29/VPB" "TAP_29/VPWR"
+merge "TAP_29/VPWR" "FILLER_3_22/VPWR"
+merge "FILLER_3_22/VPWR" "FILLER_3_10/VPWR"
+merge "FILLER_3_10/VPWR" "FILLER_2_15/VPWR"
+merge "FILLER_2_15/VPWR" "FILLER_3_3/VPWR"
+merge "FILLER_3_3/VPWR" "PHY_6/VPWR"
+merge "PHY_6/VPWR" "input7/VPWR"
+merge "input7/VPWR" "FILLER_2_3/VPWR"
+merge "FILLER_2_3/VPWR" "PHY_4/VPWR"
+merge "PHY_4/VPWR" "FILLER_0_74/VPWR"
+merge "FILLER_0_74/VPWR" "FILLER_0_74/VPB"
+merge "FILLER_0_74/VPB" "FILLER_1_69/VPWR"
+merge "FILLER_1_69/VPWR" "FILLER_1_69/VPB"
+merge "FILLER_1_69/VPB" "FILLER_1_74/VPWR"
+merge "FILLER_1_74/VPWR" "FILLER_1_74/VPB"
+merge "FILLER_1_74/VPB" "PHY_1/VPB"
+merge "PHY_1/VPB" "PHY_3/VPB"
+merge "PHY_3/VPB" "PHY_1/VPWR"
+merge "PHY_1/VPWR" "PHY_3/VPWR"
+merge "PHY_3/VPWR" "input6/VPWR"
+merge "input6/VPWR" "input6/VPB"
+merge "input6/VPB" "FILLER_0_65/VPWR"
+merge "FILLER_0_65/VPWR" "FILLER_0_65/VPB"
+merge "FILLER_0_65/VPB" "input11/VPWR"
+merge "input11/VPWR" "input11/VPB"
+merge "input11/VPB" "FILLER_0_57/VPWR"
+merge "FILLER_0_57/VPWR" "FILLER_0_57/VPB"
+merge "FILLER_0_57/VPB" "FILLER_1_55/VPWR"
+merge "FILLER_1_55/VPWR" "FILLER_1_55/VPB"
+merge "FILLER_1_55/VPB" "FILLER_1_57/VPWR"
+merge "FILLER_1_57/VPWR" "FILLER_1_57/VPB"
+merge "FILLER_1_57/VPB" "TAP_27/VPWR"
+merge "TAP_27/VPWR" "TAP_28/VPWR"
+merge "TAP_28/VPWR" "FILLER_0_50/VPWR"
+merge "FILLER_0_50/VPWR" "FILLER_0_50/VPB"
+merge "FILLER_0_50/VPB" "FILLER_1_51/VPWR"
+merge "FILLER_1_51/VPWR" "FILLER_1_51/VPB"
+merge "FILLER_1_51/VPB" "input2/VPWR"
+merge "input2/VPWR" "input2/VPB"
+merge "input2/VPB" "FILLER_0_41/VPWR"
+merge "FILLER_0_41/VPWR" "FILLER_0_41/VPB"
+merge "FILLER_0_41/VPB" "FILLER_1_39/VPWR"
+merge "FILLER_1_39/VPWR" "FILLER_1_39/VPB"
+merge "FILLER_1_39/VPB" "FILLER_0_29/VPWR"
+merge "FILLER_0_29/VPWR" "FILLER_0_29/VPB"
+merge "FILLER_0_29/VPB" "FILLER_1_27/VPWR"
+merge "FILLER_1_27/VPWR" "FILLER_1_27/VPB"
+merge "FILLER_1_27/VPB" "TAP_26/VPWR"
+merge "TAP_26/VPWR" "FILLER_1_15/VPB"
+merge "FILLER_1_15/VPB" "input10/VPB"
+merge "input10/VPB" "FILLER_0_20/VPB"
+merge "FILLER_0_20/VPB" "FILLER_0_16/VPB"
+merge "FILLER_0_16/VPB" "FILLER_1_3/VPB"
+merge "FILLER_1_3/VPB" "FILLER_0_10/VPB"
+merge "FILLER_0_10/VPB" "input5/VPB"
+merge "input5/VPB" "PHY_2/VPB"
+merge "PHY_2/VPB" "PHY_0/VPB"
+merge "PHY_0/VPB" "FILLER_0_3/VPB"
+merge "FILLER_0_3/VPB" "FILLER_1_15/VPWR"
+merge "FILLER_1_15/VPWR" "input10/VPWR"
+merge "input10/VPWR" "FILLER_0_20/VPWR"
+merge "FILLER_0_20/VPWR" "FILLER_0_16/VPWR"
+merge "FILLER_0_16/VPWR" "FILLER_0_10/VPWR"
+merge "FILLER_0_10/VPWR" "FILLER_1_3/VPWR"
+merge "FILLER_1_3/VPWR" "input5/VPWR"
+merge "input5/VPWR" "PHY_2/VPWR"
+merge "PHY_2/VPWR" "PHY_0/VPWR"
+merge "PHY_0/VPWR" "FILLER_0_3/VPWR"
+merge "FILLER_0_3/VPWR" "VPWR"
+merge "_20_/A1" "input9/X" -512.689 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25012 -272 0 0 0 0 0 0 0 0 0 0 0 0
+merge "input9/X" "li_7573_8789#"
+merge "_27_/CLK" "_31_/CLK" -4716.04 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 51666 -952 -226720 0 -328920 0 0 0 0 0 0 0 0 0
+merge "_31_/CLK" "_30_/CLK"
+merge "_30_/CLK" "_29_/CLK"
+merge "_29_/CLK" "_23_/CLK"
+merge "_23_/CLK" "clkbuf_1_0__f_clk/X"
+merge "clkbuf_1_0__f_clk/X" "_22_/CLK"
+merge "_22_/CLK" "li_1961_5525#"
+merge "_26_/CLK" "clkbuf_1_1__f_clk/X" -4098.61 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 362809 -816 -107289 0 0 0 0 0 0 0 0 0 0 0
+merge "clkbuf_1_1__f_clk/X" "_25_/CLK"
+merge "_25_/CLK" "_28_/CLK"
+merge "_28_/CLK" "_24_/CLK"
+merge "_24_/CLK" "_32_/CLK"
+merge "_32_/CLK" "li_3893_6749#"
+merge "input2/A" "INPUT[1]" -200.914 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 110181 -136 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_16_/A1" "input5/X" -1892.04 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -13856 -272 0 0 0 0 0 0 0 0 0 0 0 0
+merge "input5/X" "li_1961_2601#"
+merge "_32_/Q" "_13_/A0" -591.296 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -8845 -270 40196 0 25600 0 0 0 0 0 0 0 0 0
+merge "_13_/A0" "li_5825_6069#"
+merge "_32_/D" "_12_/X" -1234.05 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2312 -272 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_12_/X" "li_4712_6273#"
+merge "_11_/X" "_31_/D" -1108.97 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -13226 -272 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_31_/D" "li_2513_9061#"
+merge "_21_/A1" "input10/X" -2912.46 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 57527 -272 15280 -296 80800 -8904 0 0 0 0 0 0 0 0
+merge "input10/X" "li_2881_2601#"
+merge "_26_/D" "_20_/X" -477.43 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -39197 -272 -134336 0 0 0 0 0 0 0 0 0 0 0
+merge "_20_/X" "li_5488_8857#"
+merge "clkbuf_1_1__f_clk/A" "clkbuf_0_clk/X" -2224.15 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -24277 -408 12368 -2504 193696 -2968 0 0 0 0 0 0 0 0
+merge "clkbuf_0_clk/X" "clkbuf_1_0__f_clk/A"
+merge "clkbuf_1_0__f_clk/A" "li_3249_5593#"
+merge "_30_/D" "_15_/X" -298.001 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 88106 -272 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_15_/X" "li_2881_6409#"
+merge "_13_/A1" "input2/X" -2428.53 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 63100 -272 0 0 0 0 0 0 0 0 0 0 0 0
+merge "input2/X" "li_5641_2601#"
+merge "input10/A" "INPUT[9]" -51.1462 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 67021 -136 0 0 0 0 0 0 0 0 0 0 0 0
+merge "clkbuf_0_clk/A" "clk" -2064.69 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 147745 -136 42328 0 867036 -7960 0 0 0 0 0 0 0 0
+merge "_18_/X" "_24_/D" -1742.66 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -14288 -272 -187304 0 -124808 0 0 0 0 0 0 0 0 0
+merge "_24_/D" "li_4160_6681#"
+merge "input3/X" "_14_/A1" -1292.18 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -16666 -272 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_14_/A1" "li_6837_7497#"
+merge "_30_/Q" "_16_/A0" -1273.03 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -52907 -270 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_16_/A0" "li_1869_6613#"
+merge "input1/X" "_12_/B" -1629.45 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 274454 -272 -21976 -1536 -16040 -1112 0 0 0 0 0 0 0 0
+merge "_12_/B" "li_5181_4573#"
+merge "_29_/Q" "_15_/A0" -835.863 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -17396 -270 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_15_/A0" "li_3249_6409#"
+merge "_20_/S" "_11_/S" -10721.4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 50831 -1632 1187040 -3976 -27120 -5904 0 0 0 0 0 0 0 0
+merge "_11_/S" "_19_/S"
+merge "_19_/S" "_21_/S"
+merge "_21_/S" "_14_/S"
+merge "_14_/S" "_18_/S"
+merge "_18_/S" "_15_/S"
+merge "_15_/S" "_13_/S"
+merge "_13_/S" "_17_/S"
+merge "_17_/S" "_16_/S"
+merge "_16_/S" "_12_/A"
+merge "_12_/A" "input11/X"
+merge "input11/X" "li_1777_5117#"
+merge "_18_/A1" "input7/X" -2993.23 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -21862 -272 601008 -8248 126600 -3384 0 0 0 0 0 0 0 0
+merge "input7/X" "li_1961_3961#"
+merge "_19_/A0" "_24_/Q" -1566.49 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 550619 -270 -3384 -208 -4280 -272 0 0 0 0 0 0 0 0
+merge "_24_/Q" "li_5273_6613#"
+merge "_19_/X" "_25_/D" -882.48 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -25544 -272 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_25_/D" "li_4712_8517#"
+merge "input9/A" "INPUT[8]" -1969.33 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1156 -136 0 0 277788 -2622 -184214 -5650 0 0 0 0 0 0
+merge "_28_/D" "_13_/X" -705.595 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 181073 -272 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_13_/X" "li_6000_6681#"
+merge "input8/X" "_19_/A1" -175.452 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 443622 -272 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_19_/A1" "li_6653_8789#"
+merge "_11_/A0" "_27_/Q" -359.629 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 38107 -270 88284 0 75608 0 0 0 0 0 0 0 0 0
+merge "_27_/Q" "li_2329_8585#"
+merge "_27_/D" "_21_/X" -111.811 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 571238 -272 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_21_/X" "li_3453_8449#"
+merge "input7/A" "INPUT[6]" -227.85 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 82527 -136 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_11_/A1" "_31_/Q" -985.811 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 45782 -408 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_31_/Q" "output12/A"
+merge "output12/A" "li_1777_8517#"
+merge "_18_/A0" "_23_/Q" -1113.22 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 102497 -270 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_23_/Q" "li_5181_5865#"
+merge "input11/A" "load" -202.385 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1156 -136 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_26_/Q" "_21_/A0" -597.159 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 257883 -270 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_21_/A0" "li_4169_7837#"
+merge "input5/A" "INPUT[4]" -146.942 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129197 -136 0 0 0 0 0 0 0 0 0 0 0 0
+merge "output12/X" "OUTPUT" -1050.56 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 54256 -136 0 0 -80612 -4242 0 0 0 0 0 0 0 0
+merge "_14_/A0" "_28_/Q" -375.902 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 125011 -270 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_28_/Q" "li_6745_7361#"
+merge "input4/X" "_15_/A1" -890.391 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 10914 -272 62188 0 8 -2800 0 0 0 0 0 0 0 0
+merge "_15_/A1" "li_1961_8789#"
+merge "input3/A" "INPUT[2]" -1777.5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -6434 -136 -10920 0 -6068 -4242 0 0 0 0 0 0 0 0
+merge "_17_/A1" "input6/X" -2165.25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 120669 -272 254184 -1504 7888 -2144 0 0 0 0 0 0 0 0
+merge "input6/X" "li_5181_5185#"
+merge "_20_/A0" "_25_/Q" -1264.41 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 70880 -270 45812 -1136 34816 -280 0 0 0 0 0 0 0 0
+merge "_25_/Q" "li_5825_8313#"
+merge "input8/A" "INPUT[7]" -1517.82 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1156 -136 0 0 -82672 -4242 0 0 0 0 0 0 0 0
+merge "_17_/X" "_23_/D" -1125.92 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2040 -272 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_23_/D" "li_4068_5593#"
+merge "_17_/A0" "_22_/Q" -670.814 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 30835 -270 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_22_/Q" "li_4261_5321#"
+merge "input1/A" "INPUT[0]" -607.325 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1156 -136 0 0 0 0 0 0 0 0 0 0 0 0
+merge "_14_/X" "_29_/D" -1776.12 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -2312 -272 -78400 -5600 0 0 0 0 0 0 0 0 0 0
+merge "_29_/D" "li_2320_7429#"
+merge "input6/A" "INPUT[5]" -1019.5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -18274 -136 -238184 0 195352 0 0 0 0 0 0 0 0 0
+merge "input4/A" "INPUT[3]" -372.457 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 -1156 -136 0 0 0 0 51840 0 0 0 0 0 0 0
