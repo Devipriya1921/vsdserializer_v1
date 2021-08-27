@@ -10,7 +10,7 @@ begin
   else
   begin
   OUTPUT <= tmp[9];
-  tmp= {tmp[8:0],1'b0};
+  tmp <= {tmp[8:0],1'b0};
   end
 end
 endmodule
