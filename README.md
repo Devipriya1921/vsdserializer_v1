@@ -302,6 +302,9 @@ Routing successful :
 
 ### Final Layout
 
+Commands are used in the following path as shown in the figure :
+
+![command](https://user-images.githubusercontent.com/83152452/131620765-229fb7f7-d364-454b-9397-853ba2a2d5fc.png)
 
 - Layout after floorplanning and placement in Magic :
 
