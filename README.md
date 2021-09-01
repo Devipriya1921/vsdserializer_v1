@@ -305,6 +305,8 @@ Routing successful :
 
 - Layout after floorplanning and placement in Magic :
 
+Command used : ``` magic vsdserializer_v1.mag ```
+
 ![floorplanning and placement layout-1](https://user-images.githubusercontent.com/83152452/131619669-1698bc8a-ba3a-4a4d-89e7-718bc7aa2a48.png)
 
 Close view : 
@@ -313,6 +315,8 @@ Close view :
 
 
 - Final GDS Layout :
+
+Command used : ``` magic vsdserializer_v1.gds ```
 
 ![final GDS layout -1](https://user-images.githubusercontent.com/83152452/131619701-e1f3fea1-09d8-40ff-96f1-e206ac057558.png)
 
@@ -326,7 +330,8 @@ Closer look :
 
 
 - lef Layout :
- 
+
+Command used : ``` magic vsdserializer_v1.lef.mag ```
 ![lef layout](https://user-images.githubusercontent.com/83152452/131619776-79846544-67c7-44de-9c2b-8ece32c88739.png)
 
 
