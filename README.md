@@ -187,7 +187,7 @@ For verification :
 ![Invoking OpenLane-1](https://user-images.githubusercontent.com/83152452/131135639-750ac1ef-16e0-4ba4-8941-4fd530055969.png)
 
 
-###Synthesis
+### Synthesis
 
 Command : ```run_synthesis```
 
