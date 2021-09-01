@@ -366,7 +366,7 @@ GTKWave obtained :
 
 ### Summary
 
-Clone it using the command : ``` https://github.com/Devipriya1921/vsdserializer_v1.git ```
+Clone it using the command : ``` git clone https://github.com/Devipriya1921/vsdserializer_v1.git ```
 
 
 - Complete details can be found in the design folder :
