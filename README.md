@@ -306,6 +306,11 @@ Commands are used in the following path as shown in the figure :
 
 ![command](https://user-images.githubusercontent.com/83152452/131620765-229fb7f7-d364-454b-9397-853ba2a2d5fc.png)
 
+Files available in Magic folder is as shown :
+
+![folders](https://user-images.githubusercontent.com/83152452/131620935-455b09dc-0a33-4293-800c-78b4eedf2ca1.png)
+
+
 - Layout after floorplanning and placement in Magic :
 
 Command used : ``` magic vsdserializer_v1.mag ```
