@@ -302,7 +302,38 @@ Routing successful :
 
 ### Final Layout
 
-![placement-2](https://user-images.githubusercontent.com/83152452/131149008-b3ae9fa9-d38a-4fdd-8ec0-2f26ff3a500b.png)
+
+- Layout after floorplanning and placement in Magic :
+
+![floorplanning and placement layout-1](https://user-images.githubusercontent.com/83152452/131619669-1698bc8a-ba3a-4a4d-89e7-718bc7aa2a48.png)
+
+Close view : 
+
+![floorplanning and placement layout](https://user-images.githubusercontent.com/83152452/131619680-6f454d8a-db62-4088-880a-c8754bb17a19.png)
+
+
+- Final GDS Layout :
+
+![final GDS layout -1](https://user-images.githubusercontent.com/83152452/131619701-e1f3fea1-09d8-40ff-96f1-e206ac057558.png)
+
+Closer look : 
+
+![final GDS layout zoom -1](https://user-images.githubusercontent.com/83152452/131619732-0001841a-2400-4ec6-ad1e-d7d5cba6cd8e.png)
+
+![final GDS layout zoom -2](https://user-images.githubusercontent.com/83152452/131619751-0bc53717-7af0-46d1-a6ff-15330d5498bf.png)
+
+![final GDS layout zoom -3](https://user-images.githubusercontent.com/83152452/131619763-83c594fd-4c49-4677-ae0d-d5efe5a01c45.png)
+
+
+- lef Layout :
+ 
+![lef layout](https://user-images.githubusercontent.com/83152452/131619776-79846544-67c7-44de-9c2b-8ece32c88739.png)
+
+
+- tkcon window :
+
+![tkcon window](https://user-images.githubusercontent.com/83152452/131619785-e362440b-48bb-4cc4-82fc-96177c858d02.png)
+
 
 
 ## Post Layout 
