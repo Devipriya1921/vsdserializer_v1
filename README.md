@@ -340,6 +340,7 @@ Closer look :
 - lef Layout :
 
 Command used : ``` magic vsdserializer_v1.lef.mag ```
+
 ![lef layout](https://user-images.githubusercontent.com/83152452/131619776-79846544-67c7-44de-9c2b-8ece32c88739.png)
 
 
