@@ -1,16 +1,24 @@
-module vsdserializer_v1(clk, load, INPUT, OUTPUT);
-input clk, load;
-input [9:0] INPUT;
-output reg OUTPUT;
+module vsdserializer_v1
+(
+input clk,
+input rst_n,
+input load,
+input [9:0] data_in,
+output data_out
+);
+ 
 reg [9:0] tmp;
-always @(posedge clk)
-begin
-  if(load)
-  tmp<=INPUT;
-  else
-  begin
-  OUTPUT <= tmp[9];
-  tmp <= {tmp[8:0],1'b0};
-  end
+ 
+assign data_out = tmp[9];
+
+always @(posedge clk or negedge rst_n) begin
+if(~rst_n) begin
+tmp <= 10'd0;
+end else if (load) begin
+tmp <= data_in;
+end else begin
+tmp<= {tmp[8:0],1'b0};
 end
+end
+ 
 endmodule
